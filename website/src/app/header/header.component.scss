@@ -1,0 +1,65 @@
+@import "../../styles.scss";
+
+* {
+  color: $base-white;
+}
+
+.header {
+  background-color: $base-color;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  min-height: 5rem;
+  height: 21%;
+  display: flex;
+  align-items: center;
+  padding: 0 7.2%;
+}
+
+.title {
+  flex: 2;
+  font-weight: 500;
+  font-size: 45px;
+  white-space: nowrap;
+}
+
+.padding {
+  flex: 1;
+  background-color: aquamarine;
+}
+
+.pages {
+  flex: 3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 620px;
+  min-width: 620px;
+}
+
+a {
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 30px;
+  display: inline;
+  padding-bottom: 0.5rem;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  display: block;
+  content: "";
+  width: 60%;
+  height: 3px;
+  background: $base-white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 1000px;
+}

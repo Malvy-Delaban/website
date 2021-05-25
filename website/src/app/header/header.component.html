@@ -1,0 +1,7 @@
+<div class="header">
+    <div class="title">Malvy Delaban</div>
+    <div class="padding"></div>
+    <nav class="pages">
+        <a *ngFor="let page of pages" [ngClass]="{'active': page.selected}">{{ page.name }}</a>
+    </nav>
+</div>
