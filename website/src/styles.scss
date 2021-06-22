@@ -1,11 +1,60 @@
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
 * {
     font-family: 'Montserrat', 'Source Sans Pro', 'sans-serif';
 }
 
 $base-color: #01C853;
+$dark-base-color: #00B54B;
 $base-white: white;
+$base-text: #464646;
+
+$text-red: #F1405E;
+$text-dark-orange: #F65F44;
+$text-orange: #F78438;
+$text-yellow: #F8B12A;
+
+$footer-background: #0D091D;
 
 body {
     background-color: #ffffff;//$base-color;
 }
 
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+    margin:0;
+}
+
+.main-text {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.feather-icon-style-thick {
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-width: 3;
+}
+
+.feather-icon-style-thin {
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-width: 1;
+}

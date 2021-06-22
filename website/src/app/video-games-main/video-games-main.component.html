@@ -1,0 +1,82 @@
+<div class="content-cta">
+    <div class="content-cta-top">
+        <div class="content-cta-left">
+            <h1 class="main-title">Jeux vidéos</h1>
+            <p class="main-subtitle main-subtitle-placement">Vivant pleinement ma passion du jeu vidéo depuis plusieurs
+                années, j'ai eu l'occasion de tester un bon nombre de jeux. Sur ce site vous trouverez mes avis sur
+                chacun d'entre eux.</p>
+            <a href="video-games/#content-info">
+                <app-learn-more-button></app-learn-more-button>
+            </a>
+        </div>
+        <img src="../assets/controller.png" alt="3D controller" class="content-cta-right">
+    </div>
+    <div class="content-cta-bottom">
+        <a href="video-games/#content-info">
+            <i-feather name="arrow-down" class="feather-icon-style-thick arrow"></i-feather>
+        </a>
+    </div>
+</div>
+<div class="content-info" id="content-info">
+    <div class="content-info-picture">
+        <img src="../assets/easy_poll.png" alt="retro styled sign on which is written 'easy'">
+    </div>
+    <div class="content-info-paragraphs">
+        <div class="content-info-paragraph-first">
+            <h2>Expérience de jeu</h2>
+            <p class="main-text">Je joue en premier lieu aux jeux vidéos pour vivre des
+                expériences, découvrir des univers, des histoires, pour
+                ressentir et pour admirer. De ce fait, mes jeux favoris
+                sont le plus souvent des jeux narratifs solos.
+            </p>
+        </div>
+        <div class="content-info-paragraph-second">
+            <h2>Difficulté</h2>
+            <p class="main-text">Pour profiter pleinement des expériences in game, je joue à la quasi-totalité de mes
+                jeux en mode Facile ou Normal. De cette manière, rien ne vient entraver mon aventure en me faisant
+                recommencer un passage. Cela me permet aussi de réduire la frustration à laquelle je pourrait être
+                confrontée.
+                Bref, tout cela pour dire que ces points n'apparaitront pas forcément dans mes tests et avis.
+            </p>
+        </div>
+        <div class="content-info-paragraph-third">
+            <h2>Disclaimer</h2>
+            <p class="main-text">Mes tests et avis ne reflètent que mon expérience personnelle sur un jeu. J'y joue dans
+                des conditions qui peuvent différer de celles d'autres joueurs, je recherche des choses qui peuvent être
+                différentes que celles recherchées par les autres joueurs. Je ne promet pas que mes notes seront
+                impartiales ni même cohérentes, je donne un simple retour de mon point de vue pour tout ceux que cela
+                pourrait intéresser.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="content-main-game-wrapper">
+    <div class="content-main-game">
+        <div class="content-main-game-left">
+            <h3 class="last-game">Mon dernier jeu en date :</h3>
+            <h2 class="last-game-title">Final Fantasy VII Remake</h2>
+            <p class="last-game-subtitle">Un excellent jeu avec de gros défauts ...</p>
+            <app-learn-more-button></app-learn-more-button>
+        </div>
+        <img src="../assets/games/ff7r.jpg" alt="final fantasy 7 remake picture" class="main-game-picture">
+    </div>
+    <div class="background-shape">
+    </div>
+</div>
+
+<div class="content-games">
+    <div class="content-games-text">
+        <h2 class="content-games-title">Mes jeux précédents</h2>
+        <h3 class="content-games-subtitle">En cliquant sur les tuiles suivantes vous trouverez leurs pages de test
+            respectifs.</h3>
+    </div>
+</div>
+<owl-carousel-o [options]="customOptions" class="content-games-list">
+    <ng-container *ngFor="let image of images">
+        <ng-template carouselSlide [id]=image.id>
+            <a routerLink="{{'video-games/' + image.id}}"><img [src]="image.path" alt="image.alt"
+                    class="content-games-list-picture"></a>
+        </ng-template>
+    </ng-container>
+</owl-carousel-o>
