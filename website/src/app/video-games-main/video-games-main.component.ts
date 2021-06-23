@@ -10,7 +10,7 @@ export class VideoGamesMainComponent implements OnInit {
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
-    touchDrag: false,
+    touchDrag: true,
     pullDrag: false,
     dots: false,
     navSpeed: 700,
@@ -20,10 +20,10 @@ export class VideoGamesMainComponent implements OnInit {
         items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
-        items: 2
+        items: 1
       },
       950: {
         items: 2
@@ -34,7 +34,7 @@ export class VideoGamesMainComponent implements OnInit {
     autoplay: true,
     autoplaySpeed: 600,
     autoplayTimeout: 3000,
-    stagePadding: 200,
+    stagePadding: 150,
     autoHeight: false,
     autoWidth: false,
   }

@@ -1,6 +1,21 @@
 @import "../../styles.scss";
 
-@media only screen and (min-width: 1650px) {
+@media only screen and (min-width: 3001px) {
+    .button {
+        border-style: none;
+        border-radius: 40rem;
+        margin-top: 4rem;
+        height: 11rem;
+        width: 40rem;
+        color: $base-color;
+        font-size: 60px;
+        font-weight: 500;
+        background-color: $base-white;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 3000px) {
     .button {
         border-style: none;
         border-radius: 20rem;

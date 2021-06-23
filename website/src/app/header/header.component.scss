@@ -4,7 +4,71 @@
   color: $base-white;
 }
 
-@media only screen and (min-width: 1650px) {
+@media only screen and (min-width: 3001px) {
+  .header {
+    background-color: $base-color;
+    position: relative;
+    // to make it stick to the top, use :
+    // position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 120px;
+    height: 21vh;
+    display: flex;
+    align-items: center;
+    padding: 0 7.2%;
+  }
+  
+  .title {
+    flex: 2;
+    font-weight: 500;
+    font-size: 80px;
+    white-space: nowrap;
+  }
+  
+  .padding {
+    flex: 1;
+    background-color: aquamarine;
+  }
+  
+  .pages {
+    flex: 3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    min-width: 1200px;
+  }
+  
+  a {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 50px;
+    display: inline;
+    padding-bottom: 1rem;
+  }
+  
+  .active {
+    position: relative;
+  }
+  
+  .active::after {
+    display: block;
+    content: "";
+    width: 60%;
+    height: 6px;
+    background: $base-white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 3000px) {
   .header {
     background-color: $base-color;
     position: relative;
@@ -68,7 +132,7 @@
   }
 }
 
-@media only screen and (max-width: 1649px) {
+@media only screen and (max-width: 1649px) and (min-width: 801px){
   .header {
     background-color: $base-color;
     position: relative;
@@ -104,6 +168,71 @@
     display: flex;
     justify-content: space-between;
     max-width: 50%;
+  }
+  
+  a {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline;
+    padding-bottom: 0.5rem;
+  }
+  
+  .active {
+    position: relative;
+  }
+  
+  .active::after {
+    display: block;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background: $base-white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 1000px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    background-color: $base-color;
+    position: relative;
+    // to make it stick to the top, use :
+    // position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 18vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 7.2%;
+  }
+  
+  .title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex: 2;
+    font-weight: 500;
+    font-size: 35px;
+    white-space: nowrap;
+  }
+  
+  .padding {
+    flex: 1;
+    background-color: aquamarine;
+  }
+  
+  .pages {
+    flex: 3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   
   a {

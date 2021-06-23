@@ -1,6 +1,42 @@
 @import "../../styles.scss";
 
-@media only screen and (min-width: 1650px) {
+@media only screen and (min-width: 3001px) {
+  h4 {
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .container {
+    background-color: $footer-background;
+    color: $base-white;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
+    justify-content: flex-start;
+
+    div {
+      margin-right: 20rem;
+    }
+  }
+
+  .in {
+    margin-top: 4rem;
+    color: $base-white;
+    fill: $base-white;
+    width: 8rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 3000px) {
   h4 {
     font-weight: bold;
     font-size: 41px;
@@ -12,9 +48,31 @@
     font-size: 25px;
     margin: 0;
   }
+
+  .container {
+    background-color: $footer-background;
+    color: $base-white;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    justify-content: flex-start;
+
+    div {
+      margin-right: 10rem;
+    }
+  }
+
+  .in {
+    margin-top: 2rem;
+    color: $base-white;
+    fill: $base-white;
+    width: 4rem;
+  }
 }
 
-@media only screen and (max-width: 1649px) {
+@media only screen and (max-width: 1649px) and (min-width: 801px) {
   h4 {
     font-weight: bold;
     font-size: 30px;
@@ -26,20 +84,63 @@
     font-size: 20px;
     margin: 0;
   }
+
+  .container {
+    background-color: $footer-background;
+    color: $base-white;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    justify-content: flex-start;
+
+    div {
+      margin-right: 10rem;
+    }
+  }
+
+  .in {
+    margin-top: 2rem;
+    color: $base-white;
+    fill: $base-white;
+    width: 4rem;
+  }
 }
 
-.container {
-  background-color: $footer-background;
-  color: $base-white;
-  bottom: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  padding: 5rem;
-  justify-content: flex-start;
+@media only screen and (max-width: 800px) {
+  h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
 
-  div {
-    margin-right: 10rem;
+  p {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .container {
+    background-color: $footer-background;
+    color: $base-white;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: flex-start;
+
+    div {
+      margin-right: 2rem;
+    }
+  }
+
+  .in {
+    margin-top: 2rem;
+    color: $base-white;
+    fill: $base-white;
+    width: 4rem;
   }
 }
 
@@ -53,11 +154,4 @@
   h4 {
     color: $text-dark-orange;
   }
-}
-
-.in {
-  margin-top: 2rem;
-  color: $base-white;
-  fill: $base-white;
-  width: 4rem;
 }

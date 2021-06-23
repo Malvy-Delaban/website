@@ -5,7 +5,8 @@ import { LearnMoreButtonComponent } from './learn-more-button/learn-more-button.
 
 const routes: Routes = [
   {path: 'video-games' , component: VideoGamesMainComponent},
-  {path: 'video-games/final-fantasy-7-remake' , component: LearnMoreButtonComponent}
+  {path: 'video-games/final-fantasy-7-remake' , component: LearnMoreButtonComponent},
+  {path: '**', redirectTo: 'video-games'}
 ];
 
 @NgModule({
