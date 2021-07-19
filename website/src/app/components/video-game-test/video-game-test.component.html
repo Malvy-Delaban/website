@@ -11,10 +11,15 @@
                 </div>
                 <div class="content-main-HLTB">
                     <div class="content-main-HLTB">
-                        <div class="content-main-info-text">Durée de vie</div>
-                        <div class="content-main-HLTB-number">33.5H</div>
+                        <div class="content-main-info-text">Durée de vie
+                            <div class="tooltip">
+                                <i-feather name="info" class="info-hltb"></i-feather>
+                                <span class="tooltiptext">Durée moyenne de temps de jeu</span>
+                            </div>
+                        </div>
+                        <div class="content-main-HLTB-number">{{ game.hltb_main }}H</div>
                         <div class="content-main-info-text">Histoire</div>
-                        <div class="content-main-HLTB-number">42.5H</div>
+                        <div class="content-main-HLTB-number">{{ game.hltb_extra }}H</div>
                         <div class="content-main-info-text">Histoire et extras</div>
                     </div>
                 </div>
@@ -24,5 +29,20 @@
             <img *ngIf=game.id class="content-main-game-picture" [src]="game.img_path">
             <div class="favourite-game"></div>
         </div>
+    </div>
+</div>
+<div class="content-summary">
+    <div class="summary">
+        <h2 class="header-left header-summary">Synopsis
+            <div class="tooltip-synopsis">
+                <i-feather name="info" class="info-synopsis"></i-feather>
+                <span class="tooltiptext-synopsis">Résumé par senscritique.com</span>
+            </div>
+        </h2>
+        <p>{{ game.synopsis }}</p>
+    </div>
+    <div class="summary">
+        <h2 class="header-right header-summary">En résumé</h2>
+        <p>{{ game.summary }}</p>
     </div>
 </div>

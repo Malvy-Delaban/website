@@ -17,6 +17,10 @@ export class VideoGameTestComponent implements OnInit {
     title: "",
     subtitle: "",
     note: 0,
+    hltb_main: "",
+    hltb_extra: "",
+    synopsis: "",
+    summary: ""
   };
 
   constructor(private route: ActivatedRoute, private http: HttpClient) {
@@ -34,6 +38,10 @@ export class VideoGameTestComponent implements OnInit {
     this.game.title = data.title;
     this.game.subtitle = data.subtitle;
     this.game.note = data.note;
+    this.game.hltb_main = data.hltb_main;
+    this.game.hltb_extra = data.hltb_extra;
+    this.game.synopsis = data.synopsis;
+    this.game.summary = data.summary;
   }
 
   ngOnInit(): void {

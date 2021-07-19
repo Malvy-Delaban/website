@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  min-width: 50%;
 }
 
 .content-main-right {
@@ -40,52 +41,73 @@
 }
 
 .content-main-note {
-    display: flex;
-    flex-direction: column;
-    height: 37vh;
-    width: 40vh;
+  display: flex;
+  flex-direction: column;
+  height: 37vh;
+  width: 40vh;
 }
 
 .content-main-left-numbers {
-    margin-top: 6vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.content-main-note {
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .content-main-info-text {
-    color: $base-white;
-    font-size: 2.8vh;
-    font-weight: 400;
+  color: $base-white;
+  font-size: 2.8vh;
+  font-weight: 400;
 }
 
 .content-main-note-number {
-    color: $base-white;
-    font-size: 28vh;
-    line-height: 24vh;
-    font-family: "stencil";
+  color: $base-white;
+  font-size: 28vh;
+  line-height: 24vh;
+  font-family: "stencil";
 }
 
 .content-main-note-max {
-    color: $base-white;
-    font-size: 6vh;
-    margin: 0;
-    font-family: "stencil";
-    padding-left: 50%;
+  color: $base-white;
+  font-size: 6vh;
+  margin: 0;
+  font-family: "stencil";
+  padding-left: 50%;
 }
 
-.content-main-HLTB {
+.info-hltb {
+  margin-left: 10px;
+}
+
+.tooltip {
+  display: inline;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  text-align: center;
+  background-color: $base-white;
+  color: $base-color;
+  padding: 5px;
+  margin: 1vh;
+  border-radius: 8px;
+  font-size: 2vh;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 .content-main-HLTB-number {
-    color: $base-white;
-    font-size: 10vh;
-    line-height: 10vh;
-    font-family: "stencil";
-    padding-top: 1vh;
+  color: $base-white;
+  font-size: 10vh;
+  line-height: 10vh;
+  font-family: "stencil";
+  padding-top: 1vh;
 }
 
 .content-main-game-picture {
@@ -94,4 +116,59 @@
   width: 50vh;
   border-radius: 80px;
   box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.4);
+}
+
+.content-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+.info-synopsis {
+  margin-left: 10px;
+}
+
+.tooltip-synopsis {
+  display: inline;
+}
+
+.tooltip-synopsis .tooltiptext-synopsis {
+  visibility: hidden;
+  text-align: center;
+  background-color: $base-white;
+  color: $base-color;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 2vh;
+  position: relative;
+  z-index: 1;
+  left: 3vh;
+  text-align: center;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+}
+
+.tooltip-synopsis:hover .tooltiptext-synopsis {
+  visibility: visible;
+}
+
+.summary {
+  max-width: 33vw;
+  font-size: 2vh;
+  color: $base-text;
+}
+
+.header-summary {
+  font-size: 5vh;
+}
+
+.header-left {
+  color: $text-red;
+}
+
+.header-right {
+  color: $text-dark-orange;
 }

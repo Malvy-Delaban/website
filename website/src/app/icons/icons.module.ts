@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 
 import { FeatherModule } from 'angular-feather';
-import { ArrowDown, Linkedin } from 'angular-feather/icons';
+import { ArrowDown, Linkedin, Info } from 'angular-feather/icons';
 
 const icons = {
   ArrowDown,
-  Linkedin
+  Linkedin,
+  Info,
 };
 
 @NgModule({
