@@ -15,14 +15,17 @@ export class HeaderComponent implements OnInit {
     this.pages = [
       {
         name: 'Jeux vidéos',
+        url: "jeux-videos/",
         selected: true
       },
       {
         name: 'À propos',
+        url: "",
         selected: false
       },
       {
         name: 'Projets',
+        url: "",
         selected: false
       }
     ];

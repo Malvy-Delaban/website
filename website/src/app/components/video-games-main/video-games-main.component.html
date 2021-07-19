@@ -52,14 +52,16 @@
 </div>
 
 <div class="content-main-game-wrapper">
-    <div class="content-main-game">
+    <div *ngIf=games[0] class="content-main-game">
         <div class="content-main-game-left">
             <h3 class="last-game">Mon dernier jeu en date :</h3>
-            <h2 class="last-game-title">Final Fantasy VII Remake</h2>
-            <p class="last-game-subtitle">Un excellent jeu avec de gros défauts ...</p>
-            <app-learn-more-button></app-learn-more-button>
+            <h2 class="last-game-title">{{games[0].title}}</h2>
+            <p class="last-game-subtitle">{{games[0].subtitle}}</p>
+            <a routerLink="{{'/test/' + games[0].id}}">
+                <app-learn-more-button></app-learn-more-button>
+            </a>
         </div>
-        <img src="../assets/games/ff7r.jpg" alt="final fantasy 7 remake picture" class="main-game-picture">
+        <img [src]="games[0].img_path" [alt]="games[0].title" class="main-game-picture">
     </div>
     <div class="background-shape">
     </div>
@@ -73,9 +75,9 @@
     </div>
 </div>
 <owl-carousel-o [options]="customOptions" class="content-games-list">
-    <ng-container *ngFor="let image of images">
-        <ng-template carouselSlide [id]=image.id>
-            <a routerLink="{{'video-games/' + image.id}}"><img [src]="image.path" alt="image.alt"
+    <ng-container *ngFor="let game of games">
+        <ng-template carouselSlide [id]=game.id [ngIf]="game.id">
+            <a routerLink="{{'/test/' + game.id}}"><img [src]="game.img_path" alt="game.title"
                     class="content-games-list-picture"></a>
         </ng-template>
     </ng-container>

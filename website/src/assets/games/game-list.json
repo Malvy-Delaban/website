@@ -1,0 +1,16 @@
+{
+    "games": [
+        {
+            "id": "final-fantasy-7-remake",
+            "img_path": "final-fantasy-7-remake.jpg",
+            "title": "Final Fantasy VII Remake",
+            "subtitle": "Un excellent jeu avec de gros défauts ..."
+        },
+        {
+            "id": "persona-5",
+            "img_path": "persona-5.png",
+            "title": "Persona 5",
+            "subtitle": "Une direction artistique souveraine"
+        }
+    ]    
+}

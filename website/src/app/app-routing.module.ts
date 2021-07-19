@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { VideoGamesMainComponent } from './video-games-main/video-games-main.component';
-import { LearnMoreButtonComponent } from './learn-more-button/learn-more-button.component';
+import { VideoGamesMainComponent } from './components/video-games-main/video-games-main.component';
+import { VideoGameTestComponent } from './components/video-game-test/video-game-test.component';
 
 const routes: Routes = [
-  {path: 'video-games' , component: VideoGamesMainComponent},
-  {path: 'video-games/final-fantasy-7-remake' , component: LearnMoreButtonComponent},
-  {path: '**', redirectTo: 'video-games'}
+  {path: 'jeux-videos' , component: VideoGamesMainComponent},
+  {path: 'test/:id' , component: VideoGameTestComponent},
+  // {path: '**', redirectTo: '/'}
 ];
 
 @NgModule({

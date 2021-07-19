@@ -1,4 +1,4 @@
-@import "../../styles.scss";
+@import "../../../styles.scss";
 
 @media only screen and (min-width: 3001px) {
   
@@ -625,7 +625,7 @@
 
   .content-cta {
     background-color: $base-color;
-    height: 82vh;
+    height: 84vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -650,22 +650,22 @@
   }
 
   .content-cta-right {
-    height: 16rem;
+    height: 30vh;
     width: auto;
   }
 
   .main-title {
     color: $base-white;
     text-align: center;
-    font-size: 26px;
+    font-size: 4vh;
     margin: 0;
   }
 
   .main-subtitle {
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 2.2vh;
     color: $base-white;
     margin-bottom: -0.5rem;
   }
@@ -686,7 +686,7 @@
 
   .content-info-main-text {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 2vh;
   }
 
   .content-info-paragraphs {
