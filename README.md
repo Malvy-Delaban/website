@@ -12,7 +12,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```shell
+ng build --deploy-url="https://malvy-delaban.github.io/" --base-href=/video-games/
+```
 
 ## Running unit tests
 
