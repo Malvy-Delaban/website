@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  url: "https://malvy-delaban.github.io/website/"
 };

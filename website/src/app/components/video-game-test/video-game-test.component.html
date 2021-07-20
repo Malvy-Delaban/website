@@ -6,7 +6,7 @@
             <div class="content-main-left-numbers">
                 <div class="content-main-note">
                     <div class="content-main-info-text">Ma note</div>
-                    <div class="content-main-note-number">{{ game.note }}</div>
+                    <div class="content-main-note-number">{{ game.rating }}</div>
                     <div class="content-main-note-max">/ 100</div>
                 </div>
                 <div class="content-main-HLTB">
@@ -42,7 +42,40 @@
         <p>{{ game.synopsis }}</p>
     </div>
     <div class="summary">
-        <h2 class="header-right header-summary">En résumé</h2>
+        <h2 class="header-right header-summary">Le jeu et son gameplay</h2>
         <p>{{ game.summary }}</p>
+    </div>
+</div>
+<div class="main-positive">
+    <h2 class="header-positive-negative-main">Le gros + du jeu</h2>
+    <p class="text-positive-negative-main">{{ game.positive_main }}</p>
+</div>
+<div class="positive-negative-container">
+    <div class="positive-negative-list">
+        <h2 class="header-positive-list">Les autres +</h2>
+        <ul class="text-positive-negative-list">
+            <li *ngFor="let line of game.positive_list">{{ line }}</li>
+        </ul>
+    </div>
+    <img class="positive-negative-img" src="../assets/EmeraldBlock.png">
+</div>
+<div class="main-negative">
+    <h2 class="header-positive-negative-main">Le gros - du jeu</h2>
+    <p class="text-positive-negative-main">{{ game.negative_main }}</p>
+</div>
+<div class="positive-negative-container">
+    <img class="positive-negative-img" src="../assets/RedstoneBlock.png">
+    <div class="positive-negative-list">
+        <h2 class="header-negative-list">Les autres -</h2>
+        <ul class="text-positive-negative-list">
+            <li *ngFor="let line of game.negative_list">{{ line }}</li>
+        </ul>
+    </div>
+</div>
+<div class="notes">
+    <h2 class="notes-header">À noter</h2>
+    <div class="notes-text">
+        <p *ngFor="let note of game.notes">{{ note }}</p>
+        <p>Article posté le {{ game.date_added }} par Malvy DELABAN.</p>
     </div>
 </div>

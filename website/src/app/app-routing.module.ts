@@ -6,7 +6,7 @@ import { VideoGameTestComponent } from './components/video-game-test/video-game-
 const routes: Routes = [
   {path: 'jeux-videos' , component: VideoGamesMainComponent},
   {path: 'test/:id' , component: VideoGameTestComponent},
-  // {path: '**', redirectTo: '/'}
+  {path: '**', redirectTo: 'jeux-videos'}
 ];
 
 @NgModule({

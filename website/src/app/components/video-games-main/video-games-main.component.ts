@@ -57,11 +57,17 @@ export class VideoGamesMainComponent implements OnInit {
         img_path: "../../../assets/games/games-pictures/",
         title: "",
         subtitle: "",
-        note: 0,
+        rating: 0,
         hltb_main: "",
         hltb_extra: "",
         synopsis: "",
-        summary: ""
+        summary: "",
+        positive_list: [],
+        positive_main: "",
+        negative_list: [],
+        negative_main: "",
+        notes: [],
+        date_added: ""
       };
       newGame.id = game.id;
       newGame.img_path += game.img_path;

@@ -123,8 +123,8 @@
   flex-direction: row;
   justify-content: space-around;
   text-align: justify;
-  padding-top: 6vh;
-  padding-bottom: 6vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 .info-synopsis {
@@ -157,7 +157,8 @@
 
 .summary {
   max-width: 33vw;
-  font-size: 2vh;
+  font-size: 3vh;
+  font-weight: 500;
   color: $base-text;
 }
 
@@ -171,4 +172,94 @@
 
 .header-right {
   color: $text-dark-orange;
+}
+
+.main-positive {
+  color: $base-white;
+  background-color: $base-color;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.3);
+  width: 85vw;
+  margin: auto;
+  padding: 8vh 7.5vh;
+}
+
+.main-negative {
+  color: $base-white;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.3);
+  width: 85vw;
+  margin: auto;
+  padding: 8vh 7.5vh;
+  background-color: $text-red;
+}
+
+.header-positive-negative-main {
+  font-weight: bold;
+  font-size: 50;
+}
+
+.header-positive-list {
+  font-weight: bold;
+  font-size: 50;
+  color: $base-color;
+  margin-bottom: 1vh;
+}
+
+.header-negative-list {
+  font-weight: bold;
+  font-size: 50;
+  color: $text-red;
+  margin-bottom: 1vh;
+}
+
+.text-positive-negative-main {
+  font-size: 2.5vh;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.positive-negative-list {
+  width: 60%;
+}
+
+.text-positive-negative-list {
+  font-size: 24px;
+  font-weight: 600;
+  color: $base-text;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.positive-negative-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85vw;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.positive-negative-img {
+  object-fit: contain;
+  width: 30%;
+}
+
+.notes {
+  background-color: $ligthe-footer-background;
+  margin: 0;
+  bottom: 0;
+  padding: 6vh 10vh;
+  color: $base-white;
+}
+
+.notes-header {
+  font-weight: bold;
+  font-size: 50;
+}
+
+.notes-text {
+  font-size: 2.5vh;
+  font-weight: 400;
 }
