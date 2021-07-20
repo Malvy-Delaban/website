@@ -5,14 +5,14 @@
             <p class="main-subtitle main-subtitle-placement">Vivant pleinement ma passion du jeu vidéo depuis plusieurs
                 années, j'ai eu l'occasion de tester un bon nombre de jeux. Sur ce site vous trouverez mes avis sur
                 chacun d'entre eux.</p>
-            <a href="video-games/#content-info">
+            <a href="jeux-videos/#content-info">
                 <app-learn-more-button></app-learn-more-button>
             </a>
         </div>
         <img src="../assets/controller.png" alt="3D controller" class="content-cta-right">
     </div>
     <div class="content-cta-bottom">
-        <a href="video-games/#content-info">
+        <a href="jeux-videos/#content-info">
             <i-feather name="arrow-down" class="feather-icon-style-thick arrow"></i-feather>
         </a>
     </div>
@@ -77,7 +77,7 @@
 <owl-carousel-o [options]="customOptions" class="content-games-list">
     <ng-container *ngFor="let game of games">
         <ng-template carouselSlide [id]=game.id [ngIf]="game.id">
-            <a routerLink="{{'/test/' + game.id}}"><img [src]="game.img_path" alt="game.title"
+            <a routerLink="{{'/test/' + game.id }}" fragment="main"><img [src]="game.img_path" alt="game.title"
                     class="content-games-list-picture"></a>
         </ng-template>
     </ng-container>

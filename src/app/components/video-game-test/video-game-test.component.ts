@@ -16,7 +16,7 @@ export class VideoGameTestComponent implements OnInit {
     img_path: "../../../assets/games/games-pictures/",
     title: "",
     subtitle: "",
-    rating: 0,
+    rating: -1,
     hltb_main: "",
     hltb_extra: "",
     synopsis: "",
@@ -28,6 +28,16 @@ export class VideoGameTestComponent implements OnInit {
     notes: [],
     date_added: ""
   };
+  ratingToDisplay: number = 0; // will increase until actual rating
+  ratingSpeedInterval: number = 10;
+
+  ratingStop: any = setInterval(() => {
+    if (this.game.rating != -1)
+      this.ratingToDisplay++;
+    if (this.ratingToDisplay == this.game.rating)
+      clearInterval(this.ratingStop);
+  }, this.ratingSpeedInterval)
+
 
   constructor(private route: ActivatedRoute, private http: HttpClient) {
     this.route.params.subscribe(params => {
@@ -51,7 +61,7 @@ export class VideoGameTestComponent implements OnInit {
     this.game.positive_main = data.positive_main;
     this.game.positive_list = data.positive_list;
     this.game.negative_main = data.negative_main;
-    this.game.negative_list = data.negative_list;   
+    this.game.negative_list = data.negative_list;
     this.game.notes = data.notes;
     this.game.date_added = data.date_added;
   }
