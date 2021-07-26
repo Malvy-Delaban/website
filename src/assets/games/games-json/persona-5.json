@@ -38,5 +38,7 @@
     "\"Persona 5 Royale\" est un jeu reprenant l'histoire de \"Persona 5\" en venant y apporter des détails et en l'améliorant. Il est disponible en français.",
     "\"Persona 5 Strikers\" est un jeu se déroulant après les évenements de \"Persona 5\". Il est disponible en français."
   ],
-  "date_added": "20/07/2021"
+  "date_added": "20/07/2021",
+  "developers": "P-Studio",
+  "platforms": ["PlayStation 3", "PlayStation 4"]
 }

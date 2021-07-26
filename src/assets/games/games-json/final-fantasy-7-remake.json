@@ -16,5 +16,7 @@
     "J'ai joué au jeu dans sa version PS4 sur PS5. C'est donc la version classique du Remake sortie en Avril 2020 et non pas la version \"Intergrade\", elle ne bénéficie donc pas de l'amélioration visuelle PS5.",
     "\"Finale Fantasy VII Remake\" ne nécéssite pas d'avoir joué à la version originale de 1997."
   ],
-  "date_added": "20/07/2021"
+  "date_added": "20/07/2021",
+  "developers": "Square Enix",
+  "platforms": ["PlayStation 4", "PlayStation 5"]
 }

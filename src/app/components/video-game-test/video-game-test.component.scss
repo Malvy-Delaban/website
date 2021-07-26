@@ -1,16 +1,40 @@
 @import "../../../styles.scss";
 
+@media (orientation: landscape) and (min-width: 1601px) {
+}
+@media (orientation: portrait) {
+}
+
 .content-main-background {
   position: relative;
   background: $base-color;
   width: 100%;
-  height: 70vh;
-  clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 70vh);
+  @media (orientation: landscape) and (min-width: 1601px) {
+    height: 70vh;
+    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 70vh);
+  }
+  @media (orientation: portrait) {
+    height: 80vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    height: 80vh;
+  }
 }
 
 .content-main {
   display: flex;
-  padding: 3vh 12vh 0vh;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    padding: 3vh 12vh 0vh;
+    flex-direction: row;
+  }
+  @media (orientation: portrait) {
+    padding: 3vh 10vw 0vh;
+    flex-direction: column;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    padding: 3vh 10vw 0vh;
+    flex-direction: column;
+  }
   justify-content: space-between;
 }
 
@@ -25,17 +49,36 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  @media (orientation: portrait) {
+    width: 100%;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    width: 100%;
+    align-items: center;
+  }
 }
 
 .content-main-title {
   color: $base-white;
-  font-size: 65px;
+  font-size: 7vh;
+  @media (orientation: portrait) {
+    font-size: 6vw;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 6vw;
+  }
   margin: 0;
 }
 
 .content-main-subtitle {
   color: $base-white;
-  font-size: 2.8vh;
+  @media (orientation: portrait) {
+    font-size: 4vw;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 4vw;
+  }
   margin: 0;
   font-weight: 400;
 }
@@ -43,36 +86,120 @@
 .content-main-note {
   display: flex;
   flex-direction: column;
-  height: 37vh;
-  width: 40vh;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    width: 40vh;
+    height: 37vh;
+  }
+  @media (orientation: portrait) {
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    height: 10vh;
+  }
+}
+
+.content-main-note-number-max {
+  display: flex;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    flex-direction: column;
+  }
+  @media (orientation: portrait) {
+    flex-direction: row;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    flex-direction: row;
+  }
 }
 
 .content-main-left-numbers {
-  margin-top: 6vh;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    margin-top: 6vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @media (orientation: portrait) {
+    margin-top: 3vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    margin-top: 2vh;
+    flex-direction: row;
+    align-items: center;
+  }
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .content-main-info-text {
   color: $base-white;
-  font-size: 2.8vh;
   font-weight: 400;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    font-size: 2.8vh;
+  }
+  @media (orientation: portrait) {
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.content-main-header-note {
+  @media (orientation: portrait) {
+    display: flex;
+    justify-content: space-around;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .content-main-note-number {
   color: $base-white;
-  font-size: 28vh;
-  line-height: 24vh;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    font-size: 28vh;
+    line-height: 24vh;
+  }
+  @media (orientation: portrait) {
+    font-size: 10vh;
+    line-height: 8vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 10vh;
+    line-height: 8vh;
+  }
   font-family: "stencil";
 }
 
 .content-main-note-max {
   color: $base-white;
-  font-size: 6vh;
   margin: 0;
   font-family: "stencil";
-  padding-left: 50%;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    font-size: 6vh;
+    padding-left: 50%;
+  }
+  @media (orientation: portrait) {
+    font-size: 4vh;
+    padding-left: 3vw;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 4vh;
+    padding-left: 3vw;
+  }
+}
+
+.content-main-header-HLTB {
+  @media (orientation: portrait) {
+    display: none;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    display: none;
+  }
 }
 
 .info-hltb {
@@ -88,9 +215,9 @@
   text-align: center;
   background-color: $base-white;
   color: $base-color;
-  padding: 5px;
+  padding: 0.5vh;
   margin: 1vh;
-  border-radius: 8px;
+  border-radius: 0.6vh;
   font-size: 2vh;
   position: absolute;
   z-index: 1;
@@ -102,29 +229,108 @@
   visibility: visible;
 }
 
+.content-main-HLTB {
+  display: flex;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    flex-direction: column;
+  }
+  @media (orientation: portrait) {
+    margin-top: 3vh;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    margin-top: 3vh;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
+  }
+}
+
+.content-main-HLTB-story {
+  @media (orientation: portrait) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.content-main-HLTB-extra {
+  @media (orientation: portrait) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .content-main-HLTB-number {
   color: $base-white;
-  font-size: 10vh;
-  line-height: 10vh;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    font-size: 10vh;
+    line-height: 10vh;
+  }
+  @media (orientation: portrait) {
+    font-size: 4vh;
+    line-height: 4vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 4vh;
+    line-height: 4vh;
+  }
   font-family: "stencil";
   padding-top: 1vh;
 }
 
 .content-main-game-picture {
+  @media (orientation: landscape) and (min-width: 1601px) {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 8vh;
+  }
+  @media (orientation: portrait) {
+    height: 40vh;
+    width: 40vh;
+    margin-top: 3vh;
+    border-radius: 10vw;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    height: 42vh;
+    width: 42vh;
+    margin-top: 3vh;
+    border-radius: 6vw;
+  }
   object-fit: cover;
-  height: 50vh;
-  width: 50vh;
-  border-radius: 80px;
-  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 3vh 0.5vh rgba(0, 0, 0, 0.4);
 }
 
 .content-summary {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   text-align: justify;
   padding-top: 8vh;
   padding-bottom: 8vh;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    flex-direction: row;
+  }
+  @media (orientation: portrait) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .info-synopsis {
@@ -140,15 +346,26 @@
   text-align: center;
   background-color: $base-white;
   color: $base-color;
-  padding: 5px;
-  border-radius: 8px;
+  padding: 0.5vh;
+  border-radius: 0.6vh;
   font-size: 2vh;
   position: relative;
   z-index: 1;
-  left: 3vh;
-  text-align: center;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
   font-weight: 400;
+  @media (orientation: landscape) and (min-width: 1601px) {
+    left: 3vh;
+  }
+  @media (orientation: portrait) {
+    position: absolute;
+    top: 3vh;
+    margin: auto;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    position: absolute;
+    top: 3vh;
+    margin: auto;
+  }
 }
 
 .tooltip-synopsis:hover .tooltiptext-synopsis {
@@ -156,82 +373,217 @@
 }
 
 .summary {
-  max-width: 33vw;
+  max-width: 38vw;
   font-size: 3vh;
   font-weight: 500;
   color: $base-text;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (orientation: portrait) {
+    min-width: 90vw;
+    font-size: 2.2vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    min-width: 90vw;
+    font-size: 2.2vh;
+  }
+}
+
+.headers-info {
+  font-size: 5vh;
+  @media (orientation: portrait) {
+    font-size: 3vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 3vh;
+  }
+}
+
+.header-dev {
+  color: $text-orange;
+  @media (orientation: portrait) {
+    color: $text-dark-orange;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    color: $text-dark-orange;
+  }
+}
+
+.header-platforms {
+  color: $text-yellow;
+  margin-bottom: 0.5em;
+  @media (orientation: portrait) {
+    margin-bottom: 0;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    margin-bottom: 0;
+  }
+}
+
+.platforms-text {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.header-synopsis {
+  color: $text-red;
+  @media (orientation: portrait) {
+    color: $text-orange;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    color: $text-orange;
+  }
 }
 
 .header-summary {
-  font-size: 5vh;
-}
-
-.header-left {
-  color: $text-red;
-}
-
-.header-right {
   color: $text-dark-orange;
+  @media (orientation: portrait) {
+    color: $text-red;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    color: $text-red;
+  }
+}
+
+.separator {
+  padding: 3vh;
+  @media (orientation: portrait) {
+    display: none;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    display: none;
+  }
 }
 
 .main-positive {
   color: $base-white;
   background-color: $base-color;
-  border-radius: 100px;
-  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 11vh;
+  box-shadow: 0px 0px 2vh 0.3vh rgba(0, 0, 0, 0.3);
   width: 85vw;
   margin: auto;
   padding: 8vh 7.5vh;
+  @media (orientation: portrait) {
+    border-radius: 8vw;
+    width: 70vw;
+    margin: auto;
+    padding: 6vw 6vw;  
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    border-radius: 8vw;
+    width: 70vw;
+    margin: auto;
+    padding: 6vw 6vw;  
+  }
 }
 
 .main-negative {
   color: $base-white;
-  border-radius: 100px;
-  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 11vh;
+  box-shadow: 0px 0px 2vh 0.3vh rgba(0, 0, 0, 0.3);
   width: 85vw;
   margin: auto;
   padding: 8vh 7.5vh;
   background-color: $text-red;
+  @media (orientation: portrait) {
+    border-radius: 8vw;
+    width: 70vw;
+    margin: auto;
+    padding: 6vw 6vw;  
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    border-radius: 8vw;
+    width: 70vw;
+    margin: auto;
+    padding: 6vw 6vw;  
+  }
 }
 
 .header-positive-negative-main {
   font-weight: bold;
-  font-size: 50;
+  font-size: 5vh;
+  @media (orientation: portrait) {
+    font-size: 3.5vh;
+    text-align: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 3.5vh;
+    text-align: center;
+  }
 }
 
 .header-positive-list {
   font-weight: bold;
-  font-size: 50;
+  font-size: 5vh;
   color: $base-color;
   margin-bottom: 1vh;
+  @media (orientation: portrait) {
+    font-size: 3.5vh;
+    text-align: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 3.5vh;
+    text-align: center;
+  }
 }
 
 .header-negative-list {
   font-weight: bold;
-  font-size: 50;
+  font-size: 5vh;
   color: $text-red;
   margin-bottom: 1vh;
+  @media (orientation: portrait) {
+    font-size: 3.5vh;
+    text-align: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 3.5vh;
+    text-align: center;
+  }
 }
 
 .text-positive-negative-main {
   font-size: 2.5vh;
   font-weight: 500;
   text-align: justify;
+  @media (orientation: portrait) {
+    font-size: 2vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 2vh;
+  }
 }
 
 .positive-negative-list {
   width: 60%;
+  @media (orientation: portrait) {
+    width: 85vw;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    width: 85vw;
+  }
 }
 
 .text-positive-negative-list {
-  font-size: 24px;
+  font-size: 2.5vh;
   font-weight: 600;
   color: $base-text;
-  line-height: 40px;
+  line-height: 4.2vh;
   text-align: justify;
+  @media (orientation: portrait) {
+    font-size: 2vh;
+    text-align: unset;
+    line-height: 3vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 2vh;
+    text-align: unset;
+    line-height: 3vh;
+  }
 }
 
-.positive-negative-container {
+.positive-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -239,11 +591,46 @@
   margin: auto;
   margin-top: 10vh;
   margin-bottom: 10vh;
+  @media (orientation: portrait) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+.negative-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85vw;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  @media (orientation: portrait) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
 
 .positive-negative-img {
   object-fit: contain;
   width: 30%;
+  @media (orientation: portrait) {
+    width: 50vw;
+    padding-top: 3vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    width: 50vw;
+    padding-top: 3vh;
+  }
 }
 
 .notes {
@@ -252,14 +639,32 @@
   bottom: 0;
   padding: 6vh 10vh;
   color: $base-white;
+  @media (orientation: portrait) {
+    padding: 6vw 6vw;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    padding: 6vw 6vw;
+  }
 }
 
 .notes-header {
   font-weight: bold;
-  font-size: 50;
+  font-size: 5vh;
+  @media (orientation: portrait) {
+    font-size: 4vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 4vh;
+  }
 }
 
 .notes-text {
   font-size: 2.5vh;
   font-weight: 400;
+  @media (orientation: portrait) {
+    font-size: 2vh;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1600px) {
+    font-size: 2vh;
+  }
 }

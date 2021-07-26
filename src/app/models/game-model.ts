@@ -15,6 +15,8 @@ export interface GameModel {
     negative_list: string[];
     notes: string[];
     date_added: string;
+    developers: string;
+    platforms: string[];
 }
 
 export interface GameListModel extends Array<GameModel>{}

@@ -26,10 +26,12 @@ export class VideoGameTestComponent implements OnInit {
     negative_list: [],
     negative_main: "",
     notes: [],
-    date_added: ""
+    date_added: "",
+    developers: "",
+    platforms: []
   };
   ratingToDisplay: number = 0; // will increase until actual rating
-  ratingSpeedInterval: number = 10;
+  ratingSpeedInterval: number = 10; // time in milliseconds between each increment
 
   ratingStop: any = setInterval(() => {
     if (this.game.rating != -1)
@@ -64,6 +66,8 @@ export class VideoGameTestComponent implements OnInit {
     this.game.negative_list = data.negative_list;
     this.game.notes = data.notes;
     this.game.date_added = data.date_added;
+    this.game.developers = data.developers;
+    this.game.platforms	= data.platforms;
   }
 
   ngOnInit(): void {

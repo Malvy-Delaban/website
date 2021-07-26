@@ -5,22 +5,30 @@
             <h2 class="content-main-subtitle">{{ game.subtitle }}</h2>
             <div class="content-main-left-numbers">
                 <div class="content-main-note">
-                    <div class="content-main-info-text">Ma note</div>
-                    <div class="content-main-note-number">{{ ratingToDisplay }}</div>
-                    <div class="content-main-note-max">/ 100</div>
+                    <div class="content-main-info-text content-main-header-note">Ma note</div>
+                    <div class="content-main-note-number-max">
+                        <div class="content-main-note-number">{{ ratingToDisplay }}</div>
+                        <div class="content-main-note-max">/ 100</div>
+                    </div>
                 </div>
-                <div class="content-main-HLTB">
-                    <div class="content-main-HLTB">
-                        <div class="content-main-info-text">Durée de vie
+                <div>
+                    <div class="content-main-info-text content-main-header-HLTB">
+                        <div>Durée de vie
                             <div class="tooltip">
                                 <i-feather name="info" class="info-hltb"></i-feather>
                                 <span class="tooltiptext">Durée moyenne de temps de jeu</span>
                             </div>
                         </div>
-                        <div class="content-main-HLTB-number">{{ game.hltb_main }}H</div>
-                        <div class="content-main-info-text">Histoire</div>
-                        <div class="content-main-HLTB-number">{{ game.hltb_extra }}H</div>
-                        <div class="content-main-info-text">Histoire et extras</div>
+                    </div>
+                    <div class="content-main-HLTB">
+                        <div class="content-main-HLTB-story">
+                            <div class="content-main-HLTB-number">{{ game.hltb_main }}H</div>
+                            <div class="content-main-info-text">Histoire</div>
+                        </div>
+                        <div class="content-main-HLTB-extra">
+                            <div class="content-main-HLTB-number">{{ game.hltb_extra }}H</div>
+                            <div class="content-main-info-text">Histoire et extras</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,7 +41,15 @@
 </div>
 <div class="content-summary">
     <div class="summary">
-        <h2 class="header-left header-summary">Synopsis
+        <h2 class="header-platforms headers-info">Plateform(s)</h2>
+        <div class="platforms-text">
+            <span *ngFor="let platform of game.platforms; let i = index">
+                <span>{{ platform }}</span>
+                <br *ngIf="i != game.platforms.length - 1">
+            </span>
+        </div>
+        <div class="separator"></div>
+        <h2 class="header-synopsis headers-info">Synopsis
             <div class="tooltip-synopsis">
                 <i-feather name="info" class="info-synopsis"></i-feather>
                 <span class="tooltiptext-synopsis">Résumé par senscritique.com</span>
@@ -42,7 +58,10 @@
         <p>{{ game.synopsis }}</p>
     </div>
     <div class="summary">
-        <h2 class="header-right header-summary">Le jeu et son gameplay</h2>
+        <h2 class="header-dev headers-info">Developer(s)</h2>
+        <p>{{ game.developers }}</p>
+        <div class="separator"></div>
+        <h2 class="header-summary headers-info">Le jeu et son gameplay</h2>
         <p>{{ game.summary }}</p>
     </div>
 </div>
@@ -50,7 +69,7 @@
     <h2 class="header-positive-negative-main">Le gros + du jeu</h2>
     <p class="text-positive-negative-main">{{ game.positive_main }}</p>
 </div>
-<div class="positive-negative-container">
+<div class="positive-container">
     <div class="positive-negative-list">
         <h2 class="header-positive-list">Les autres +</h2>
         <ul class="text-positive-negative-list">
@@ -63,7 +82,7 @@
     <h2 class="header-positive-negative-main">Le gros - du jeu</h2>
     <p class="text-positive-negative-main">{{ game.negative_main }}</p>
 </div>
-<div class="positive-negative-container">
+<div class="negative-container">
     <img class="positive-negative-img" src="../assets/RedstoneBlock.png">
     <div class="positive-negative-list">
         <h2 class="header-negative-list">Les autres -</h2>

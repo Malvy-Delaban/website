@@ -67,7 +67,9 @@ export class VideoGamesMainComponent implements OnInit {
         negative_list: [],
         negative_main: "",
         notes: [],
-        date_added: ""
+        date_added: "",
+        developers: "",
+        platforms: []
       };
       newGame.id = game.id;
       newGame.img_path += game.img_path;
