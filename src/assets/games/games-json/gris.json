@@ -1,0 +1,39 @@
+{
+  "id": "gris",
+  "img_path": "gris.jpg",
+  "title": "GRIS",
+  "subtitle": "Une toile intéractive aux couleures pastèles",
+  "rating": 94,
+  "hltb_main": "3½",
+  "hltb_extra": "4",
+  "synopsis": "Expérience sereine dénuée de danger et de frustration, GRIS vous invite à explorer un monde pittoresque aux graphismes délicats, des animations fouillées, des casse-têtes légers, un soupçon de plateformes et des défis facultatifs.",
+  "summary": "GRIS est un jeu dit \"contemplatif\", vous allez progresser dans le jeu pour vous emerveillez à chaque nouveau décor, chaque nouvelle musique. Si le jeu se fini en une poignée d'heure, l'experience n'en est pas moins très intense. Jeu à faire dés à présent !",
+  "positive_main": "L'ambiance qui compose ce jeu est tout bonnement exceptionnelle. Les phases de plateformes calmes peuvent d'un coup se transformer en moment intense et plein d'adrénaline. N'en perdez pas une miette et délectez-vous de la musique qui fait quasiment tout à l'instar de ses graphismes somptueux.",
+  "positive_list": [
+    "La Direction Artistique marche super bien. C'était très osé de partir sur un jeu entièrement effet pastel mais il n'y a pas photo, c'est vraiment sublime.",
+    "La durée de vie du jeu n'étant pas très longue donc vous les compterez sur les doigts d'une main mais les moments intenses contre les \"boss\" donnent des frissons.",
+    "L'Original Sound Track colle parfaitement au jeu. Rien à redire, c'est magnifique.",
+    "Les animations du jeu (décors et personnages) sont toutes très belles.",
+    "On ne reste pas bloquer devant les énigmes pendant des heures, on ne cherche pas de solutions sur internet. On se laisse porter et on profite."
+  ],
+  "negative_main": "La durée de vie fait cruellement défaut ici. Jeu indé ne veut pas forcémment dire petite durée de vie mais c'est le cas ici et après avoir fait d'une traite ses quelques heures de jeu, j'en veux plus.",
+  "negative_list": [
+    "Le concept de platformer est exploité de manière très basique, aucune mécanique révolutionnaire, que du déja vu.",
+    "Le côté puzzle est quant à lui présent mais dans une moindre mesure. Les quelques énigmes les \"difficiles\" seront consacrées aux collectables optionnels, pour ce qui est de l'histoire principale, rien de bien complexe."
+  ]
+  ,
+  "notes": [
+    "J'ai joué à la version Switch sur la Nintendo Switch classique",
+    "Le jeu à été produit en boîte en très peu d'exemplaire et sur précommande uniquement. Il me semble qu'ajourd'hui, il est impossible de se le procurer neuf en boîte."
+  ],
+  "date_added": "27/07/2021",
+  "developers": "Nomada Studios",
+  "platforms": [
+    "Nintendo Switch",
+    "PlayStation 4",
+    "Android",
+    "macOS",
+    "PC",
+    "iOS"
+  ]
+}

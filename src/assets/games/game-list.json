@@ -1,6 +1,30 @@
 {
     "games": [
         {
+            "id": "horizon-zero-dawn",
+            "img_path": "horizon-zero-dawn.jpg",
+            "title": "Horizon Zero Dawn",
+            "subtitle": "La perle AAA de la PlayStation 4"
+        },
+        {
+            "id": "gris",
+            "img_path": "gris.jpg",
+            "title": "GRIS",
+            "subtitle": "Une toile intéractive aux couleures pastèles"
+        },
+        {
+            "id": "the-witcher-3",
+            "img_path": "the-witcher-3.jpg",
+            "title": "The Witcher 3: Wild Hunt",
+            "subtitle": "Une aventure sombre et prennante"
+        },
+        {
+            "id": "death-stranding",
+            "img_path": "death-stranding.jpg",
+            "title": "Death Stranding",
+            "subtitle": "Le simulateur de marche le plus prennant"
+        },
+        {
             "id": "final-fantasy-7-remake",
             "img_path": "final-fantasy-7-remake.jpg",
             "title": "Final Fantasy VII Remake",
@@ -12,5 +36,5 @@
             "title": "Persona 5",
             "subtitle": "Une direction artistique souveraine"
         }
-    ]    
+    ]
 }

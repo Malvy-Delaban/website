@@ -1,46 +1,26 @@
 @import "../../../styles.scss";
 
-@media only screen and (min-width: 3001px) {
-    .button {
-        border-style: none;
-        border-radius: 40rem;
-        margin-top: 4rem;
-        height: 11rem;
-        width: 40rem;
-        color: $base-color;
-        font-size: 60px;
-        font-weight: 500;
-        background-color: $base-white;
-        cursor: pointer;
-    }
+.white-button {
+    background-color: $base-white;
+    color: $base-color;
 }
 
-@media only screen and (min-width: 1650px) and (max-width: 3000px) {
-    .button {
-        border-style: none;
-        border-radius: 20rem;
-        margin-top: 2rem;
-        height: 5.5rem;
-        width: 20rem;
-        color: $base-color;
-        font-size: 30px;
-        font-weight: 500;
-        background-color: $base-white;
-        cursor: pointer;
-    }
+.green-button {
+    background-color: $base-color;
+    color: $base-white;
 }
 
-@media only screen and (max-width: 1649px) {
-    .button {
-        border-style: none;
-        border-radius: 20rem;
-        margin-top: 2rem;
-        height: 4rem;
-        width: 15rem;
-        color: $base-color;
-        font-size: 20px;
-        font-weight: 500;
-        background-color: $base-white;
-        cursor: pointer;
+.button {
+    cursor: pointer;
+    font-size: 3vh;
+    padding: 2.8vh 5vh;
+    border-radius: 6vh;
+    border-style: none;
+    font-weight: 500;
+    margin-top: 3vh;
+    @media (orientation: portrait) {
+        padding: 2vh 5vh;
+        font-size: 2vh;
+        border-radius: 6vh;
     }
 }

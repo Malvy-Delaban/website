@@ -1,0 +1,37 @@
+{
+  "id": "the-witcher-3",
+  "img_path": "the-witcher-3.jpg",
+  "title": "The Witcher 3: Wild Hunt",
+  "subtitle": "Une aventure sombre et prennante",
+  "rating": 96,
+  "hltb_main": "51",
+  "hltb_extra": "102",
+  "synopsis": "The Witcher 3 est un RPG en monde ouvert, dans un univers Fantasy hautement scénarisé où vos choix sont décisifs. Vous incarnez un tueur de monstres professionnel chargé de retrouver l'enfant de la prophétie dans un vaste monde riche en cités marchandes, cols périlleux et grottes oubliées.",
+  "summary": "Le savant mélange d'un gameplay maîtrisé, d'une histoire profonde et sombre, du monde ouvert récent et des composantes RPG actuelles. Le tout fondu dans des graphismes excellent pour son époque et incarné dans des personnages emblématiques et puissants de profondeur et d'émotions. Un résultat époustouflant.",
+  "positive_main": "La progression du personnage et les choix du joueur dans l'arbre de compétence ainsi que dans l'histoire vont avoir des répercussions énormes sur son gameplay. Maxer son personnage dans les potions et vous devrez vous concentrer sur la recherche d'ingrédients et la préparation de ces dernières. Choissisez de tuer un personnage au lieu de l'épargner et vous devrez esquiver ses alliés.",
+  "positive_list": [
+    "L'histoire est super intéressante. Sombre, fluide, intriguante, surprenante. Tout jusqu'au plus petit détail est agréable à savourer.",
+    "L'ambiance est cruciale dans ce titre. Le monde est en guerre, les monstres terrorisent les habitants, la pègre manigance, les bourgeois ont des problèmes de riches et les petites gens se démenent pour survivre à la famine, au chaos et à tout le reste. Rien n'est laissé au hasard. Tout est là.",
+    "Le personnage principal, Geralt, est ultra charismatique. Il est attachant et il est très agréable de suivrela progression de ce dernier.",
+    "Les autres personnages sont tout aussi charismatiques et intéréssant, il y en a pour tout les goûts mais aucun d'eux n'est réélement creux. Ils ont tous leurs propres intérêts ",
+    "Le bestiaire est non seulement très varié mais aussi très original. Tout est à l'image de l'univers du jeu, sombre, menaçant et parfois glauque.",
+    "La préparation des combats de gros monstres créer un aspect presque stratégique et ajoute toute une dimension que l'on voit rarement dans d'autres jeux. Négliger sa préparation ou se tromper d'enduit pour ses lames et c'est la fin pour Geralt. Heureusement, on fur et à mesure de vos rencontres, votre gimoire s'aggrandira et vous en saurez plus sur vos enemis. Cela devient vite un réel plaisir de l'ouvrir pour vous renseigner sur un monstre.",
+    "L'interface est très agréable et colle bien à l'univers du jeu."
+  ],
+  "negative_main": "Un bestiaire varié c'est cool, mais si c'est pour affronter toujours les mêmes enemis, c'est vraiment dommage. La grande partie des créatures du bestiaire sont des monstres que l'on affrontera une fois ou deux grand max et sur une centaine d'heure de jeu, c'est peu. Pour le reste de l'aventure vous allez écraser des noyeurs à la chaine...",
+  "negative_list": [
+    "Le bestiaire est trop mal exploité.",
+    "La durée de vie fait réver au début mais très vite les quêtes secondaires se multiplient et on n'en vois jamais le bout. Le 100% va demander de la patience et quand vous voulez absolument connaître la suite, c'est compliqué.",
+    "Pour débloquer des potions et des nouvelles armes, il vous faudra des recette et des patrons. Pour améliorer vos potions au niveau supérieur il vous faudra les recette précédentes. C'est bien, même très bien foutu. Par contre les recettes et patrons se trouvent aléatoirement dans les coffres. Donc si vous n'avez pas de chance, vous aurez la potion de soin mineur tout le long du jeu pour au final la drop dans un coffre juste avant le boss de fin ...",
+    "L'optimisation sur console (Sony) et sur PC n'est pas vraiment optimale (je n'ai pas testé les autres plateformes). Des chargements aussi longs pour un jeu de 2015 sur une PS4 Pro ou un bon PC c'est dommage. Mais cela n'entache pas l'experience de jeu pour autant.",
+    "L'inventaire va vite sembler trop petit. On récolte énormément d'objet plus ou moins utile dans le jeu qu'il fauddra vendre ou dé-craft pour avoir de l'argent et des composants d'artisanat. Mais on en drop vraiment beaucoup et les marchands ont un cooldown après leuravoir vendu un certain nombre d'objet donc si vous farmez réellement une zone, impossible de récupérer 100% des objets. C'est frustrant.",
+    "Si vous n'avez pas lu les livres ou que vous n'avez pas joué aux jeux précédents, il vous faudra lire beaucoup de texte en jeu pour comprendre réellement ce qu'est l'enemis principal du jeu. C'est vraiment dommage."
+  ],
+  "notes": [
+    "J'ai joué à la version PS4 sur PS4 Pro et à la version PC. Les deux se valent.",
+    "Je n'ai pas joué aux 1er ni au 2ème."
+  ],
+  "date_added": "26/07/2021",
+  "developers": "CD Projekt Red",
+  "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series", "Nintendo Switch"]
+}

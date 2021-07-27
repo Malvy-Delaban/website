@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-learn-more-button',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./learn-more-button.component.scss']
 })
 export class LearnMoreButtonComponent implements OnInit {
-
+  @Input() isContactMe!: boolean;
+  
   constructor() { }
 
   ngOnInit(): void {

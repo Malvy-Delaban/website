@@ -1,7 +1,25 @@
 @import "../../../styles.scss";
 
-* {
+.green-header {
+  background-color: $base-color;
   color: $base-white;
+  :any-link {
+    color: $base-white;
+  }
+  .active::after {
+    background-color: $base-white;
+  }
+}
+
+.white-header {
+  background-color: $base-white;
+  color: $text-about-page;
+  :any-link {
+    color: $text-about-page;
+  }
+  .active::after {
+    background-color: $base-color;
+  }
 }
 
 a:link {
@@ -10,7 +28,6 @@ a:link {
 
 @media only screen and (min-width: 3001px) {
   .header {
-    background-color: $base-color;
     position: relative;
     // to make it stick to the top, use :
     // position: absolute;
@@ -23,19 +40,18 @@ a:link {
     align-items: center;
     padding: 0 7.2%;
   }
-  
+
   .title {
     flex: 2;
     font-weight: 500;
     font-size: 80px;
     white-space: nowrap;
   }
-  
+
   .padding {
     flex: 1;
-    background-color: aquamarine;
   }
-  
+
   .pages {
     flex: 3;
     list-style-type: none;
@@ -46,7 +62,7 @@ a:link {
     max-width: 1200px;
     min-width: 1200px;
   }
-  
+
   a {
     white-space: nowrap;
     font-weight: 500;
@@ -54,11 +70,11 @@ a:link {
     display: inline;
     padding-bottom: 1rem;
   }
-  
+
   .active {
     position: relative;
   }
-  
+
   .active::after {
     display: block;
     content: "";
@@ -74,7 +90,6 @@ a:link {
 
 @media only screen and (min-width: 1650px) and (max-width: 3000px) {
   .header {
-    background-color: $base-color;
     position: relative;
     // to make it stick to the top, use :
     // position: absolute;
@@ -87,19 +102,18 @@ a:link {
     align-items: center;
     padding: 0 7.2%;
   }
-  
+
   .title {
     flex: 2;
     font-weight: 500;
     font-size: 45px;
     white-space: nowrap;
   }
-  
+
   .padding {
     flex: 1;
-    background-color: aquamarine;
   }
-  
+
   .pages {
     flex: 3;
     list-style-type: none;
@@ -110,7 +124,7 @@ a:link {
     max-width: 620px;
     min-width: 620px;
   }
-  
+
   a {
     white-space: nowrap;
     font-weight: 500;
@@ -118,11 +132,11 @@ a:link {
     display: inline;
     padding-bottom: 0.5rem;
   }
-  
+
   .active {
     position: relative;
   }
-  
+
   .active::after {
     display: block;
     content: "";
@@ -136,9 +150,8 @@ a:link {
   }
 }
 
-@media only screen and (max-width: 1649px) and (min-width: 801px){
+@media only screen and (max-width: 1649px) and (min-width: 801px) {
   .header {
-    background-color: $base-color;
     position: relative;
     // to make it stick to the top, use :
     // position: absolute;
@@ -151,19 +164,18 @@ a:link {
     align-items: center;
     padding: 0 7.2%;
   }
-  
+
   .title {
     flex: 2;
     font-weight: 500;
     font-size: 35px;
     white-space: nowrap;
   }
-  
+
   .padding {
     flex: 1;
-    background-color: aquamarine;
   }
-  
+
   .pages {
     flex: 3;
     list-style-type: none;
@@ -173,7 +185,7 @@ a:link {
     justify-content: space-between;
     max-width: 50%;
   }
-  
+
   a {
     white-space: nowrap;
     font-weight: 500;
@@ -181,11 +193,11 @@ a:link {
     display: inline;
     padding-bottom: 0.5rem;
   }
-  
+
   .active {
     position: relative;
   }
-  
+
   .active::after {
     display: block;
     content: "";
@@ -201,7 +213,6 @@ a:link {
 
 @media only screen and (max-width: 800px) {
   .header {
-    background-color: $base-color;
     position: relative;
     // to make it stick to the top, use :
     // position: absolute;
@@ -214,7 +225,7 @@ a:link {
     flex-direction: column;
     padding: 0 7.2%;
   }
-  
+
   .title {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -223,12 +234,11 @@ a:link {
     font-size: 35px;
     white-space: nowrap;
   }
-  
+
   .padding {
     flex: 1;
-    background-color: aquamarine;
   }
-  
+
   .pages {
     flex: 3;
     list-style-type: none;
@@ -238,7 +248,7 @@ a:link {
     justify-content: space-between;
     width: 100%;
   }
-  
+
   a {
     white-space: nowrap;
     font-weight: 500;
@@ -246,11 +256,11 @@ a:link {
     display: inline;
     padding-bottom: 0.5rem;
   }
-  
+
   .active {
     position: relative;
   }
-  
+
   .active::after {
     display: block;
     content: "";

@@ -18,6 +18,8 @@ $text-yellow: #F8B12A;
 $footer-background: #0D091D;
 $ligthe-footer-background: #151224;
 
+$text-about-page: #0C0C27;
+
 body {
     background-color: #ffffff;//$base-color;
 }
@@ -26,7 +28,6 @@ body, html {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
 body::-webkit-scrollbar {

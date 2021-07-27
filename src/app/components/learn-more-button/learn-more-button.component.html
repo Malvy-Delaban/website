@@ -1,3 +1,4 @@
-<button class="button">
-    En savoir plus
+<button class="button" [ngClass]="{'green-button': isContactMe === true, 'white-button' : !isContactMe }">
+    <span *ngIf="!isContactMe">En savoir plus</span>
+    <span *ngIf="isContactMe">Me contacter</span>
 </button>
