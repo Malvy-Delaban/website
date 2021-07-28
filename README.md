@@ -13,7 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 ```shell
-ng build --deploy-url="/website/" --base-href=/website/
+ng build
 # this is a hack for now
 cp ./docs/index.html ./docs/404.html
 ```
