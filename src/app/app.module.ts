@@ -13,6 +13,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FooterComponent } from './components/footer/footer.component';
 import { VideoGameTestComponent } from './components/video-game-test/video-game-test.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { Page404Component } from './components/page404/page404.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     FooterComponent,
     VideoGameTestComponent,
     AboutMeComponent,
+    ProjectsComponent,
+    Page404Component,
   ],
   imports: [
     BrowserModule,

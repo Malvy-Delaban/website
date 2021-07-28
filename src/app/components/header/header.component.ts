@@ -50,7 +50,7 @@ export class HeaderComponent implements OnInit {
       },
       {
         name: 'Projets',
-        url: "",
+        url: "projets/",
         selected: false,
         mustBeGreen: true
       }

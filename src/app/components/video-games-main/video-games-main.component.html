@@ -6,7 +6,7 @@
                 années, j'ai eu l'occasion de tester un bon nombre de jeux. Sur ce site vous trouverez mes avis sur
                 chacun d'entre eux.</p>
             <a href="jeux-videos/#content-info">
-                <app-learn-more-button></app-learn-more-button>
+                <app-learn-more-button text="En savoir plus" [textGreen]=true></app-learn-more-button>
             </a>
         </div>
         <img src="/assets/controller.png" alt="3D controller" class="content-cta-right">
@@ -32,7 +32,8 @@
         </div>
         <div class="content-info-paragraph-second">
             <h2>Difficulté</h2>
-            <p class="content-info-main-text">Pour profiter pleinement des expériences in game, je joue à la quasi-totalité de mes
+            <p class="content-info-main-text">Pour profiter pleinement des expériences in game, je joue à la
+                quasi-totalité de mes
                 jeux en mode Facile ou Normal. De cette manière, rien ne vient entraver mon aventure en me faisant
                 recommencer un passage. Cela me permet aussi de réduire la frustration à laquelle je pourrait être
                 confrontée.
@@ -41,7 +42,8 @@
         </div>
         <div class="content-info-paragraph-third">
             <h2>Disclaimer</h2>
-            <p class="content-info-main-text">Mes tests et avis ne reflètent que mon expérience personnelle sur un jeu. J'y joue dans
+            <p class="content-info-main-text">Mes tests et avis ne reflètent que mon expérience personnelle sur un jeu.
+                J'y joue dans
                 des conditions qui peuvent différer de celles d'autres joueurs, je recherche des choses qui peuvent être
                 différentes que celles recherchées par les autres joueurs. Je ne promet pas que mes notes seront
                 impartiales ni même cohérentes, je donne un simple retour de mon point de vue pour tout ceux que cela
@@ -58,7 +60,7 @@
             <h2 class="last-game-title">{{games[0].title}}</h2>
             <p class="last-game-subtitle">{{games[0].subtitle}}</p>
             <a routerLink="{{ '/test/' + games[0].id }}">
-                <app-learn-more-button></app-learn-more-button>
+                <app-learn-more-button text="En savoir plus" [textGreen]=true></app-learn-more-button>
             </a>
         </div>
         <img [src]="games[0].img_path" [alt]="games[0].title" class="main-game-picture">
@@ -77,7 +79,8 @@
 <owl-carousel-o [options]="customOptions" class="content-games-list">
     <ng-container *ngFor="let game of games">
         <ng-template carouselSlide [id]=game.id [ngIf]="game.id">
-            <a routerLink="{{'/test/' + game.id }}"><img [src]="game.img_path" alt="game.title" class="content-games-list-picture"></a>
+            <a routerLink="{{'/test/' + game.id }}"><img [src]="game.img_path" alt="game.title"
+                    class="content-games-list-picture"></a>
         </ng-template>
     </ng-container>
 </owl-carousel-o>

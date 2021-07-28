@@ -1,13 +1,19 @@
 @import "../../../styles.scss";
 
-.white-button {
+.text-white {
+    background-color: $base-color;
+    color: $base-white;
+}
+
+.text-base-color {
     background-color: $base-white;
     color: $base-color;
 }
 
-.green-button {
-    background-color: $base-color;
-    color: $base-white;
+.ligther-footer-background {
+    background-color: $base-white;
+    color: $ligther-footer-background;
+    font-weight: 600 !important;
 }
 
 .button {
@@ -17,7 +23,6 @@
     border-radius: 6vh;
     border-style: none;
     font-weight: 500;
-    margin-top: 3vh;
     @media (orientation: portrait) {
         padding: 2vh 5vh;
         font-size: 2vh;

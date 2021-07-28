@@ -1,7 +1,6 @@
 @import "../../../styles.scss";
 
 @media only screen and (min-width: 3001px) {
-  
   .arrow {
     color: $base-white;
     width: 12rem;
@@ -29,6 +28,9 @@
   .content-cta-left {
     width: 45%;
     margin-bottom: 3%;
+    a {
+      margin-top: 3vh;
+    }
   }
 
   .content-cta-right {
@@ -129,7 +131,7 @@
   }
 
   .content-main-game-left {
-    color: $base-white;
+
   }
 
   .last-game {
@@ -148,6 +150,7 @@
     font-weight: 500;
     font-size: 60px;
     margin: 0;
+    margin-bottom: 3vh;
   }
 
   .main-game-picture {
@@ -185,25 +188,24 @@
     flex-direction: column;
     margin-top: 16rem;
   }
-  
+
   .content-games-text {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .content-games-title {
     color: $text-red;
     font-weight: bold;
     font-size: 100px;
-    margin:0;
+    margin: 0;
   }
-  
+
   .content-games-subtitle {
     color: $base-text;
     font-size: 60px;
   }
-
 }
 
 @media only screen and (min-width: 1650px) and (max-width: 3000px) {
@@ -234,6 +236,9 @@
   .content-cta-left {
     width: 45%;
     margin-bottom: 3%;
+    a {
+      margin-top: 3vh;
+    }
   }
 
   .content-cta-right {
@@ -350,6 +355,7 @@
     font-weight: 500;
     font-size: 30px;
     margin: 0;
+    margin-bottom: 3vh;
   }
 
   .main-game-picture {
@@ -387,20 +393,20 @@
     flex-direction: column;
     margin-top: 8rem;
   }
-  
+
   .content-games-text {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .content-games-title {
     color: $text-red;
     font-weight: bold;
     font-size: 50px;
-    margin:0;
+    margin: 0;
   }
-  
+
   .content-games-subtitle {
     color: $base-text;
   }
@@ -431,6 +437,9 @@
 
   .content-cta-left {
     width: 80%;
+    a {
+      margin-top: 3vh;
+    }
     margin-bottom: 3%;
     display: flex;
     flex-direction: column;
@@ -560,6 +569,7 @@
     font-weight: 500;
     font-size: 30px;
     margin: 0;
+    margin-bottom: 3vh;
   }
 
   .main-game-picture {
@@ -597,21 +607,21 @@
     flex-direction: column;
     margin-top: 8rem;
   }
-  
+
   .content-games-text {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .content-games-title {
     color: $text-red;
     font-weight: bold;
     font-size: 50px;
-    margin:0;
+    margin: 0;
     text-align: center;
   }
-  
+
   .content-games-subtitle {
     text-align: center;
     color: $base-text;
@@ -647,6 +657,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    a {
+      margin-top: 3vh;
+    }
   }
 
   .content-cta-right {
@@ -753,6 +766,7 @@
 
   .content-main-game-left {
     color: $base-white;
+
   }
 
   .last-game {
@@ -771,6 +785,7 @@
     font-weight: 400;
     font-size: 17px;
     margin: 0;
+    margin-bottom: 3vh;
   }
 
   .main-game-picture {
@@ -809,7 +824,7 @@
     margin-top: 8rem;
     width: 100%;
   }
-  
+
   .content-games-text {
     display: flex;
     flex-direction: column;
@@ -818,15 +833,15 @@
     margin: auto;
     width: 90%;
   }
-  
+
   .content-games-title {
     color: $text-red;
     font-weight: bold;
     font-size: 30px;
-    margin:0;
+    margin: 0;
     text-align: center;
   }
-  
+
   .content-games-subtitle {
     color: $base-text;
     font-weight: 500;

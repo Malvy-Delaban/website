@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { GameModel } from '../../models/game-model';
 import { environment } from 'src/environments/environment';
@@ -41,11 +41,17 @@ export class VideoGameTestComponent implements OnInit {
   }, this.ratingSpeedInterval)
 
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) {
+  constructor(private route: ActivatedRoute, private http: HttpClient, private router: Router) {
     this.route.params.subscribe(params => {
       this.game.json_path += params.id + ".json";
-      this.http.get(this.game.json_path).subscribe(data => {
-        this.getGameInfo(<GameModel>data);
+      this.http.get(this.game.json_path).subscribe({
+        next: data => {
+          this.getGameInfo(<GameModel>data);
+        },
+        error: error => {
+          console.error("Jeu introuvable en base de données.");
+          this.router.navigate(["404"]);
+        }
       });
     });
   }
@@ -67,7 +73,7 @@ export class VideoGameTestComponent implements OnInit {
     this.game.notes = data.notes;
     this.game.date_added = data.date_added;
     this.game.developers = data.developers;
-    this.game.platforms	= data.platforms;
+    this.game.platforms = data.platforms;
   }
 
   ngOnInit(): void {

@@ -21,7 +21,7 @@
         </p>
         <div class="button-container">
             <a href="mailto:delaban.malvy@gmail.com">
-                <app-learn-more-button [isContactMe]="true"></app-learn-more-button>
+                <app-learn-more-button text="Me contacter" [textWhite]=true></app-learn-more-button>
             </a>
         </div>
     </div>
@@ -80,9 +80,101 @@
         </div>
     </div>
 </div>
-<div class="formations">
+<div class="formations-container">
+    <h2>Formations</h2>
+    <div class="formations-content">
+        <img src="assets/university.png">
+        <div class="formations-list">
+            <div class="formation">
+                <div class="formation-content-header">
+                    <h3 class="formation-header">Epitech IT</h3>
+                    <div class="formation-dates">2017 - 2022</div>
+                </div>
+                <div class="formation-text">
+                    « L’école de l’expertise informatique »
+                    C'est dans cette école que je me suis formée à tout ce
+                    qui touche au développement logiciel en apprenant à
+                    manipuler le C puis le C++. Cependant, c'est lors de
+                    multiples stages et de travail personnel que je suis
+                    venue à dompter les technologies que je maîtrise
+                    aujourd'hui.
+                    Les principales compétences que j'ai pu acquérir à
+                    Epitech sont le travail d'équipe et la gestion de projet
+                    au sein de groupe de 2 à 6 personnes pour des projets
+                    de 1 à 3 mois.
+                </div>
+            </div>
+            <div class="formation">
+                <div class="formation-content-header">
+                    <h3 class="formation-header">Baccalauréat</h3>
+                    <div class="formation-dates">2017</div>
+                </div>
+                <div class="formation-text">
+                    Filière STI2D en Système d’Information et Numérique,
+                    mention bien.
+                    Premier contact avec le développement logiciel
+                    appliqué sur un projet d'un an en PHP consistant en
+                    un gestionnaire web de cartes étudiantes RFID.
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="misc">
+<div class="misc-container">
+    <h2>Divers</h2>
+    <div class="misc-content">
+        <div class="misc-list">
+            <div class="misc-element">
+                <div class="misc-element-header">
+                    <h3>Création de logos</h3>
+                    <div class="misc-element-dates">2020 - 2021</div>
+                </div>
+                <div class="misc-element-text">
+                    Réflexion et design pour les logos d'auto-entreprises locales
+                </div>
+            </div>
+            <div class="misc-element">
+                <div class="misc-element-header">
+                    <h3>BDE Epitech Toulouse</h3>
+                    <div class="misc-element-dates">2019 - 2020</div>
+                </div>
+                <div class="misc-element-text">
+                    Graphiste et chargée de communication de l'association.
+                    Création de bannières publicitaires sur un affichage numérique.
+                </div>
+            </div>
+            <div class="misc-element">
+                <div class="misc-element-header">
+                    <h3>Hackathon avec l'ENA</h3>
+                    <div class="misc-element-dates">2019</div>
+                </div>
+                <div class="misc-element-text">
+                    Réflexions avec des énarques sur la création de solution modernes à des problèmes administratifs
+                    nationaux ou locaux.
+                </div>
+            </div>
+            <div class="misc-element">
+                <div class="misc-element-header">
+                    <h3>Google Hash Code</h3>
+                    <div class="misc-element-dates">2018</div>
+                </div>
+                <div class="misc-element-text">
+                    Acquisition des bases du python et création d'un solution en IA sur la fluidification du trafic
+                    routier via un calcul d'itinéraire connecté.
+                </div>
+            </div>
+        </div>
+        <img src="assets/robot.png">
+    </div>
 </div>
 <div class="resume">
+    <h2>Vous pouvez consulter mon CV ci-dessous</h2>
+    <div class="resume-buttons">
+        <a href="assets/CV.pdf" target="_blank">
+            <app-learn-more-button text="Ouvrir" [textPurple]=true></app-learn-more-button>
+        </a>
+        <a href="assets/CV.pdf" download class="download-button">
+            <app-learn-more-button text="Télécharger" [textPurple]=true></app-learn-more-button>
+        </a>
+    </div>
 </div>

@@ -6,9 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./learn-more-button.component.scss']
 })
 export class LearnMoreButtonComponent implements OnInit {
-  @Input() isContactMe!: boolean;
-  
-  constructor() { }
+  @Input() textWhite!: boolean;
+  @Input() textGreen!: boolean;
+  @Input() textPurple!: boolean;
+  @Input() text!: string;
+
+  constructor() {}
 
   ngOnInit(): void {
   }

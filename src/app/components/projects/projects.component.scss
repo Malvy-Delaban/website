@@ -1,0 +1,27 @@
+@import "../../../styles.scss";
+
+.container {
+  height: 60vh;
+  width: 100%;
+  background-color: $base-color;
+  color: $base-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    margin: 0;
+    font-size: 5vh;
+    font-weight: 700;
+    @media (orientation: portrait) {
+        font-size: 7vw;
+    }
+  }
+  p {
+    font-size: 3vh;
+    font-weight: 500;
+    @media (orientation: portrait) {
+        font-size: 3vw;
+    }
+  }
+}
