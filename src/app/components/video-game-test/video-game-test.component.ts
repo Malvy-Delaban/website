@@ -12,8 +12,8 @@ import { environment } from 'src/environments/environment';
 export class VideoGameTestComponent implements OnInit {
   game: GameModel = {
     id: "",
-    json_path: "/assets/games/games-json/",
-    img_path: "../../../assets/games/games-pictures/",
+    json_path: "assets/games/games-json/",
+    img_path: "assets/games/games-pictures/",
     title: "",
     subtitle: "",
     rating: -1,

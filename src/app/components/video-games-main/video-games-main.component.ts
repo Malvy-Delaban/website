@@ -44,7 +44,7 @@ export class VideoGamesMainComponent implements OnInit {
   }
 
   constructor(private http: HttpClient) {
-    this.http.get("/assets/games/game-list.json").subscribe(data => {
+    this.http.get("assets/games/game-list.json").subscribe(data => {
       this.getGameInfoList((<any>data).games);
     });
   }
@@ -53,8 +53,8 @@ export class VideoGamesMainComponent implements OnInit {
     data.forEach(game => {
       let newGame : GameModel = {
         id: "",
-        json_path: "/assets/games/games-json/",
-        img_path: "../../../assets/games/games-pictures/",
+        json_path: "assets/games/games-json/",
+        img_path: "assets/games/games-pictures/",
         title: "",
         subtitle: "",
         rating: 0,
