@@ -11,6 +11,7 @@ const routes: Routes = [
   {path: 'jeux-videos' , component: VideoGamesMainComponent},
   {path: 'test/:id' , component: VideoGameTestComponent},
   {path: 'projets' , component: ProjectsComponent},
+  {path: '' , component: AboutMeComponent},
   {path: '404' , component: Page404Component},
   {path: '**', redirectTo: '404'}
 ];
