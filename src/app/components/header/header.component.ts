@@ -11,24 +11,10 @@ import { ITS_JUST_ANGULAR } from '@angular/core/src/r3_symbols';
 export class HeaderComponent implements OnInit {
   handleRouteChange(): void {
     this.selectCurrentPage(this.router.url);
-    // if (this.router.url === "/a-propos") {
-    //   this.isGreen = false;
-    //   this.pages[1]["selected"] = true;
-    // } else if (this.router.url === "/jeux-videos") {
-    //   this.isGreen = true;
-    //   this.pages[0]["selected"] = true;
-    // } else {
-    //   this.isGreen = true;
-    //   console.log(this.isGreen);
-    // }
   }
 
   selectCurrentPage(currentPage: string) {
-    console.log(currentPage);
-    currentPage = currentPage.replace('/', '');
-    currentPage += '/';
-    console.log(currentPage);
-    console.log(this.pages);
+    currentPage = currentPage.replace('/', '') + '/';
     this.isGreen = true;
     this.pages.forEach(page => {
       if (page.url === currentPage) {
@@ -39,7 +25,6 @@ export class HeaderComponent implements OnInit {
     });
     if (currentPage.includes("test/"))
       this.pages[0].selected = true;
-    console.log(this.pages);
   }
 
   pages: any[] = [];
