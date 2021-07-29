@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { ITS_JUST_ANGULAR } from '@angular/core/src/r3_symbols';
 
 @Component({
   selector: 'app-header',
@@ -40,7 +39,7 @@ export class HeaderComponent implements OnInit {
         name: 'Jeux vidéos',
         url: "jeux-videos/",
         selected: true,
-        mustBeGreen: true
+        mustBeGreen: false
       },
       {
         name: 'À propos',
@@ -55,5 +54,6 @@ export class HeaderComponent implements OnInit {
         mustBeGreen: true
       }
     ];
+    this.selectCurrentPage(this.router.url);
   }
 }

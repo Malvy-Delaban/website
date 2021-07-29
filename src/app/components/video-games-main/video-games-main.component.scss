@@ -1,851 +1,387 @@
 @import "../../../styles.scss";
 
-@media only screen and (min-width: 3001px) {
-  .arrow {
-    color: $base-white;
-    width: 12rem;
+.content-games {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  @media (orientation: portrait) {
+    margin-top: 10vh;
   }
-
-  .content-cta {
-    background-color: $base-color;
-    height: 79vh;
-    width: 100%;
+  .content-games-text {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    // to make the header stick to the top, use :
-    //   margin-top: 21vh;
-  }
-
-  .content-cta-top {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    // margin-bottom: 2rem;
-  }
-
-  .content-cta-left {
-    width: 45%;
-    margin-bottom: 3%;
-    a {
-      margin-top: 3vh;
+    .content-games-title {
+      color: $base-color;
+      font-weight: 700;
+      font-size: 3.5vw;
+      margin: 0;
+      @media (orientation: portrait) {
+        font-size: 3.5vh;
+      }
+    }
+    .content-games-subtitle {
+      width: 80%;
+      color: $text-about-page;
+      font-size: 1.6vw;
+      margin: 0;
+      text-align: center;
+      @media (orientation: portrait) {
+        font-size: 1.8vh;
+      }
     }
   }
+}
 
-  .content-cta-right {
-    max-height: 60vh;
+.content-games-list-picture {
+  overflow: visible;
+  height: 25vw;
+  width: 25vw !important;
+  object-fit: cover;
+  border-radius: 5vw;
+  margin-bottom: 20vh;
+  margin-top: 5vw;
+  box-shadow: 0 0 3vw 0 rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  @media (orientation: portrait) {
+    height: 25vh;
+    width: 25vh !important;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
   }
+}
+.content-games-list-picture:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
-  .main-title {
-    color: $base-white;
-    font-size: 160px;
-    margin: 0;
+.content-main-game-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15vh;
+  @media (orientation: portrait) {
+    margin-bottom: 10vh;
   }
-
-  .main-subtitle {
-    text-align: justify;
-    text-justify: inter-word;
-    font-weight: 500; // "medium" on Adobe XD
-    font-size: 80px;
-    color: $base-white;
-  }
-
-  .content-info {
-    text-align: justify;
-    display: flex;
-    // justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-  }
-
-  .content-info-picture {
-    width: 50%;
-
-    img {
-      width: 100%;
-      height: 100vh;
-    }
-  }
-
-  .content-info-main-text {
-    font-weight: 500;
-    font-size: 50px;
-  }
-
-  .content-info-paragraphs {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding-top: 5rem;
-    margin-left: -10%;
-    padding-right: 5%;
-  }
-
-  .content-info-paragraph-first {
-    width: 60%;
-    min-width: 300px;
-    h2 {
-      font-size: 70px;
-      color: $text-red;
-    }
-  }
-
-  .content-info-paragraph-second {
-    width: 80%;
-    min-width: 400px;
-    h2 {
-      font-size: 70px;
-      color: $text-dark-orange;
-    }
-  }
-
-  .content-info-paragraph-third {
-    width: 100%;
-    min-width: 500px;
-    h2 {
-      font-size: 70px;
-      color: $text-orange;
-    }
-  }
-
-  .content-main-game-wrapper {
-    width: 100%;
-    height: 1800px;
-    top: 40px;
-    position: relative;
-  }
-
   .content-main-game {
-    position: absolute;
+    width: 85%;
     display: flex;
     flex-direction: row;
-    top: 20%;
-    left: 5%;
-    right: 5%;
-    z-index: 10;
     align-items: center;
     justify-content: space-between;
-  }
-
-  .content-main-game-left {
-
-  }
-
-  .last-game {
-    font-weight: bold;
-    font-size: 100px;
-    margin: 0;
-  }
-
-  .last-game-title {
-    font-weight: bold;
-    font-size: 140px;
-    margin: 0;
-  }
-
-  .last-game-subtitle {
-    font-weight: 500;
-    font-size: 60px;
-    margin: 0;
-    margin-bottom: 3vh;
-  }
-
-  .main-game-picture {
-    object-fit: cover;
-    height: 1000px;
-    width: 1000px;
-    border-radius: 160px;
-    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .background-shape {
-    background: $base-color;
-    width: 100%;
-    height: 1800px;
-    -ms-transform: skewY(3deg);
-    -webkit-transform: skewY(3deg);
-    transform: skewY(3deg);
-    position: absolute;
-  }
-
-  .content-games-list-picture {
-    overflow: visible;
-    height: 1000px;
-    width: 1000px !important;
-    object-fit: cover;
-    border-radius: 160px;
-    margin-bottom: 10rem;
-    margin-top: 6rem;
-    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .content-games {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 16rem;
-  }
-
-  .content-games-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .content-games-title {
-    color: $text-red;
-    font-weight: bold;
-    font-size: 100px;
-    margin: 0;
-  }
-
-  .content-games-subtitle {
-    color: $base-text;
-    font-size: 60px;
+    @media (orientation: portrait) {
+      flex-direction: column-reverse;
+    }
+    .content-main-game-left {
+      color: $text-about-page;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .last-game {
+        font-weight: 700;
+        font-size: 3vw;
+        margin: 0;
+        @media (orientation: portrait) {
+          font-size: 2vh;
+        }
+      }
+      .last-game-title {
+        font-weight: 700;
+        font-size: 3.5vw;
+        margin: 0;
+        @media (orientation: portrait) {
+          font-size: 4vh;
+        }
+      }
+      .last-game-subtitle {
+        font-size: 1.6vw;
+        margin: 0;
+        margin-bottom: 3vh;
+        @media (orientation: portrait) {
+          font-size: 2vh;
+        }
+      }
+    }
+    .main-game-picture {
+      object-fit: cover;
+      height: 30vw;
+      width: 30vw;
+      border-radius: 5vw;
+      box-shadow: 0 0 5vw 0 rgba(0, 0, 0, 0.6);
+      @media (orientation: portrait) {
+        height: 80vw;
+        width: 80vw;
+        border-radius: 5vh;
+        margin-top: 3vh;
+      }
+    }
   }
 }
 
-@media only screen and (min-width: 1650px) and (max-width: 3000px) {
-  .arrow {
-    color: $base-white;
-    width: 6rem;
-  }
-
-  .content-cta {
-    background-color: $base-color;
-    height: 79vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    // to make the header stick to the top, use :
-    //   margin-top: 21vh;
-  }
-
-  .content-cta-top {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    // margin-bottom: 2rem;
-  }
-
-  .content-cta-left {
-    width: 45%;
-    margin-bottom: 3%;
-    a {
-      margin-top: 3vh;
-    }
-  }
-
-  .content-cta-right {
-    max-height: 60vh;
-  }
-
-  .main-title {
-    color: $base-white;
-    font-size: 80px;
-    margin: 0;
-  }
-
-  .main-subtitle {
-    text-align: justify;
-    text-justify: inter-word;
-    font-weight: 500; // "medium" on Adobe XD
-    font-size: 40px;
-    color: $base-white;
-  }
-
-  .content-info {
-    text-align: justify;
-    display: flex;
-    // justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-  }
-
-  .content-info-picture {
-    width: 50%;
-
-    img {
-      width: 100%;
-      height: 100vh;
-    }
-  }
-
-  .content-info-main-text {
-    font-weight: 500;
-    font-size: 21px;
-  }
-
-  .content-info-paragraphs {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding-top: 5rem;
-    margin-left: -10%;
-    padding-right: 5%;
-  }
-
-  .content-info-paragraph-first {
-    width: 60%;
-    min-width: 300px;
-    h2 {
-      color: $text-red;
-    }
-  }
-
-  .content-info-paragraph-second {
-    width: 80%;
-    min-width: 400px;
-    h2 {
-      color: $text-dark-orange;
-    }
-  }
-
-  .content-info-paragraph-third {
-    width: 100%;
-    min-width: 500px;
-    h2 {
-      color: $text-orange;
-    }
-  }
-
-  .content-main-game-wrapper {
-    width: 100%;
-    height: 900px;
-    top: 20px;
-    position: relative;
-  }
-
-  .content-main-game {
-    position: absolute;
+.search-bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+  .search-bar {
     display: flex;
     flex-direction: row;
-    top: 20%;
-    left: 5%;
-    right: 5%;
-    z-index: 10;
     align-items: center;
-    justify-content: space-between;
-  }
-
-  .content-main-game-left {
-    color: $base-white;
-  }
-
-  .last-game {
-    font-weight: bold;
-    font-size: 52px;
-    margin: 0;
-  }
-
-  .last-game-title {
-    font-weight: bold;
-    font-size: 70px;
-    margin: 0;
-  }
-
-  .last-game-subtitle {
-    font-weight: 500;
-    font-size: 30px;
-    margin: 0;
-    margin-bottom: 3vh;
-  }
-
-  .main-game-picture {
-    object-fit: cover;
-    height: 500px;
-    width: 500px;
-    border-radius: 80px;
-    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .background-shape {
-    background: $base-color;
-    width: 100%;
-    height: 900px;
-    -ms-transform: skewY(3deg);
-    -webkit-transform: skewY(3deg);
-    transform: skewY(3deg);
-    position: absolute;
-  }
-
-  .content-games-list-picture {
-    overflow: visible;
-    height: 500px;
-    width: 500px !important;
-    object-fit: cover;
-    border-radius: 80px;
-    margin-bottom: 5rem;
-    margin-top: 6rem;
-    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .content-games {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 8rem;
-  }
-
-  .content-games-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .content-games-title {
-    color: $text-red;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0;
-  }
-
-  .content-games-subtitle {
-    color: $base-text;
+    box-shadow: 0 0 1vw 0 rgba(0, 0, 0, 0.15);
+    padding: 2vh 3vh;
+    border-radius: 10vh;
+    .search-bar-icon-container {
+      margin-right: 2vh;
+      color: $base-color;
+      .search-bar-icon {
+        width: 2.5vh;
+        height: auto;
+      }
+    }
+    input {
+      background: none;
+      border: none;
+      font-family: "Montserrat";
+      color: $base-color;
+      font-weight: 500;
+      font-size: 2.2vh;
+    }
+    input:focus {
+      background: none;
+      border: none;
+      outline: none;
+    }
   }
 }
 
-@media only screen and (max-width: 1649px) and (min-width: 801px) {
-  .arrow {
-    display: none;
+.games-searched-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  :any-link {
+    color: $text-about-page;
+    text-decoration: none;
   }
-
-  .content-cta {
-    background-color: $base-color;
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    // to make the header stick to the top, use :
-    //   margin-top: 21vh;
-  }
-
-  .content-cta-top {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .content-cta-left {
-    width: 80%;
-    a {
-      margin-top: 3vh;
-    }
-    margin-bottom: 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .content-cta-right {
-    height: 30rem;
-    width: auto;
-  }
-
-  .main-title {
+  :any-link:hover {
     color: $base-white;
-    text-align: center;
-    font-size: 60px;
-    margin: 0;
+    text-decoration: none;
   }
-
-  .main-subtitle {
-    text-align: justify;
-    text-justify: inter-word;
-    font-weight: 500; // "medium" on Adobe XD
-    font-size: 24px;
-    color: $base-white;
-    margin-bottom: -0.5rem;
-  }
-
-  .content-info {
-    text-align: justify;
+  .games-searched {
+    width: 40%;
     display: flex;
-    flex-direction: column;
-    // justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-  }
-
-  .content-info-picture {
-    display: none;
-  }
-
-  .content-info-main-text {
-    font-weight: 500;
-    font-size: 21px;
-  }
-
-  .content-info-paragraphs {
-    width: 100%;
-    padding-top: 5%;
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .content-info-paragraph-first {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    min-width: 400px;
-    padding: 1.5rem;
-    h2 {
-      color: $text-red;
-    }
-  }
-
-  .content-info-paragraph-second {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    min-width: 400px;
-    padding: 1.5rem;
-    h2 {
-      color: $text-dark-orange;
-    }
-  }
-
-  .content-info-paragraph-third {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    min-width: 400px;
-    padding: 1.5rem;
-    h2 {
-      color: $text-orange;
-    }
-  }
-
-  .content-main-game-wrapper {
-    width: 100%;
-    height: 700px;
-    top: 20px;
-    position: relative;
-  }
-
-  .content-main-game {
-    height: 80%;
-    position: absolute;
-    display: flex;
-    flex-direction: column-reverse;
-    left: 15%;
-    top: 10%;
-    right: 5%;
-    z-index: 10;
-    justify-content: space-between;
-  }
-
-  .content-main-game-left {
-    color: $base-white;
-  }
-
-  .last-game {
-    font-weight: bold;
-    font-size: 40px;
-    margin: 0;
-  }
-
-  .last-game-title {
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0;
-  }
-
-  .last-game-subtitle {
-    font-weight: 500;
-    font-size: 30px;
-    margin: 0;
     margin-bottom: 3vh;
+    border-radius: 50vw;
+    padding: 1.5vw;
+    box-shadow: 0 0 1vw 0 rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    cursor: pointer;
+    @media only screen and (max-width: 1400px) and (orientation: landscape) {
+      width: 90%;
+      border-radius: 50vw;
+      box-shadow: 0 0 4vw 0 rgba(0, 0, 0, 0.15);
+      padding: 3vh;
+    }
+    @media (orientation: portrait) {
+      width: 80%;
+      border-radius: 50vw;
+      box-shadow: 0 0 4vw 0 rgba(0, 0, 0, 0.15);
+      padding: 3vh;
+    }
+    img {
+      object-fit: cover;
+      height: 10vw;
+      width: 10vw;
+      border-radius: 50vw;
+      @media (orientation: portrait) {
+        height: 25vw;
+        width: 25vw;
+        border-radius: 50vw;
+      }
+      @media only screen and (max-width: 1400px) and (orientation: landscape) {
+        height: 25vw;
+        width: 25vw;
+        border-radius: 50vw;
+      }
+    }
+    .games-searched-text {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        font-weight: 700;
+        font-size: 1.5vw;
+        margin: 0;
+        @media (orientation: portrait) {
+          font-size: 4vw;
+        }
+        @media only screen and (max-width: 1400px) and (orientation: landscape) {
+          font-size: 5vh;
+        }
+      }
+      .games-searched-subtitle {
+        font-weight: 700;
+        font-size: 1vw;
+        margin: 0;
+        @media (orientation: portrait) {
+          font-size: 2vw;
+        }
+        @media only screen and (max-width: 1400px) and (orientation: landscape) {
+          font-size: 3vh;
+        }
+      }
+    }
   }
-
-  .main-game-picture {
-    object-fit: cover;
-    height: 300px;
-    width: 300px;
-    border-radius: 40px;
-    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .background-shape {
-    background: $base-color;
-    width: 100%;
-    height: 700px;
-    -ms-transform: skewY(3deg);
-    -webkit-transform: skewY(3deg);
-    transform: skewY(3deg);
-    position: absolute;
-  }
-
-  .content-games-list-picture {
-    overflow: visible;
-    height: 300px;
-    width: 300px !important;
-    object-fit: cover;
-    border-radius: 40px;
-    margin-bottom: 5rem;
-    margin-top: 6rem;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .content-games {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 8rem;
-  }
-
-  .content-games-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .content-games-title {
-    color: $text-red;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0;
-    text-align: center;
-  }
-
-  .content-games-subtitle {
-    text-align: center;
-    color: $base-text;
+  .games-searched:hover {
+    background-color: $base-color;
+    color: $base-white;
+    transform: rotate(1deg);
+    transition: 0.3s;
+    box-shadow: none;
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .arrow {
-    display: none;
-  }
-
-  .content-cta {
-    background-color: $base-color;
-    height: 84vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    // to make the header stick to the top, use :
-    //   margin-top: 21vh;
-  }
-
+.content-cta {
+  position: relative;
+  z-index: 1;
+  background-color: $base-color;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   .content-cta-top {
+    width: 80vw;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (orientation: portrait) {
+      width: 70vw;
+      flex-direction: column-reverse;
+    }
+    .content-cta-left {
+      width: 60%;
+      margin-bottom: 3%;
+      @media (orientation: portrait) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      @media only screen and (max-width: 1400px) and (orientation: landscape) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      a {
+        margin-top: 3vh;
+      }
+      .main-title {
+        color: $base-white;
+        font-size: 5vw;
+        margin: 0;
+        @media (orientation: portrait) {
+          font-size: 5vh;
+        }
+      }
+      .main-subtitle {
+        text-align: justify;
+        text-justify: inter-word;
+        font-weight: 500;
+        font-size: 2vw;
+        color: $base-white;
+        @media (orientation: portrait) {
+          text-align: center;
+          font-size: 2vh;
+        }
+      }
+    }
+    .content-cta-right {
+      width: 35%;
+      @media (orientation: portrait) {
+        height: 30vh;
+        width: auto;
+      }
+    }
+  }
+}
+
+.svg-shape {
+  position: relative;
+  margin: 0;
+  fill: $base-color;
+  vertical-align: bottom;
+}
+
+.content-info {
+  display: flex;
+  width: 100%;
+  @media (orientation: portrait) {
     flex-direction: column-reverse;
     align-items: center;
   }
-
-  .content-cta-left {
-    width: 80%;
-    margin-top: 2rem;
+  .content-info-picture {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    a {
-      margin-top: 3vh;
+    justify-content: flex-end;
+    width: 40%;
+    @media (orientation: portrait) {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: auto;
     }
   }
-
-  .content-cta-right {
-    height: 30vh;
-    width: auto;
-  }
-
-  .main-title {
-    color: $base-white;
-    text-align: center;
-    font-size: 4vh;
-    margin: 0;
-  }
-
-  .main-subtitle {
-    text-align: center;
-    text-justify: inter-word;
-    font-weight: 400;
-    font-size: 2.2vh;
-    color: $base-white;
-    margin-bottom: -0.5rem;
-  }
-
-  .content-info {
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-  }
-
-  .content-info-picture {
-    display: none;
-  }
-
-  .content-info-main-text {
-    font-weight: 400;
-    font-size: 2vh;
-  }
-
   .content-info-paragraphs {
-    width: 90%;
-    height: 100vh;
-    padding-top: 1rem;
+    width: 55%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-  }
-
-  .content-info-paragraph-first {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 1rem;
-    h2 {
-      font-size: 25px;
+    margin-bottom: 10vh;
+    @media (orientation: portrait) {
+      width: 80%;
+      margin-top: 5vh;
+    }
+    .content-info-main-text {
+      font-weight: 600;
+      font-size: 1.2vw;
+      @media (orientation: portrait) {
+        font-size: 1.6vh;
+      }
+    }
+    .content-info-all-paragraph {
+      width: 80%;
+      text-align: center;
+      @media (orientation: portrait) {
+        width: 90%;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 2.2vw;
+        margin: 0;
+        @media (orientation: portrait) {
+          font-size: 3vh;
+        }
+      }
+    }
+    .content-info-paragraph-first > h2 {
       color: $text-red;
     }
-  }
-
-  .content-info-paragraph-second {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 1rem;
-    h2 {
-      font-size: 25px;
+    .content-info-paragraph-second > h2 {
       color: $text-dark-orange;
     }
-  }
-
-  .content-info-paragraph-third {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 1rem;
-    h2 {
-      font-size: 25px;
+    .content-info-paragraph-third > h2 {
       color: $text-orange;
     }
-  }
-
-  .content-main-game-wrapper {
-    width: 100%;
-    height: 700px;
-    top: 20px;
-    position: relative;
-  }
-
-  .content-main-game {
-    height: 80%;
-    position: absolute;
-    display: flex;
-    flex-direction: column-reverse;
-    left: 10%;
-    top: 10%;
-    right: 10%;
-    z-index: 10;
-    justify-content: space-between;
-  }
-
-  .content-main-game-left {
-    color: $base-white;
-
-  }
-
-  .last-game {
-    font-weight: 600;
-    font-size: 22px;
-    margin: 0;
-  }
-
-  .last-game-title {
-    font-weight: bold;
-    font-size: 30px;
-    margin: 0;
-  }
-
-  .last-game-subtitle {
-    font-weight: 400;
-    font-size: 17px;
-    margin: 0;
-    margin-bottom: 3vh;
-  }
-
-  .main-game-picture {
-    object-fit: cover;
-    height: 300px;
-    width: 300px;
-    border-radius: 40px;
-    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .background-shape {
-    background: $base-color;
-    width: 100%;
-    height: 700px;
-    -ms-transform: skewY(3deg);
-    -webkit-transform: skewY(3deg);
-    transform: skewY(3deg);
-    position: absolute;
-  }
-
-  .content-games-list-picture {
-    overflow: visible;
-    height: 160px;
-    width: 160px !important;
-    object-fit: cover;
-    border-radius: 30px;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.6);
-  }
-
-  .content-games {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: 8rem;
-    width: 100%;
-  }
-
-  .content-games-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 90%;
-  }
-
-  .content-games-title {
-    color: $text-red;
-    font-weight: bold;
-    font-size: 30px;
-    margin: 0;
-    text-align: center;
-  }
-
-  .content-games-subtitle {
-    color: $base-text;
-    font-weight: 500;
-    font-size: 15px;
-    text-align: center;
   }
 }

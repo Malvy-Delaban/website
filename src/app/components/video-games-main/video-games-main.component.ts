@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { HttpClient } from '@angular/common/http';
 import { GameModel, GameListModel } from 'src/app/models/game-model';
-import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-video-games-main',
@@ -21,10 +20,10 @@ export class VideoGamesMainComponent implements OnInit {
     navText: ['', ''],
     responsive: {
       0: {
-        items: 2
+        items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
         items: 2
@@ -42,6 +41,22 @@ export class VideoGamesMainComponent implements OnInit {
     autoHeight: false,
     autoWidth: false,
   }
+  value = '';
+  gamesSearch: GameModel[] = [];
+
+  onKey(event: any) {
+    this.value = event.target.value;
+    this.updateGamesSearch();
+  }
+
+  updateGamesSearch() {
+    this.gamesSearch = [];
+    this.gamesSearch = this.games.filter(element => {
+        return element.title.toLowerCase().includes(this.value.toLowerCase());
+    });
+    if (this.value === "")
+      this.gamesSearch = [];
+  }
 
   constructor(private http: HttpClient) {
     this.http.get("assets/games/game-list.json").subscribe(data => {
@@ -51,7 +66,7 @@ export class VideoGamesMainComponent implements OnInit {
 
   getGameInfoList(data: GameListModel) {
     data.forEach(game => {
-      let newGame : GameModel = {
+      let newGame: GameModel = {
         id: "",
         json_path: "assets/games/games-json/",
         img_path: "assets/games/games-pictures/",

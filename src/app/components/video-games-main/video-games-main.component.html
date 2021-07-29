@@ -1,4 +1,58 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+<div class="content-games">
+    <div class="content-games-text">
+        <h2 class="content-games-title">Mes derniers jeux</h2>
+        <h3 class="content-games-subtitle">Trouvez les tests contenant notes et avis de mes derniers jeux ici.</h3>
+    </div>
+</div>
+<owl-carousel-o [options]="customOptions" class="content-games-list">
+    <ng-container *ngFor="let game of games">
+        <ng-template carouselSlide [id]=game.id [ngIf]="game.id">
+            <a routerLink="{{'/test/' + game.id }}"><img [src]="game.img_path" alt="game.title"
+                    class="content-games-list-picture"></a>
+        </ng-template>
+    </ng-container>
+</owl-carousel-o>
+
+<div class="content-main-game-container">
+    <div *ngIf=games[0] class="content-main-game">
+        <img [src]="games[0].img_path" [alt]="games[0].title" class="main-game-picture">
+        <div class="content-main-game-left">
+            <h3 class="last-game">Mon dernier jeu en date :</h3>
+            <h2 class="last-game-title">{{games[0].title}}</h2>
+            <p class="last-game-subtitle">{{games[0].subtitle}}</p>
+            <a routerLink="{{ '/test/' + games[0].id }}">
+                <app-learn-more-button text="En savoir plus" [textWhite]=true></app-learn-more-button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="search-bar-container">
+    <div class="search-bar">
+        <div class="search-bar-icon-container">
+            <i-feather name="search" class="search-bar-icon"></i-feather>
+        </div>
+        <input type="text" class="search-bar-input" placeholder="Chercher un jeu ..." (keyup)="onKey($event)">
+    </div>
+</div>
+<div class="games-searched-container">
+    <a *ngFor="let game of gamesSearch" class="games-searched" routerLink="{{ '/test/' + game.id }}">
+        <img [src]="game.img_path" [alt]="game.title">
+        <div class="games-searched-text">
+            <h3>{{ game.title }}</h3>
+            <div class="games-searched-subtitle">{{ game.subtitle }}</div>
+        </div>
+    </a>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140"
+    style="display: block; margin-bottom: -0.1vw; transform:rotate(0deg); transition: 0.3s">
+    <path fill-opacity="1" class="svg-shape"
+        d="M0,112L60,93.3C120,75,240,37,360,37.3C480,37,600,75,720,86.3C840,98,960,84,1080,84C1200,84,1320,98,1440,91C1560,84,1680,56,1800,53.7C1920,51,2040,75,2160,84C2280,93,2400,89,2520,84C2640,79,2760,75,2880,65.3C3000,56,3120,42,3240,30.3C3360,19,3480,9,3600,16.3C3720,23,3840,47,3960,67.7C4080,89,4200,107,4320,98C4440,89,4560,51,4680,44.3C4800,37,4920,61,5040,77C5160,93,5280,103,5400,91C5520,79,5640,47,5760,35C5880,23,6000,33,6120,42C6240,51,6360,61,6480,60.7C6600,61,6720,51,6840,58.3C6960,65,7080,89,7200,86.3C7320,84,7440,56,7560,44.3C7680,33,7800,37,7920,42C8040,47,8160,51,8280,46.7C8400,42,8520,28,8580,21L8640,14L8640,140L8580,140C8520,140,8400,140,8280,140C8160,140,8040,140,7920,140C7800,140,7680,140,7560,140C7440,140,7320,140,7200,140C7080,140,6960,140,6840,140C6720,140,6600,140,6480,140C6360,140,6240,140,6120,140C6000,140,5880,140,5760,140C5640,140,5520,140,5400,140C5280,140,5160,140,5040,140C4920,140,4800,140,4680,140C4560,140,4440,140,4320,140C4200,140,4080,140,3960,140C3840,140,3720,140,3600,140C3480,140,3360,140,3240,140C3120,140,3000,140,2880,140C2760,140,2640,140,2520,140C2400,140,2280,140,2160,140C2040,140,1920,140,1800,140C1680,140,1560,140,1440,140C1320,140,1200,140,1080,140C960,140,840,140,720,140C600,140,480,140,360,140C240,140,120,140,60,140L0,140Z">
+    </path>
+</svg>
 <div class="content-cta">
     <div class="content-cta-top">
         <div class="content-cta-left">
@@ -12,18 +66,20 @@
         </div>
         <img src="assets/controller.png" alt="3D controller" class="content-cta-right">
     </div>
-    <div class="content-cta-bottom">
-        <a href="jeux-videos/#content-info">
-            <i-feather name="arrow-down" class="feather-icon-style-thick arrow"></i-feather>
-        </a>
-    </div>
 </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140"
+    style="display: block; transform:rotate(180deg);transition: 0.3s; margin-top: -0.5vw;">
+    <path fill-opacity="1" class="svg-shape" style="transform:translate(0, 0px);"
+        d="M0,28L60,35C120,42,240,56,360,72.3C480,89,600,107,720,100.3C840,93,960,61,1080,51.3C1200,42,1320,56,1440,67.7C1560,79,1680,89,1800,91C1920,93,2040,89,2160,91C2280,93,2400,103,2520,109.7C2640,117,2760,121,2880,112C3000,103,3120,79,3240,77C3360,75,3480,93,3600,95.7C3720,98,3840,84,3960,65.3C4080,47,4200,23,4320,11.7C4440,0,4560,0,4680,2.3C4800,5,4920,9,5040,9.3C5160,9,5280,5,5400,2.3C5520,0,5640,0,5760,14C5880,28,6000,56,6120,63C6240,70,6360,56,6480,56C6600,56,6720,70,6840,65.3C6960,61,7080,37,7200,37.3C7320,37,7440,61,7560,77C7680,93,7800,103,7920,88.7C8040,75,8160,37,8280,28C8400,19,8520,37,8580,46.7L8640,56L8640,140L8580,140C8520,140,8400,140,8280,140C8160,140,8040,140,7920,140C7800,140,7680,140,7560,140C7440,140,7320,140,7200,140C7080,140,6960,140,6840,140C6720,140,6600,140,6480,140C6360,140,6240,140,6120,140C6000,140,5880,140,5760,140C5640,140,5520,140,5400,140C5280,140,5160,140,5040,140C4920,140,4800,140,4680,140C4560,140,4440,140,4320,140C4200,140,4080,140,3960,140C3840,140,3720,140,3600,140C3480,140,3360,140,3240,140C3120,140,3000,140,2880,140C2760,140,2640,140,2520,140C2400,140,2280,140,2160,140C2040,140,1920,140,1800,140C1680,140,1560,140,1440,140C1320,140,1200,140,1080,140C960,140,840,140,720,140C600,140,480,140,360,140C240,140,120,140,60,140L0,140Z">
+    </path>
+</svg>
+
 <div class="content-info" id="content-info">
     <div class="content-info-picture">
         <img src="assets/easy_poll.png" alt="retro styled sign on which is written 'easy'">
     </div>
     <div class="content-info-paragraphs">
-        <div class="content-info-paragraph-first">
+        <div class="content-info-paragraph-first content-info-all-paragraph">
             <h2>Expérience de jeu</h2>
             <p class="content-info-main-text">Je joue en premier lieu aux jeux vidéos pour vivre des
                 expériences, découvrir des univers, des histoires, pour
@@ -31,17 +87,17 @@
                 sont le plus souvent des jeux narratifs solos.
             </p>
         </div>
-        <div class="content-info-paragraph-second">
+        <div class="content-info-paragraph-second content-info-all-paragraph">
             <h2>Difficulté</h2>
             <p class="content-info-main-text">Pour profiter pleinement des expériences in game, je joue à la
                 quasi-totalité de mes
                 jeux en mode Facile ou Normal. De cette manière, rien ne vient entraver mon aventure en me faisant
                 recommencer un passage. Cela me permet aussi de réduire la frustration à laquelle je pourrait être
                 confrontée.
-                Bref, tout cela pour dire que ces points n'apparaitront pas forcément dans mes tests et avis.
+                En bref, ces points n'apparaitront pas forcément dans mes tests et avis.
             </p>
         </div>
-        <div class="content-info-paragraph-third">
+        <div class="content-info-paragraph-third content-info-all-paragraph">
             <h2>Disclaimer</h2>
             <p class="content-info-main-text">Mes tests et avis ne reflètent que mon expérience personnelle sur un jeu.
                 J'y joue dans
@@ -53,35 +109,3 @@
         </div>
     </div>
 </div>
-
-<div class="content-main-game-wrapper">
-    <div *ngIf=games[0] class="content-main-game">
-        <div class="content-main-game-left">
-            <h3 class="last-game">Mon dernier jeu en date :</h3>
-            <h2 class="last-game-title">{{games[0].title}}</h2>
-            <p class="last-game-subtitle">{{games[0].subtitle}}</p>
-            <a routerLink="{{ '/test/' + games[0].id }}">
-                <app-learn-more-button text="En savoir plus" [textGreen]=true></app-learn-more-button>
-            </a>
-        </div>
-        <img [src]="games[0].img_path" [alt]="games[0].title" class="main-game-picture">
-    </div>
-    <div class="background-shape">
-    </div>
-</div>
-
-<div class="content-games">
-    <div class="content-games-text">
-        <h2 class="content-games-title">Mes jeux précédents</h2>
-        <h3 class="content-games-subtitle">En cliquant sur les tuiles suivantes vous trouverez leurs pages de test
-            respectifs.</h3>
-    </div>
-</div>
-<owl-carousel-o [options]="customOptions" class="content-games-list">
-    <ng-container *ngFor="let game of games">
-        <ng-template carouselSlide [id]=game.id [ngIf]="game.id">
-            <a routerLink="{{'/test/' + game.id }}"><img [src]="game.img_path" alt="game.title"
-                    class="content-games-list-picture"></a>
-        </ng-template>
-    </ng-container>
-</owl-carousel-o>
