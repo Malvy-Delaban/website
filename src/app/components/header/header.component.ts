@@ -54,6 +54,7 @@ export class HeaderComponent implements OnInit {
         mustBeGreen: true
       }
     ];
+    this.isGreen = false;
     this.selectCurrentPage(this.router.url);
   }
 }
