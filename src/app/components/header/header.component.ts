@@ -27,7 +27,7 @@ export class HeaderComponent implements OnInit {
   }
 
   pages: any[] = [];
-  isGreen: boolean = true;
+  isGreen: boolean = false;
 
   constructor(private route: ActivatedRoute, private http: HttpClient, private router: Router) {
     router.events.subscribe( (event) => ( event instanceof NavigationEnd ) && this.handleRouteChange() )
