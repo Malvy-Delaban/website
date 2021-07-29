@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
 
   selectCurrentPage(currentPage: string) {
     currentPage = currentPage.replace('/', '') + '/';
-    this.isGreen = true;
+    this.isGreen = false;
     this.pages.forEach(page => {
       if (page.url === currentPage) {
         page.selected = true;
