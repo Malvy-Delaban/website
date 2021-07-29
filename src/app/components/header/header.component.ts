@@ -22,8 +22,10 @@ export class HeaderComponent implements OnInit {
       } else
         page.selected = false;
     });
-    if (currentPage.includes("test/"))
+    if (currentPage.includes("test/")) {
       this.pages[0].selected = true;
+      this.isGreen = true;
+    }
   }
 
   pages: any[] = [];
