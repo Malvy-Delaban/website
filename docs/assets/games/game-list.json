@@ -1,6 +1,12 @@
 {
     "games": [
         {
+            "id": "assassins-creed-valhalla",
+            "img_path": "assassins-creed-valhalla.jpg",
+            "title": "Assassin's Creed Valhalla",
+            "subtitle": "Le \"reskin\" décevant de Odyssey"
+        },
+        {
             "id": "horizon-zero-dawn",
             "img_path": "horizon-zero-dawn.jpg",
             "title": "Horizon Zero Dawn",
