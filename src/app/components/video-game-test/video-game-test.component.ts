@@ -56,14 +56,24 @@ export class VideoGameTestComponent implements OnInit {
     });
   }
 
+  setSyntaxHltb(str: string) {
+    console.log(str);
+    if (str.includes("½"))
+      str = str.replace("½", "H½");
+    else
+      str += "H";
+    console.log(str);
+    return str;
+  }
+
   getGameInfo(data: GameModel) {
     this.game.id = data.id;
     this.game.img_path += data.img_path;
     this.game.title = data.title;
     this.game.subtitle = data.subtitle;
     this.game.rating = data.rating;
-    this.game.hltb_main = data.hltb_main;
-    this.game.hltb_extra = data.hltb_extra;
+    this.game.hltb_main = this.setSyntaxHltb(data.hltb_main);
+    this.game.hltb_extra = this.setSyntaxHltb(data.hltb_extra);
     this.game.synopsis = data.synopsis;
     this.game.summary = data.summary;
     this.game.positive_main = data.positive_main;

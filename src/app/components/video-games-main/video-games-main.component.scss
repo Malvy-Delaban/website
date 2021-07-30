@@ -130,12 +130,19 @@
     box-shadow: 0 0 1vw 0 rgba(0, 0, 0, 0.15);
     padding: 2vh 3vh;
     border-radius: 10vh;
+    @media (orientation: portrait) {
+      padding: 4vw 6vw;
+      border-radius: 10vw;
+    }
     .search-bar-icon-container {
       margin-right: 2vh;
       color: $base-color;
       .search-bar-icon {
         width: 2.5vh;
         height: auto;
+        @media (orientation: portrait) {
+          width: 5vw;
+        }
       }
     }
     input {
@@ -145,6 +152,9 @@
       color: $base-color;
       font-weight: 500;
       font-size: 2.2vh;
+      @media (orientation: portrait) {
+        font-size: 4.4vw;
+      }
     }
     input:focus {
       background: none;
