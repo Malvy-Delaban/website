@@ -1,6 +1,12 @@
 {
     "games": [
         {
+            "id": "animal-crossing-new-horizons",
+            "img_path": "animal-crossing-new-horizons.jpg",
+            "title": "Animal Crossing: New Horizons",
+            "subtitle": "Le bac à sable trop restrictif de Nintendo"
+        },
+        {
             "id": "assassins-creed-valhalla",
             "img_path": "assassins-creed-valhalla.jpg",
             "title": "Assassin's Creed Valhalla",

@@ -1,0 +1,34 @@
+{
+  "id": "animal-crossing-new-horizons",
+  "img_path": "animal-crossing-new-horizons.jpg",
+  "title": "Animal Crossing: New Horizons",
+  "subtitle": "Le bac à sable trop restrictif de Nintendo",
+  "rating": 51,
+  "hltb_main": "60½",
+  "hltb_extra": "125",
+  "synopsis": "Sautez de l'avion et prenez pied sur votre propre île déserte où de nouvelles amitiés, découvertes et opportunités vous attendent. Construisez votre maison et fraternisez avec les autres habitants. Le paradis est ce que vous en faites dans Animal Crossing: New Horizons.",
+  "summary": "Le parfait endroit pour se détendre, couper du bois pêcher, faire sa maison et son paysage (si on oublie Minecraft en fait). Mais passée la dizaine d'heure de jeu, on se confronte vite aux premiers soucis de restriction que nous impose Nintendo et ils vont vous ennuyer jusqu'au bout !",
+  "positive_main": "Le jeu est bien pensé dans l'ensemble. Vous pouvez faire ce que l'on peut s'attendre à faire sur un Animal Crossing et les mécaniques implémentées, bien que très basiques, fonctionnent bien. La roue d'équipements est pratique, il y a un moyen de récupérer des ressources sans ruiner le décor de votre île, bref pas de gros raté sur le principe même du bac à sable et ça permet de se détendre tranquillement comme promis.",
+  "positive_list": [
+    "Bien que limité, le côté bac à sable est agréable on se surprend à aimer agencer notre île autour de nous.",
+    "Le musée, quelle merveille ! Voir sa collection en live bouger devant nos yeux dans un joli décors, c'est génial !",
+    "Les îles sauvages sont un plaisir à explorer.",
+    "Visiter l'île d'un autre joueur est assez sympa.",
+    "La direction artistique très enfantine n'est pas un mal, au contraire.",
+    "Le système de navets est marrant étonnament."
+  ],
+  "negative_main": "Le système jour/nuit va vous faire déchanter si vous n'êtes pas au chômage. Sur le principe, baser le cycle jour/nuit sur celui de la vraie vie et les saisons également, cela paraît être une bonne idée. Dans la réalisation, cela veut dire que le magasin de votre île n'est pas ouvert si vous rentrez un peu tard du boulot. Cela veut dire que si vous oubliez de capturer un poisson qui ne se trouve qu'en hivers et que le primptemps arrive, vous devrez attendre 9 mois (de la vraie vie !) pour pouvoir compléter votre collection. Bref beaucoup de problèmes en découle et ça fait grincer des dents.",
+  "negative_list": [
+    "Si il est agréable de visiter l'île de ses amis, ça s'arrête là car tout le multi est raté. On ne peut quasiment rien faire en tant que joueur 2 sur une autre île et même le joueur 1 est très limité !",
+    "Le système d'inventaire est lourd. On râle toujours qu'il soit plein, on est obligé de stocker des choses par terre, bref, très peu agréable.",
+    "Tout est lent ! Chaque action prends plusieurs secondes à faire et quand vous devez la faire en boucle c'est une horreur.",
+    "Les graphismes sont du niveau habituel de Nintendo sur ces dernières années.",
+    "Et gros warning ! Une seule île par console ! Pas plus ! Impossible d'en avoir deux en parallèle ! Pourquoi Nintendo ?"
+  ],
+  "notes": [
+    "J'ai joué à la version Switch sur la Nintendo Switch classique au moment de sa sortie, je n'avais donc pas les dernières mises à jour."
+  ],
+  "date_added": "30/07/2021",
+  "developers": "Nintendo",
+  "platforms": ["Nintendo Switch"]
+}
