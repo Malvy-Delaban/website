@@ -5,6 +5,16 @@
   text-decoration: none;
 }
 
+.social-net {
+  .social {
+    margin-top: 2vw;
+    color: $base-white;
+    fill: $base-white;
+    width: 2vw;
+    padding-right: 2vw;
+  }
+}
+
 @media only screen and (min-width: 3001px) {
   h4 {
     font-weight: bold;
@@ -30,13 +40,6 @@
     div {
       margin-right: 20rem;
     }
-  }
-
-  .in {
-    margin-top: 4rem;
-    color: $base-white;
-    fill: $base-white;
-    width: 8rem;
   }
 }
 
@@ -66,13 +69,6 @@
       margin-right: 10rem;
     }
   }
-
-  .in {
-    margin-top: 2rem;
-    color: $base-white;
-    fill: $base-white;
-    width: 4rem;
-  }
 }
 
 @media only screen and (max-width: 1649px) and (min-width: 801px) {
@@ -101,13 +97,6 @@
       margin-right: 10rem;
     }
   }
-
-  .in {
-    margin-top: 2rem;
-    color: $base-white;
-    fill: $base-white;
-    width: 4rem;
-  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -135,13 +124,6 @@
     div {
       margin-right: 2rem;
     }
-  }
-
-  .in {
-    margin-top: 2rem;
-    color: $base-white;
-    fill: $base-white;
-    width: 4rem;
   }
 }
 

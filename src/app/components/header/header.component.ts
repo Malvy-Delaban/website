@@ -26,6 +26,10 @@ export class HeaderComponent implements OnInit {
       this.pages[0].selected = true;
       this.isGreen = true;
     }
+    if (currentPage.includes("404/")) {
+      this.pages[0].selected = true;
+      this.isGreen = true;
+    }
   }
 
   pages: any[] = [];
@@ -53,7 +57,7 @@ export class HeaderComponent implements OnInit {
         name: 'Projets',
         url: "projets/",
         selected: false,
-        mustBeGreen: true
+        mustBeGreen: false
       }
     ];
     this.isGreen = false;
