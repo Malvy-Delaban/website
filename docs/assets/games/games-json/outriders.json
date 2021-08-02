@@ -1,0 +1,41 @@
+{
+  "id": "outriders",
+  "img_path": "outriders.jpg",
+  "title": "Outriders",
+  "subtitle": "Le TPS coop de People Can Fly",
+  "rating": 86,
+  "hltb_main": "15",
+  "hltb_extra": "37",
+  "synopsis": "Jeu de tir en coopération libre pour 1 à 3 joueurs, qui se déroule dans un univers de science-fiction sombre et sans espoir.",
+  "summary": "Le jeu ne prend pas de risque et ne cherche pas à innover, cependant, il s'applique énormément sur ce qu'il fait. Le résultat est assez proche d'un Borderlands niveau gameplay et progression dans l'histoire et se rapproche plus d'un Destiny ou d'un Warframe pour son univers Sci-Fi.",
+  "positive_main": "Sa nervosité donne des frissons. Le sytème de heal basé sur les dégats infligés oblige le joueur à tout le temps être en mouvement et actif. Plus de periode ou on se cache derrière un obstacle en attendant de récupérer sa vie. Ici il faudra mériter son heal !",
+  "positive_list": [
+    "Pour y avoir joué en coop, le rendu visuel semble meilleur sur PS5 que sur un bon PC. C'est rare mais on prend !",
+    "Le gameplay est très fluide et dynamique.",
+    "La gestion des améliorations des armes et armures est assez \"classique\" pour un jeu du genre mais tout de même bien appréciée. Cela donne une bonne sensation de progression de se spécialiser dans un domaine de l' arbre de compétences",
+    "L'histoire est très sympa à suivre et s'intensifie beaucoup sur la fin.",
+    "Les personnages sont assez attachants et même le personnage principal customisable.",
+    "On ne tue pas que des humains ! ça change !",
+    "Le système de régénération de vie très impactant et original.",
+    "Recharger et changer d'arme en courant, quel plaisir !",
+    "Les rares boss non humains sont extrêmement cool a combattre. Cela donne vraiment une vibe Borderldans.",
+    "Pouvoir régler la difficulté à n'importe quel moment pour passer un passage trop dur (qui sont nombreux) ça aide. Surtout pour unjeu avec une difficulté aussi aléatoires."
+  ],
+  "negative_main": "Le jeu va vous faire affronter des humains et des monstres au fur et à mesur de l'histoire. Les combats contre les humains viennent entacher la nervosité du jeu et ralentir le gameplay.",
+  "negative_list": [
+    "Pas de salon vocal pour un cross-plateforme ? Quand on porte le jeu sur une console qui n'a pas Discord ou autre pour faire un call avec un joueur PC c'est un peu idiot.",
+    "Appuyer sur le bouton pour démarrer la partie lance un compteur de 10 seconde qui ne servent à rien, même en solo ... pourquoi ?",
+    "Difficulté très aléatoire.",
+    "La difficulté augmente beaucoup quand on passe de 1 a 2 joueurs.",
+    "Quelques bugs réguliers mais rien qui n'empêche de profiter pleinement du jeu.",
+    "Certaines interfaces ne sont pas toujours très claires, la map et le système de quêtes.",
+    "Pas d'utilisation de gachettes adaptatives pour un jeu de tir de cette ampleur, énorme déception !",
+    "Vibrations utiliser a tort et à travers (par exemple en combat la manette vibre sans s'arrêter jusqu'à la fin du combat des fois pour certains passifs).",
+    "Le jeu n'est pas en pause quand on appuyé sur le bouton de pause, en multi c'est compréhensible, en solo ça frustre.",
+    "Certains textes s'affichent très mal et gêne la visibilité (le 4k mal géré sûrement)."
+  ],
+  "notes": ["J'ai joué au jeu dans sa version PlayStation 5."],
+  "date_added": "02/08/2021",
+  "developers": "People Can Fly",
+  "platforms": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series", "Stadia"]
+}

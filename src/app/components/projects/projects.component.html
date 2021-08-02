@@ -1,19 +1,33 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <div class="container">
     <h1>Mes projets personnels</h1>
-    <div class="procedural">
+    <div class="project">
         <div class="text">
             <h2>Terrain procédural</h2>
             <p>
-                Une map en voxel 3D qui se génere aléatoirement.
-                Elle est affichée en 3D via la librairie Three.js et la hauteur de chaque tuile dépend d'un bruit de
-                Perlin.
-                La couleur de chaque tuile est définie par la hauteur de celle-ci.
+                Une map en 3D générée procéduralement et affichée via la librairie Three.js.
+                Chaque tuile a une hauteur propre basée sur un bruit de Perlin. En fonction de cette valeur, les
+                couleurs sont calculées et les modèles 3D générés et rendus.
             </p>
             <a href="https://malvy-delaban.github.io/procedural/" target="_blank">
                 <app-learn-more-button text="Visiter l'application" [textWhite]=true></app-learn-more-button>
             </a>
         </div>
         <img src="assets/procedural.png" alt="procedural map screen">
+    </div>
+    <div class="project">
+        <div class="text">
+            <h2>Design de Camera Goal</h2>
+            <p>
+                Le projet était un défi personnel qui consistait à créer le design des pages principales d'un site
+                marchand fictif qui vendrait des appareils photo. L'intégralité des design a été réfléchie et réalisée
+                en deux heures.
+            </p>
+            <a href="https://xd.adobe.com/view/71c18e97-ef89-4cf0-bc99-53653162b925-2492/screen/70aa3441-06f1-48f8-bd65-c15f9e6e1a34?fullscreen"
+                target="_blank">
+                <app-learn-more-button text="Parcourir le design" [textWhite]=true></app-learn-more-button>
+            </a>
+        </div>
+        <img src="assets/camera-goal.png" alt="camera goal screen">
     </div>
 </div>

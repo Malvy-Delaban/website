@@ -1,6 +1,12 @@
 {
     "games": [
         {
+            "id": "outriders",
+            "img_path": "outriders.jpg",
+            "title": "Outriders",
+            "subtitle": "Le TPS coop de People Can Fly"
+        },
+        {
             "id": "animal-crossing-new-horizons",
             "img_path": "animal-crossing-new-horizons.jpg",
             "title": "Animal Crossing: New Horizons",
