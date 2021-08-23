@@ -1,6 +1,12 @@
 {
     "games": [
         {
+            "id": "pokemon-lets-go",
+            "img_path": "pokemon-lets-go.jpg",
+            "title": "Pokémon : Let's Go, Pikachu!",
+            "subtitle": "Le remake fan service de jaune"
+        },
+        {
             "id": "outriders",
             "img_path": "outriders.jpg",
             "title": "Outriders",

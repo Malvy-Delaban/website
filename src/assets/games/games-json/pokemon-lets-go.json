@@ -1,0 +1,32 @@
+{
+  "id": "pokemon-lets-go",
+  "img_path": "pokemon-lets-go.jpg",
+  "title": "Pokémon : Let's Go, Pikachu!",
+  "subtitle": "Le remake fan service de jaune",
+  "rating": 72,
+  "hltb_main": "25",
+  "hltb_extra": "36",
+  "synopsis": "Remake assez libre de Pokémon Jaune développé par Game Freak et édité par The Pokémon Company et Nintendo.",
+  "summary": "Si vous avez joué à Pokémon jaune (ou à l'une des versions de la première génération en général), vous ne serez pas dépaysé(e). Le jeu est très fidèle au scénario de base et se permet quelques libertés après la ligue. En terme de gameplay, c'est totalement autre chose par contre. Le système de combat est très simplifié et le système de capture s'inspire de celui de Pokémon Go. D'autres éléments s'adaptent au nouveau gameplay mais tout est bien maîtrisé.",
+  "positive_main": "C'est le plus joli jeu de la license principale à ce jour à mon gout. Il cumule de la 3D agréable maîtrisée que dans Epée et Bouclier mais très fidèle au jeu de l'époque (système de 'Tile mapping'), une magnifique ambiance pastèle et colorée dans les menus et un joli clin d'oeil aux jeux de l'époque avec du pixel art pour les pokémon dans le PC.",
+  "positive_list": [
+    "Avoir la possibilité de se promener avec n'importe quel pokémon à échelle x1, c'est génial.",
+    "Certains pokémon peuvent être chevauchés comme monture terrestre (comme Persian), d'autres comme monture aquatique (comme Lokhlass) et d'autres encore comme monture aérienne (comme Dracaufeu). Un rêve d'enfant qui se réalise pour beaucoup.",
+    "Intégrer les personnages de l'anime est une idée brilliante. On retrouve Pierre, Ondine, Jessie et James (et Miaousse qui ne parle pas d'ailleurs), Giovanni, Peter et d'autres qui sont retravaillés pour coller à leur personnalité de l'anime.",
+    "Sytème de shiny (pokémon chromatiques) simplifé. Cela peut être un point négatif pour certains, personnelement je trouve cela agréable."
+  ],
+  "negative_main": "La simplification extrême du système de combat empêche tout aspect stratégique du jeu. Dites au-revoir aux objets tenus, aux talents et talents cachés et à une grosse partie des attaques du jeu et dites bonjour aux IVs visible dans le menu et aux boost de stats via les bonbons qui rendent le tout totalement enfantin. Cela a du bon pour un jeune publique ou un néophyte de la license mais pour un(e) joueur(se) vétérant, c'est un massacre.",
+  "negative_list": [
+    "Si vous avez fait l'un des jeux originaux, le scénario va vous ennuyer à mourrir. C'est un remake, certes, mais cela m'a frustré par moment.",
+    "Dés que vous commencez à capturer des pokémon sauvages, le niveau de vos pokémon explose des plafonds résultant en un jeu beaucoup trop facile.",
+    "Certaines intéractions sont trop longues et va vous freiner drastiquement en jeu. Je pense notamment au fait de devoir ouvrir l'inventaire pour descendre de monture ou au fait de devoir donner les 200 bonbons un par un à votre pokémon.",
+    "Encore le système d'évolution par échange et de pokémons exclusif à une version, impossible donc de finir le jeu si vous n'avez pas d'amis qui a l'autre version et veut bien jouer avec vous."
+  ],
+  "notes": [
+    "J'ai joué à Pokémon : Let's Go, Pikachu! et non à Evoli.",
+    "J'ai joué au jeu sur Nintendo Switch classique (pas la lite ni la OLED)."
+],
+  "date_added": "23/08/2021",
+  "developers": "Game Freak",
+  "platforms": ["Nintendo Switch"]
+}
