@@ -1,6 +1,24 @@
 {
     "games": [
         {
+            "id": "shadow-of-the-colossus",
+            "img_path": "shadow-of-the-colossus.png",
+            "title": "Shadow of the Colossus",
+            "subtitle": "L'art de l'épique"
+        },
+        {
+            "id": "concrete-genie",
+            "img_path": "concrete-genie.png",
+            "title": "Concrete Genie",
+            "subtitle": "L'art d'associer jeu vidéo et art"
+        },
+        {
+            "id": "new-pokemon-snap",
+            "img_path": "new-pokemon-snap.jpg",
+            "title": "New Pokémon Snap",
+            "subtitle": "Le rail shooter pokémon"
+        },
+        {
             "id": "pokemon-lets-go",
             "img_path": "pokemon-lets-go.jpg",
             "title": "Pokémon : Let's Go, Pikachu!",

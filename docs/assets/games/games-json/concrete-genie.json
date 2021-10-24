@@ -1,0 +1,24 @@
+{
+  "id": "concrete-genie",
+  "img_path": "concrete-genie.png",
+  "title": "Concrete Genie",
+  "subtitle": "L'art d'associer jeu vidéo et art",
+  "rating": 92,
+  "hltb_main": "5",
+  "hltb_extra": "6",
+  "synopsis": "Concrete Genie est un jeu dans lequel un jeune garçon appellé Ash découvre qu’il peut transformer ses peintures en réalité. Ainsi, les jets de peintures que vous faites sur les murs prendront vie sous la forme de créatures.",
+  "summary": "L'équipe avait un concept créatif solide et ils ont su adapter un gameplay et une Direction Artistique tout aussi forts autour. Chapeau bas Pixelopus !",
+  "positive_main": "C'est un jeu qui arrive à être contemplatif tout en laissant un gameplay au concept incroyable et très fin dans sa réalisation. Un pur bonheur en terme d'experience.",
+  "positive_list": [
+    "La direction artistique unique en son genre fait vraiment ressortir les émotions que le jeu veut nous faire sentir.",
+    "Parfaite durée de vie pour le concept. Plus aurait été trop et moins m'aurait laissé sur ma faim.",
+    "Le jeu nuance son gameplay sur la fin ce qui est très apprécié car l'on commence à avoir fait le tour quand ça arrive mais on veut voir plus du jeu. Superbe idée.",
+    "L'aspect créatif est bien maîtrisé dans l'ensemble et on se laisse porter."
+  ],
+  "negative_main": "Le système de combat arrive très tardivement est de manière succincte, le joueur n'a pas le temps de s'y habituer et dés la fin du tuto le jeu se termine.",
+  "negative_list": ["Quelques petites difficultés de contrôle lors des phases de peintures."],
+  "notes": ["J'ai joué à la version PS4 sur ma PS5."],
+  "date_added": "24/10/2021",
+  "developers": "Pixelopus",
+  "platforms": ["PlayStation 4"]
+}

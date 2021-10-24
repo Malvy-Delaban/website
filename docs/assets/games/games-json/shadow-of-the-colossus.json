@@ -1,0 +1,27 @@
+{
+  "id": "shadow-of-the-colossus",
+  "img_path": "shadow-of-the-colossus.png",
+  "title": "Shadow of the Colossus",
+  "subtitle": "L'art de l'épique",
+  "rating": 89,
+  "hltb_main": "7",
+  "hltb_extra": "9",
+  "synopsis": "Remake développé par Bluepoint, également à l'origine du portage HD sorti sur PS3, avec l'aide de SIE Japan Studio. Le jeu a été intégralement recréé tout en gardant le gameplay d'origine intact.",
+  "summary": "Le jeu avec lequel j'ai découvert la 8ème génération de console et sûrement celui qui m'a fait basculer du côté PlayStation. Un chef d'oeuvre. Toute personne disposant d'une PlayStation 4 ou 5 qui s'intéresse un temps soit peu aux jeux solo narratifs devrait essayer ce jeu.",
+  "positive_main": "Les combats sont dantesques et vraiment intenses. On a vraiment la sensation d'affronter des colosses, aucun doute là dessus. La musique, le gameplay, le décor, tout y est.",
+  "positive_list": [
+    "La diversité du gameplay des combats dans un univers aussi simple et avec un kit d'attaque se résumant à deux différentes est une véritable prouesse.",
+    "Les environnement sont magnifiques. Une falaise, un désert, une plaine, un lac sous-terrain et j'en passe. Tout rend merveilleusement bien.",
+    "Les collectibles sont agréables à chercher pour les complétitionnistes.",
+    "Des petits clins d'œil au jeu originel et à la communauté et un des plus gros mystères du jeu vidéo avec sa fameuse porte (plus d'info dans les notes en bas de page)."
+  ],
+  "negative_main": "Si les gameplays varient à chaque colosse, la difficulté aussi. Certains vont vous faire grinçer des dents et d'autres seront à terre en moins de temps qu'il en aura fallu pour le trouver.",
+  "negative_list": [
+    "Le jeu est trop court à mon goût. Les développeurs avaient prévu 16 titans à la base et je pense que ce n'était pas une mauvaise idée.",
+    "Le jeu se concentre sur l'essentiel et ça marche super bien mais cela peut rendre le jeu très vide par moment. Pour le meilleur comme pour le pire."
+  ],
+  "notes": ["J'ai joué au jeu sur PS4 Pro.", "Une histoire incroyable vous attends à propos du jeu avec l'article Millenium 'La quête du dernier secret' ou la vidéo du même nom par 'TheGreatReview'."],
+  "date_added": "24/10/2021",
+  "developers": "Bluepoint Games",
+  "platforms": ["PlayStation 4"]
+}
