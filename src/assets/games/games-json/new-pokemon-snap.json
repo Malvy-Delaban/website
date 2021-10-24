@@ -1,0 +1,32 @@
+{
+  "id": "new-pokemon-snap",
+  "img_path": "new-pokemon-snap",
+  "title": "New Pokémon Snap",
+  "subtitle": "Le rail shooter pokémon",
+  "rating": 48,
+  "hltb_main": "10½",
+  "hltb_extra": "19",
+  "synopsis": "Suite du jeu Pokémon Snap sorti en 2000 sur Nintendo 64.",
+  "summary": "La tentative d'adaptation d'un concept très rétro par Bandai Namco. Il y avait de bonnes intentions mais ça à mal tourné. Le concept s'éssoufle trop rapidement car il n'a pas été réfléchis comme un jeu actuel mais comme un simple remake d'un jeu vieux de 22 ans.",
+  "positive_main": "Pour les vieux ayant joué au jeu de l'époque, la nostalgie frappe fort et voir nos pokémons dans une 3D récente (même si en retard sur son temps) ça fait du bien.",
+  "positive_list": [
+    "Pour ceux ayant joué au premier pokémon Snap, la nostalgie fait du bien et on retrouve le gameplay de l'époque simple mais agréable au début.",
+    "Certaines interactions entre les pokémons sont un peu développées, le joueur n'est pas toujours simple spectateur.",
+    "On peut augmenter la sensibilité (ce qui n'était pas le cas du précédent opus sur N64 de mémoire)."
+  ],
+  "negative_main": "Jouez-y 2h et vous aurez fait le tour du gameplay qui est très très pauvre ; on sent passer la demie-centaine d'euros dans le portefeuille avec ce ration prix par heure ...",
+  "negative_list": [
+    "Le jeu est très moche pour un jeu 2021 et même pour un jeu Nintendo Switch, c'est assez flagrant.",
+    "La rejouabilité des niveaux laisse a désirer, refaire le même parcours avec deux pokémon en plus c'est très limite même de la part de big N.",
+    "Quelques passages vraiment insupportablement longs ou rien de nouveau ne se passe et on doit se contenter d'attendre devant son écran.",
+    "La durée de vie est très limitée.",
+    "La fausse rejouabilité que nous propose Bandai Namco en nous permettant de refaire les mêmes maps en boucle donne presque l'impression de se faire insulter tant elle est ridicule."
+  ],
+  "notes": [
+    "J'ai joué au jeu de 1999 quand j'étais jeune donc je savais à quoi m'attendre.",
+    "J'y ai joué dans la quasi-totalité en mode console de salon avec la manette pro."
+  ],
+  "date_added": "24/10/2021",
+  "developers": "Bandai Namco Studios",
+  "platforms": ["Nintendo Switch"]
+}
