@@ -1,6 +1,12 @@
 {
     "games": [
         {
+            "id": "zelda-links-awakening",
+            "img_path": "zelda-links-awakening.jpg",
+            "title": "The Legend of Zelda: Link's Awakening",
+            "subtitle": "Le pari risqué d'une DA décalée"
+        },
+        {
             "id": "shadow-of-the-colossus",
             "img_path": "shadow-of-the-colossus.png",
             "title": "Shadow of the Colossus",
