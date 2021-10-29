@@ -78,16 +78,17 @@
       flex-direction: column;
       align-items: center;
       .last-game {
-        font-weight: 700;
-        font-size: 3vw;
+        font-weight: 500;
+        font-size: 2.6vw;
         margin: 0;
         @media (orientation: portrait) {
           font-size: 2vh;
         }
       }
       .last-game-title {
+        text-align: center;
         font-weight: 700;
-        font-size: 3.5vw;
+        font-size: 3.2vw;
         margin: 0;
         @media (orientation: portrait) {
           font-size: 4vh;
