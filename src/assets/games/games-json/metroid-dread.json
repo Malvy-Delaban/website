@@ -1,0 +1,29 @@
+{
+  "id": "metroid-dread",
+  "img_path": "metroid-dread.jpg",
+  "title": "Metroid Dread",
+  "subtitle": "L'agréable surprise qui nous permet d'attendre Metroid 4",
+  "rating": 78,
+  "hltb_main": "8½",
+  "hltb_extra": "10½",
+  "synopsis": "Suivez les aventures de la chasseuse de primes Samus Aran tandis qu'elle tente de s'échapper d'une planète mortelle hantée par une menace mécanique.",
+  "summary": "On m'a présenté le jeu comme dur. Couplé avec le fait que je ne suis pas une fan du style MetroidVania et que j'apprécie rarement les jeux édités par Nintendo, je ne m'attendais à rien. Cependant le jeu à une belle DA, un gameplay fluide et nerveux, des boss cool à combattre, un level design ingénieux et une durée de vie satisfaisante. Quelle géniale surprise !",
+  "positive_main": "La progression des capacités de Samus impacte vraiment le gameplay et c'est grisant. On se sens d'abord très statique et faible et on devient rapidement une machine à tuer ultra rapide sans rendre le jeu facile pour autant. C'est prodigieux !",
+  "positive_list": [
+    "Les paternes des boss sont très cools et donnent un gameplay agréable. On sent que l'on affronte pas un simple enemi avec une plus grosse barre de vie.",
+    "Les E.M.M.I mettent bien la pression dans leurs zones et même lorsque l'on gagne la puissance pour les détruire, on continue de stresser jusqu'à leur dernier souffle.",
+    "L'avancement dans la map est fluide, on progresse au travers les sous-terrains de la planète sans jamais trop bloquer en se demandant ou aller. La map est claire et pratique et le jeu nous emmène toujours au bon endroit et le cas échéant, nous dit ou aller.",
+    "Les combats de boss sont assez régulier et s'accentuent sur la fin du jeu, c'est une excellente chose."
+  ],
+  "negative_main": "Certains contrôles très peu intuitif pour des gadgets ruinant parfois tout un combat de boss. On pense aux doubles sauts qui ne s'active que dans certaines conditions très précises ou à la mise en boule dont la mécanique particulièrement douloureuse nous fait grincer des dents.",
+  "negative_list": [
+    "La fin du jeu nous prouve que l'on peut avoir quelques dialogues et des cinématique, alors pourquoi l'intro consiste en un gros texte sur fond d'images style présentation de collégien ?",
+    "On aurait voulu entendre un peu plus Samus dans les cinématiques.",
+    "La difficulté des fois très dure pour les mini-boss. Même si ils ont des patternes apprennables et contrables, les mini-boss (sorte d'oiseau robot avec une lance que l'on croise partout) sont beaucoup trop rapide et nerveux. Je ne m'amuse pas dutout en les combattants contrairement aux vrais boss.",
+    "La suite du récit se cache régulièrement derrière des blocs invisibles impossible à distinguer au début du jeu ce qui parfois freine la progression pendant les premières heures si on est pas habituer à ces mécaniques."
+  ],
+  "notes": [],
+  "date_added": "01/11/2021",
+  "developers": "Mercury Steam",
+  "platforms": ["Nintendo Switch"]
+}

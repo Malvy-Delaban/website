@@ -1,6 +1,12 @@
 {
     "games": [
         {
+            "id": "metroid-dread",
+            "img_path": "metroid-dread.jpg",
+            "title": "Metroid Dread",
+            "subtitle": "L'agréable surprise qui nous permet d'attendre Metroid Prime 4"
+        },
+        {
             "id": "zelda-links-awakening",
             "img_path": "zelda-links-awakening.jpg",
             "title": "The Legend of Zelda: Link's Awakening",
