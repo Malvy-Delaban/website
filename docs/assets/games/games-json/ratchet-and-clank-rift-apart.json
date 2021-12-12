@@ -1,0 +1,35 @@
+{
+  "id": "ratchet-and-clank-rift-apart",
+  "img_path": "ratchet-and-clank-rift-apart.jpg",
+  "title": "Ratchet & Clank : Rift Apart",
+  "subtitle": "Le jeu qui ridiculise les Mario 3D",
+  "rating": 81,
+  "hltb_main": "11",
+  "hltb_extra": "14",
+  "synopsis": "Partez en tourisme dimensionnel avec Ratchet et Clank, et affrontez un empereur maléfique originaire d'une autre réalité. Passez d'un monde fascinant à un autre à vitesse grand V et profitez de graphismes incroyables et d'un arsenal extrêmement varié en rejoignant les aventuriers intergalactiques.",
+  "summary": "Quand chez Nintendo ils misent tout sur le gameplay au détriment du lore, des visuels et de la performance, on s'attend à s'éclater bien plus que dans d'autres jeux du même style. Ratchet et Clank nous prouvent qu'on peut aussi bien gérer le gameplay et même bien plus sans sacrifier aucun des aspects cités précédemment avec son nouvel opus rappelant beaucoup le feeling des aventure 3D de Mario.",
+  "positive_main": "Le gameplay est super bien géré. Le feeling manette en main est super bon. On y est. Chaque arme différente propose son propre gameplay qui permet de varier en fonction des envies du joueur.",
+  "positive_list": [
+    "Le jeu propose des paramètres de Speedrun, super initiative de la part des développeurs.",
+    "Les gâchettes adaptatives de la PS5 sont utilisées et sont bien utilisées.",
+    "Plusieurs options d'accessibilités sont disponibles. Cela devrait être plus courant que ça ne l'est.",
+    "L'immersion est géniale grâce aux cut scène bien intégrées.",
+    "Le jeu est magnifique : Ray tracing, particules dans tout les sens.",
+    "Des collectibles intelligents qui débloquent des skins et mais aussi des améliorations du monde (changement de skin pour la money ou autre).",
+    "Des variations de gameplay régulieres et sympas.",
+    "Vibrations aptiques super bien utilisées."
+  ],
+  "negative_main": "Si le concept et les ambitions du studio ont été largement revus à la hausse pour cette opus, le système d'arme et le gameplay qui étaient bons à l'époque n'ont pas subis de changement majeur. Certes cela fonctionne bien mais j'aurais aimé de la nouveauté sur ce point.",
+  "negative_list": [
+    "Visiblement pas de mode daltonien dans les paramêtres malgré les différents mode d'accessibilités (ou du moins je ne l'ai pas trouvé).",
+    "Quelques rares bugs (passage au travers du sol principalement, 2 fois en 10h de jeu) c'est excusable mais pas parfait."
+  ],
+  "notes": [
+    "J'ai joué au jeu sur PS5."
+  ],
+  "date_added": "12/12/2021",
+  "developers": "Insomniac Games",
+  "platforms": [
+    "PlayStation 5"
+  ]
+}

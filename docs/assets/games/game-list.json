@@ -1,6 +1,18 @@
 {
     "games": [
         {
+            "id": "life-is-strange-true-colors",
+            "img_path": "life-is-strange-true-colors.jpg",
+            "title": "Life is Strange: True Colors",
+            "subtitle": "Une pépite de narration."
+        },
+        {
+            "id": "ratchet-and-clank-rift-apart",
+            "img_path": "ratchet-and-clank-rift-apart.jpg",
+            "title": "Ratchet & Clank : Rift Apart",
+            "subtitle": "Le jeu qui ridiculise les Mario 3D"
+        },
+        {
             "id": "metroid-dread",
             "img_path": "metroid-dread.jpg",
             "title": "Metroid Dread",
