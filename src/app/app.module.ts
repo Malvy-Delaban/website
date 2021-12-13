@@ -29,7 +29,7 @@ import { Page404Component } from './components/page404/page404.component';
     Page404Component,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
     AppRoutingModule,
     IconsModule,

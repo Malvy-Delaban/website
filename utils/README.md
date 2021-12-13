@@ -10,3 +10,9 @@ node format_text.js "$(cat 1.txt)"
 # You can save the result into a file named "2.fomarted" like this
 node format_text.js "$(cat 1.txt)" > 2.fomarted
 ```
+
+## Create a file with all the dynamic url to prerender
+
+```shell
+node ./utils/dynamicRoutesToPrerender.js ./src/assets/games/game-list.json test ./routes.txt
+```

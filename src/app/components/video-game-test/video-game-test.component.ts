@@ -7,62 +7,47 @@ import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-video-game-test',
   templateUrl: './video-game-test.component.html',
-  styleUrls: ['./video-game-test.component.scss']
+  styleUrls: ['./video-game-test.component.scss'],
 })
 export class VideoGameTestComponent implements OnInit {
   game: GameModel = {
-    id: "",
-    json_path: "assets/games/games-json/",
-    img_path: "assets/games/games-pictures/",
-    title: "",
-    subtitle: "",
+    id: '',
+    json_path: 'assets/games/games-json/',
+    img_path: 'assets/games/games-pictures/',
+    title: '',
+    subtitle: '',
     rating: -1,
-    hltb_main: "",
-    hltb_extra: "",
-    synopsis: "",
-    summary: "",
+    hltb_main: '',
+    hltb_extra: '',
+    synopsis: '',
+    summary: '',
     positive_list: [],
-    positive_main: "",
+    positive_main: '',
     negative_list: [],
-    negative_main: "",
+    negative_main: '',
     notes: [],
-    date_added: "",
-    developers: "",
-    platforms: []
+    date_added: '',
+    developers: '',
+    platforms: [],
   };
   ratingToDisplay: number = 0; // will increase until actual rating
   ratingSpeedInterval: number = 10; // time in milliseconds between each increment
 
   ratingStop: any = setInterval(() => {
-    if (this.game.rating != -1)
-      this.ratingToDisplay++;
+    if (this.game.rating != -1) this.ratingToDisplay++;
     if (this.ratingToDisplay == this.game.rating)
       clearInterval(this.ratingStop);
-  }, this.ratingSpeedInterval)
+  }, this.ratingSpeedInterval);
 
-
-  constructor(private route: ActivatedRoute, private http: HttpClient, private router: Router) {
-    this.route.params.subscribe(params => {
-      this.game.json_path += params.id + ".json";
-      this.http.get(this.game.json_path).subscribe({
-        next: data => {
-          this.getGameInfo(<GameModel>data);
-        },
-        error: error => {
-          console.error("Jeu introuvable en base de données.");
-          this.router.navigate(["404"]);
-        }
-      });
-    });
-  }
+  constructor(
+    private route: ActivatedRoute,
+    private http: HttpClient,
+    private router: Router
+  ) {}
 
   setSyntaxHltb(str: string) {
-    console.log(str);
-    if (str.includes("½"))
-      str = str.replace("½", "H½");
-    else
-      str += "H";
-    console.log(str);
+    if (str.includes('½')) str = str.replace('½', 'H½');
+    else str += 'H';
     return str;
   }
 
@@ -87,6 +72,17 @@ export class VideoGameTestComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.route.params.subscribe((params) => {
+      this.game.json_path += params.id + '.json';
+      this.http.get(`${environment.url}/${this.game.json_path}`).subscribe({
+        next: (data) => {
+          this.getGameInfo(<GameModel>data);
+        },
+        error: (error) => {
+          console.error('Jeu introuvable en base de données.');
+          this.router.navigate(['404']);
+        },
+      });
+    });
   }
-
 }
