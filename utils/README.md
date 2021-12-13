@@ -16,3 +16,7 @@ node format_text.js "$(cat 1.txt)" > 2.fomarted
 ```shell
 node ./utils/dynamicRoutesToPrerender.js ./src/assets/games/game-list.json test ./routes.txt
 ```
+
+```shell
+node ./utils/generateSiteMap.js ./routes.txt ./sitemap.xml
+```

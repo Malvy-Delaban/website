@@ -10,7 +10,7 @@
     "dev:ssr": "ng run website:serve-ssr",
     "serve:ssr": "node dist/website/server/main.js",
     "build:ssr": "ng build && ng run website:server",
-    "prerender": "node ./utils/dynamicRoutesToPrerender.js && ng run website:prerender --routes-file routes.txt && git checkout -- docs/CNAME"
+    "prerender": "node ./utils/dynamicRoutesToPrerender.js && ng run website:prerender --routes-file routes.txt && node ./utils/generateSitemap.js && git checkout -- docs/CNAME"
   },
   "private": true,
   "dependencies": {
