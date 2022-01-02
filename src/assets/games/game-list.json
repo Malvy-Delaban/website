@@ -1,6 +1,18 @@
 {
     "games": [
         {
+            "id": "ori-and-the-will-of-the-wisps",
+            "img_path": "ori-and-the-will-of-the-wisps.jpg",
+            "title": "Ori and the will of the wisps",
+            "subtitle": "Le plateformer contemplatif Xbox"
+        },
+        {
+            "id": "far-cry-6",
+            "img_path": "far-cry-6.jpeg",
+            "title": "Far Cry 6",
+            "subtitle": "Le énième open world baclé by Ubisoft"
+        },
+        {
             "id": "life-is-strange-true-colors",
             "img_path": "life-is-strange-true-colors.jpg",
             "title": "Life is Strange: True Colors",

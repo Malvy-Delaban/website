@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 
 import { FeatherModule } from 'angular-feather';
-import { ArrowDown, Linkedin, Info, Search, Github } from 'angular-feather/icons';
+import { ArrowDown, Linkedin, Info, Search, Github, ChevronDown } from 'angular-feather/icons';
 
 const icons = {
   ArrowDown,
   Linkedin,
   Info,
   Search,
-  Github
+  Github,
+  ChevronDown
 };
 
 @NgModule({

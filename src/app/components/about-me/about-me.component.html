@@ -13,6 +13,7 @@
         <div class="small-circle"></div>
     </div>
 </div>
+<!-- J'ai trouvé un stage de fin d'étude mais je me laisse l'opportunité de mettre d'autres annonces dans ce cadre -->
 <div class="contact-me-container">
     <div class="contact-me">
         <p class="main-subtitle">
@@ -27,9 +28,29 @@
         </div>
     </div>
 </div>
-<div class="experiences-container">
+<!-- fin du bloc d'annonce -->
+<div class="more-icon-container">
+    <i-feather name="chevron-down" class="more-icon" (click)="goToExperiences(experiencesAnchor)"></i-feather>
+</div>
+<div class="experiences-container" #experiencesAnchor>
     <h2>Expériences</h2>
     <div class="experiences-list">
+        <div class="experience">
+            <div class="experience-content">
+                <div class="experience-content-header">
+                    <h3 class="experience-header">Zelin</h3>
+                    <div class="experience-dates">Depuis 2021</div>
+                </div>
+                <div class="experience-text">
+                    Développeuse full-stack, designeuse et assistante chef de projet.
+                    De retour dans cette startup toulousaine après plus d'un an d'absence, je reviens soutenir l'équipe
+                    en continuant le développement de leur plateforme web mais cette fois en tant qu'indépendante.<br>
+                    En parallèle du développement, j'aide à trouver et à intégrer de nouveaux membres dans notre équipe
+                    et j'aide également à trouver des prestataires externes pour sous-traiter certaines fonctionnalités.
+                </div>
+            </div>
+            <img src="assets/zelin.png" alt="logo-zelin">
+        </div>
         <div class="experience">
             <div class="experience-content">
                 <div class="experience-content-header">
@@ -52,7 +73,8 @@
                     <div class="experience-dates">2019 - 2020</div>
                 </div>
                 <div class="experience-text">
-                    Développeuse full-stack et designeuse.
+                    Développeuse full-stack et designeuse lors d'un stage à temps partiel et d'un stage temps plein sur
+                    plus de 10 mois.
                     Une startup toulousaine qui vient appuyer les industriels avec une série d'outils numériques portés
                     entre autres sur la simulation de systèmes complexes en mécanique des fluides, électromagnétisme et
                     plus encore.
@@ -88,11 +110,20 @@
         <div class="formations-list">
             <div class="formation">
                 <div class="formation-content-header">
+                    <h3 class="formation-header">ETPA Jeux vidéos Toulouse</h3>
+                </div>
+                <div class="formation-text">
+                    Je postule actuellement en tant que candidate pour rejoindre le cursus de l'école toulousaine orienté jeux
+                    vidéos.
+                </div>
+            </div>
+            <div class="formation">
+                <div class="formation-content-header">
                     <h3 class="formation-header">Epitech IT</h3>
                     <div class="formation-dates">2017 - 2022</div>
                 </div>
                 <div class="formation-text">
-                    « L’école de l’expertise informatique ». 
+                    « L’école de l’expertise informatique ».
                     C'est dans cette école que je me suis formée à tout ce
                     qui touche au développement logiciel en apprenant à
                     manipuler le C puis le C++. Cependant, c'est lors de

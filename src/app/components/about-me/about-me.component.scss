@@ -59,6 +59,10 @@
       position: absolute;
       top: 0;
       left: 0;
+      animation-name: circle-animation;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
     }
     .picture-malvy {
       width: 100%;
@@ -81,11 +85,48 @@
       position: absolute;
       bottom: 0;
       right: 0;
+      animation-name: small-circle-animation;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-delay: 1s;
     }
   }
 }
 
+@keyframes circle-animation {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  40% {
+    left: 0.3rem;
+    top: 1rem;
+  }
+  100% {
+    left: 0.5rem;
+    top: 0.4rem;
+  }
+}
+
+@keyframes small-circle-animation {
+  0% {
+    right: 0;
+    bottom: 0;
+  }
+  40% {
+    right: 0.3rem;
+    bottom: 1rem;
+  }
+  100% {
+    right: 0.5rem;
+    bottom: 0.4rem;
+  }
+}
+
 .contact-me-container {
+  // J'ai trouvé un stage de fin d'étude mais je me laisse l'opportunité de mettre d'autres annonces dans ce cadre
+  visibility: hidden;
   @media (orientation: portrait) {
     width: 100%;
     display: flex;
@@ -127,6 +168,34 @@
   }
 }
 
+.more-icon-container {
+  position: absolute;
+  top: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .more-icon {
+    width: 8rem;
+    color: $base-color;
+    animation-name: more-arrow-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+  }
+}
+
+@keyframes more-arrow-animation {
+  from {
+    width: 6rem;
+    opacity: 0;
+  }
+  to {
+    width: 8rem;
+    opacity: 1;
+  }
+}
+
 .experiences-container {
   width: 100%;
   margin-top: 5vw;
@@ -142,7 +211,7 @@
     }
   }
   .experiences-list {
-    margin-top: 5vh;
+    margin-top: 15vh;
     width: 65vw;
     display: flex;
     flex-direction: column;
