@@ -13,8 +13,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 ```shell
+cd src && npx http-server -p 4200 
+# In a other tab at the root of the project
 npm run build
+# Wait for the build to end before killing the first process
 ```
+
+## Deploy
+
+To deploy, follow instructions for the build then commit all and push.
 
 ## Running unit tests
 

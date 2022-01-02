@@ -14,6 +14,8 @@ import {
  import {
     REQUEST
  } from '@nguniversal/express-engine/tokens';
+import { environment } from 'src/environments/environment';
+ 
  
  @Injectable()
  export class UniversalInterceptor implements HttpInterceptor {
@@ -23,8 +25,7 @@ import {
     intercept(req: HttpRequest<any>, next: HttpHandler) {
        let serverReq: HttpRequest<any> = req;
        if (this.request) {
-          console.log(this.request)
-          let newUrl = `${this.request.protocol}://${this.request.get('host')}`;
+          let newUrl = environment.url;
           if (!req.url.startsWith('/')) {
              newUrl += '/';
           }

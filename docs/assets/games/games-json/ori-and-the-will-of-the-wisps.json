@@ -1,0 +1,29 @@
+{
+  "id": "ori-and-the-will-of-the-wisps",
+  "img_path": "ori-and-the-will-of-the-wisps.jpg",
+  "title": "Ori and the will of the wisps",
+  "subtitle": "Le plateformer contemplatif Xbox",
+  "rating": 85,
+  "hltb_main": "11½",
+  "hltb_extra": "15",
+  "synopsis": "Embarquez pour une nouvelle aventure dans un monde vaste et dépaysant où vous rencontrerez des ennemis gigantesques et des énigmes ardues dans votre quête pour révéler la destinée d'Ori.",
+  "summary": "Si le studio ne paye pas de mine, l'équipe à gagné le respect de Microsoft qui les a intégré aux Xbox Game Studios pour le premier Ori. Et après ce deuxième opus on comprend pourquoi Microsoft à misé sur ce studio. L'objectif n'est pas forcémment ambitieux mais tout est bien géré dans l'ensemble. Le résultat est beau, agréable à jouer et envoûtant.",
+  "positive_main": "La Direction Artistique est très envoûtante. De belles couleurs, de beaux modèles, des parallax bien utilisés. Le chara design aussi est réussi pour les différentes créatures qui peuplent le jeu. Tout s'imbrique parfaitement.",
+  "positive_list": [
+    "L'Ost est très belle également.",
+    "La narration est bien gérée et elle passe bien plus par les cinématiques que par le texte, cela va dans le sens de la DA.",
+    "Le lore est discret mais plaisant.",
+    "On y voit de très belles animations 3D.",
+    "Des boss sympa de par leurs paternes et de par leurs visuels magnifiques.",
+    "La progression est rarement freinée et la map bien pensée."
+  ],
+  "negative_main": "Certains passages ou certaines mécaniques sont très exigeants. Dans quelques passages, pour avancer, la solution se joue a quelques centimetres et cela à tendance à frustrer.",
+  "negative_list": [
+    "La définition des textures rend mal sur Xbox Series X.",
+    "Quelques mécaniques qui nécessiteraient un ou deux ajustements pour la prise en main manettes."
+  ],
+  "notes": ["J'ai joué au jeu sur Xbox Series X."],
+  "date_added": "02/01/2022",
+  "developers": "Moon Studios",
+  "platforms": ["PC", "Xbox One", "Xbox Series", "Nintendo Switch"]
+}
