@@ -6,7 +6,7 @@ This is a little script that take a string as parameter and that remove multiple
 
 ```shell
 # You can use it as follow in a bash shell where the txt is in a file named "1.txt"
-node format_text.js "$(cat 1.txt)"
+node format_text.js "$(cat list)"
 # You can save the result into a file named "2.fomarted" like this
 node format_text.js "$(cat 1.txt)" > 2.fomarted
 ```

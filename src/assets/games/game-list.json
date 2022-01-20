@@ -1,6 +1,12 @@
 {
     "games": [
         {
+            "id": "kena-bridge-of-spirit",
+            "img_path": "kena-bridge-of-spirit.jpg",
+            "title": "Kena: Bridge of Spirits",
+            "subtitle": "L'excellence de la Directon Artistique"
+        },
+        {
             "id": "ori-and-the-will-of-the-wisps",
             "img_path": "ori-and-the-will-of-the-wisps.jpg",
             "title": "Ori and the will of the wisps",
