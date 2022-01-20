@@ -18,8 +18,12 @@
     "La difficulté normale est bien équilibrée, les ennemis tapent un peu fort mais absolument rien d'insurmontable en quelques essais a l'exception des boss sur la fin du jeux.",
     "La durée de vie est juste ce qu'il faut pour se régaler sans laisser le gameplay devenir lourd."
   ],
-  "negative_main": "",
-  "negative_list": [],
+  "negative_main": "Le jeu ne propose malheureusement pas de VF, seulement une VOSTFR. Cela peut en freiner certains mais honnêtement, le jeu se savoure même sans VF.",
+  "negative_list": [
+    "Les modélisations et textures ne sont pas si incroyables pour un jeu avec une DA si exceptionnelle.",
+    "La sensibilité de la caméra par défaut est aseez lourdes à mon goût en combat.",
+    "Certains combats de boss sont très durs même en comprennant les patternes (j'ai joué en difficulté normale)."
+  ],
   "notes": ["J'ai joué au jeu sur PlayStation 5."],
   "date_added": "20/01/2022",
   "developers": "Ember Lab",
