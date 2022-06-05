@@ -1,6 +1,24 @@
 {
     "games": [
         {
+            "id": "call-of-the-sea",
+            "img_path": "call-of-the-sea.jpg",
+            "title": "Call of the Sea",
+            "subtitle": "Un super jeu Lovecraftien"
+        },
+        {
+            "id": "kirby-and-the-forgotten-land",
+            "img_path": "kirby-and-the-forgotten-land.jpg",
+            "title": "Kirby et le monde oublié",
+            "subtitle": "Un skin Kirby sur un Mario 3D"
+        },
+        {
+            "id": "demons-souls",
+            "img_path": "demons-souls.jpg",
+            "title": "Demon's Souls",
+            "subtitle": "Une prouesse technique sublime"
+        },
+        {
             "id": "kena-bridge-of-spirit",
             "img_path": "kena-bridge-of-spirit.jpg",
             "title": "Kena: Bridge of Spirits",

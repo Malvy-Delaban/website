@@ -1,0 +1,34 @@
+{
+  "id": "call-of-the-sea",
+  "img_path": "call-of-the-sea.jpg",
+  "title": "Call of the Sea",
+  "subtitle": "Un super jeu Lovecraftien",
+  "rating": 87,
+  "hltb_main": "6",
+  "hltb_extra": "6",
+  "synopsis": "Call of the Sea est un jeu d'aventure qui se déroule dans les années 1930 dans le Pacifique Sud. Explorez une île luxuriante et percez les secrets d'une civilisation oubliée tout en tentant de retrouver l'expédition disparue de votre époux.",
+  "summary": "Lorsque j'ai commencé ce jeu, j'étais en pleine lecture du \"Cauchemar d'Insmouth\" de H.P. Lovecraft. Quelle ne fut pas ma surprise en lançant le jeu de voir que Call of the Sea s'inspirait tr_s précisément de cet oeuvre ! Mon expèrience n'en a été que meilleure et je l'ai dévoré d'une traite !",
+  "positive_main": "Comme dit précédemment. Son univers m'a beaucoup parlé. Ce n'est pas étonnant quand on connais l'oeuvre de Lovecraft. Ce mystère qui règne est somptueux.",
+  "positive_list": [
+    "La patte artistique est très belle. De très jolies couleurs, de jolies menus. Le jeu se passant dans les années 30, on y retrouve des objets et un style rétro plaisant.",
+    "Les niveaux ne se ressemblent pas. Malgrès le fait que tout se passe sur une même île, les décors arrivent à varier d'un level à un autre."
+  ],
+  "negative_main": "C'est bien parcequ'il faut en choisir un, mais le jeu à tendance à trop utiliser l'héroïne comme livre audio pour raconter l'histoire. On sent que les développeurs ne savaient pas comment nous raconter l'histoire sans nous faire lire des romans et ça nous sort de l'immersion des fois.",
+  "negative_list": [
+    "Une ou deux énigmes un peu compliquées ou ennuyantes mais dans l'ensemble faisable.",
+    "La vitesse de déplacement de Norah (personnage principal) est extrêmement lente, lorsque l'on doit faire des aller retours entre plusieurs objets pour une énigme, on sort son téléphone pour faire autre chose le temps du trajet de 20 mêtres ..."
+  ],
+  "notes": [
+    "J'ai joué au jeu sur PS5."
+  ],
+  "date_added": "05/06/2022",
+  "developers": "Out of the Blue",
+  "platforms": [
+    "PC",
+    "Xbox One",
+    "Xbox Series",
+    "PS4",
+    "PS5",
+    "Amazon Luna"
+  ]
+}

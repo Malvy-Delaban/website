@@ -1,0 +1,31 @@
+{
+  "id": "kirby-and-the-forgotten-land",
+  "img_path": "kirby-and-the-forgotten-land.jpg",
+  "title": "Kirby et le monde oublié",
+  "subtitle": "Un skin Kirby sur un Mario 3D",
+  "rating": 54,
+  "hltb_main": "10",
+  "hltb_extra": "15",
+  "synopsis": "Kirby gagne une nouvelle dimension dans sa prochaine aventure sur Nintendo Switch ! Dans ce jeu, vous pourrez vous déplacer librement en 3D en utilisant les pouvoirs de Kirby. Quelles nouvelles péripéties attendent notre héros dans ce monde qui semble empli de ruines d'une ancienne civilisation ?",
+  "summary": "Si vous voulez un jeu tout mignon pour votre enfant, c'est un super choix. Pour un joueur régulier, cela risque d'être assez triste comme experience...",
+  "positive_main": "Le point sur lequel je n'attendais pas ce jeu et sur lequel j'ai été surprise, c'est son OST. Elle est étonnament bonne et on se prend vite dedans.",
+  "positive_list": [
+    "La patte artistique est super mignonne, ça colle bien et ca rafraîchit. Cela m'a donné le même sentiment de fraîcheur que Dragon Quest Builders 2.",
+    "Le système d'upgrade n'en fais pas trop. Il est très simple et c'est ce qu'on veut. Pas d'arbre de compétence inutile, pas de stats dans tout les sens.",
+    "La séquence de fin est longue est très intense. je ne m'y attendais pas et j'ai été contente de la trouver aussi développée."
+  ],
+  "negative_main": "En termes de rapport quantité / prix, ce jeu Kirby, c'est du vol. Le jeu se fini en une demie journée, le gameplay assez peut varier ne poussant pas dutout à l'annexe en plus de cela.",
+  "negative_list": [
+    "On commence à en avoir l'habitude, mais toujours pas de doublages sur les jeux Nintendo.",
+    "On se retrouve souvent confronté à des textures ou des modélisations vraiment limites qui piquent les yeux.",
+    "Le jeu ne laisse strictement aucune liberté, c'est un long couloir. On à le même niveau de liberté que le premier Mario. Un couloir avec de temps en temps un passage annexe et peu d'éléments cachés."
+  ],
+  "notes": [
+    "J'ai joué à la version Switch sur la Nintendo Switch classique"
+  ],
+  "date_added": "05/06/2022",
+  "developers": "HAL Laboratory",
+  "platforms": [
+    "Nintendo Switch"
+  ]
+}

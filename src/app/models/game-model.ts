@@ -20,3 +20,26 @@ export interface GameModel {
 }
 
 export interface GameListModel extends Array<GameModel>{}
+
+export function defaultGameModelEntity(): GameModel {
+    return {
+        id: "",
+        json_path: "assets/games/games-json/",
+        img_path: "assets/games/games-pictures/",
+        title: "",
+        subtitle: "",
+        rating: 0,
+        hltb_main: "",
+        hltb_extra: "",
+        synopsis: "",
+        summary: "",
+        positive_list: [],
+        positive_main: "",
+        negative_list: [],
+        negative_main: "",
+        notes: [],
+        date_added: "",
+        developers: "",
+        platforms: []
+      };
+}

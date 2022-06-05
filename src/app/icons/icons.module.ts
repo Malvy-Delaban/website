@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { FeatherModule } from 'angular-feather';
-import { ArrowDown, Linkedin, Info, Search, Github, ChevronDown } from 'angular-feather/icons';
+import { ArrowDown, Linkedin, Info, Search, Github, ChevronDown, ChevronUp } from 'angular-feather/icons';
 
 const icons = {
   ArrowDown,
@@ -9,7 +9,8 @@ const icons = {
   Info,
   Search,
   Github,
-  ChevronDown
+  ChevronDown,
+  ChevronUp
 };
 
 @NgModule({

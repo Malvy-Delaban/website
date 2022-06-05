@@ -5,12 +5,14 @@ import { VideoGameTestComponent } from './components/video-game-test/video-game-
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { Page404Component } from './components/page404/page404.component';
+import { ListGamesComponent } from './components/list-games/list-games.component';
 
 const routes: Routes = [
   {path: 'a-propos' , component: AboutMeComponent},
   {path: 'jeux-videos' , component: VideoGamesMainComponent},
   {path: 'test/:id' , component: VideoGameTestComponent},
   {path: 'projets' , component: ProjectsComponent},
+  {path: 'list' , component: ListGamesComponent},
   {path: '' , component: AboutMeComponent},
   {path: '404' , component: Page404Component},
   {path: '**', redirectTo: '404'}

@@ -1,0 +1,23 @@
+
+<table>
+    <tr>
+        <th>
+            Title
+            <div class="icon-header">
+                <i-feather name="chevron-up" (click)="sortByName('name')" [class.used-icon]="sortBy === 'name'"></i-feather>
+                <i-feather name="chevron-down" (click)="sortByName('reverse')" [class.used-icon]="sortBy === 'reverse-name'"></i-feather>
+            </div>
+        </th>
+        <th>
+            Rating
+            <div class="icon-header">
+                <i-feather name="chevron-up" (click)="sortByRating('rating')" [class.used-icon]="sortBy === 'rating'"></i-feather>
+                <i-feather name="chevron-down" (click)="sortByRating('reverse-rating')" [class.used-icon]="sortBy === 'reverse-rating'"></i-feather>
+            </div>
+        </th>
+    </tr>
+    <tr *ngFor="let game of games">
+        <td><a routerLink="{{'/test/' + game.id }}">{{ game.title }}</a></td>
+        <td>{{ game.rating }}</td>
+    </tr>
+</table>

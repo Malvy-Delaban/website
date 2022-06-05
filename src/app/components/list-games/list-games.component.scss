@@ -1,0 +1,61 @@
+.sorting {
+    p {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    // Call to Action rounded green button
+    button {
+        background-color: #00b300;
+        border-radius: 5px;
+        border-style: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.2s;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th {
+
+    .icon-header {
+        display: inline-block;
+        visibility: hidden;
+
+        i-feather {
+            color: grey;
+            cursor: pointer;
+        }
+    
+        .used-icon {
+            color: black !important;
+        }
+    
+    }
+  }
+
+  th:hover .icon-header {
+    visibility: visible;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

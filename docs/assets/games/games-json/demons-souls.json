@@ -1,0 +1,33 @@
+{
+  "id": "demons-souls",
+  "img_path": "demons-souls.jpg",
+  "title": "Demon's Souls",
+  "subtitle": "Une prouesse technique sublime",
+  "rating": 95,
+  "hltb_main": "23½",
+  "hltb_extra": "32½",
+  "synopsis": "Découvrez le monde de Boletaria tel que vous ne l’avez jamais vu auparavant dans ce remake du jeu de 2009. Rencontrez des personnages étranges, dérangés et rendus fous par le monde qui les entoure, et dévoilez l’histoire troublante de Demon’s Souls.",
+  "summary": "Découvrir un nouveau décors, une nouvelle OST, c'est la récompense pour avoir sué du sang sur le boss précédant. Si la frustration de mourrir en boucle ne vous fait pas peur, ce jeu est à faire.",
+  "positive_main": "De très loin, c'est son estéthique qui se démarque le plus. Il est de très loin, le plus beau jeu que j'ai pu faire à l'heure actuelle. Il redéfini le standard du photo réalisme et impose un seuil de qualité visuelle pour les prochains AAA next gen.",
+  "positive_list": [
+    "Le level design est bien réfléchi. On découvre régulièrement des checkpoint permettant une run plus facile à la prochaine mort. Les enemis tendent des pièges surprennant également.",
+    "La caméra fait partie intégrante du level design, il faut savoir la maitriser au même titre que ses déplacements / ses armes.",
+    "La difficulté est bien entendu très élevé mais elle sait récompenser et la sensation de progression se voit sur notre équipement, nos sorts, nos consommables.",
+    "Le système d'attribution de points de stats est très archaïque mais a quelquechose de satisfaisant et de nostalgique avec tous ses chiffres de partout.",
+    "Le fait que notre nombre d'âme soit récupérable à la run d'aprés est super satisfaisant quand on arrive à les retrouver et permets de ne pas trop handicaper le joueur.",
+    "Le système de combat est exigeant mais extrêmement bien géré. On ne peut pas vraiment en vouloir au jeu. Si on meurt c'est par pur manque d'entraînement."
+  ],
+  "negative_main": "Si vous n'êtes pas un·e joueur·se hardcore, préparez-vous à recommencer un niveau encore et encore et encore. A titre d'exemple, il m'aura fallut une bonne vingtaine d'essai avant d'atteindre la deuxieme partie du niveau 1. Pour les anciens joueurs de SoulsBorne, cela devrait être beaucoup plus abordable. On regrette tout de même un niveau de difficulté plus bas / mode histoire pour les personnes n'ayant pas le temps ou les compétences pour s'investir.",
+  "negative_list": [
+    "Certaines améliorations d'équipement exigent des objets très rares et très désagréables et long à farmer."
+  ]
+  ,
+  "notes": [
+    "N'ayant pas le temps de m'investir entièrement dans le jeu, pour pouvoir le finir et quand même en profiter, j'ai suivi un guide pour un build magie (guide de ExServ sur Youtube) que je recommande à tous non-initiés."
+  ],
+  "date_added": "05/06/2022",
+  "developers": "Bluepoint Games",
+  "platforms": [
+    "PlayStation 5"
+  ]
+}
