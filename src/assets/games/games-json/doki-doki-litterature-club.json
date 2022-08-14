@@ -1,0 +1,41 @@
+{
+  "id": "doki-doki-litterature-club",
+  "img_path": "doki-doki-litterature-club.jpg",
+  "title": "Doki Doki Literature Club!",
+  "subtitle": "L'exploration d'une mécanique rare",
+  "rating": 93,
+  "hltb_main": "4",
+  "hltb_extra": "5½",
+  "synopsis": "Le protagoniste est invité par Sayori, son amie d'enfance, dans un club de littérature. Il y rencontre les autres membres : Natsuki, Yuri et le chef du club Monika. Le protagoniste commence donc à participer aux activités du club en rencontrant ses nouvelles camarades.",
+  "summary": "Le jeu transpire la volonté des développeurs à vouloir jouer avec le 4ème mur de toutes les manières possibles. J'ai pour ainsi dire l'impression que ceux qui se sont amusés le plus c'est les développeurs plutôt que le joueur. Le résultat est splendide. Cependant, pour s'immerger et être encore plus étonné / pris au dépourvu quand le vrai jeu commence, il faut que l'on se plonge dedans. Pour cela, il vous faudra de la patience et une aptitude innée à ne pas fuir devant le malaise évident.",
+  "positive_main": "Le climax prend au tripe. Le jeu nous habitue volontairement pendant 3 heures à des plans fixes, une musique joyeuse et des dialogues niais au possible pour que lorsque le plan clef appraisse, le joueur ne puisse se raccrocher à rien. La scène fait un zoom avant sur le personnage, la musique est devenue un bruit avec bruit sourd avec des notes aïgues tranchantes. Le dialogue n'est plus, le personnage principal ne sait pas quoi dire. Ce plan à lui seul en seulement 5 secondes justifie les 3 heures de jeu précédentes et vous donne envie d'aller la lumière.",
+  "positive_list": [
+    "Même si les premières heures sont compliquées, le jeu à un assez bon rythme pour faire progresser l'histoire et ne pas nous faire lacher la manette.",
+    "Si vous savez à quoi vous attendre en faisant la première run, vous pourrez vous distraire avec quelques clins d'oeils par ci, par là de Monika.",
+    "Lors de la deuxième run, l'ennuie peut vous rattraper pour le début mais les 'bugs' arrivent à créer la surprise assez souvent pour vous garder devant l'écran.",
+    "La limite sur console de ne pas pouvoir toucher aux fichiers à bien été contournée en implémentant une simple interface d'OS.",
+    "La traduction française à réussi à traduire des jeux de mots, cela fait sourrire"
+  ],
+  "negative_main": "Trois longues heures. C'est le temps qu'il faudra tenir avec un jeu malsain avant que le vrai jeu commence. Pendant ce temps on vous demandera de draguer 4 mineures avec des plans tout aussi génants les uns que les autres. C'est vraiment malsain comme ambiance. Le concept du jeu aurait pu s'adapter à n'importe quel type de personnage. Pourquoi ne pas en avoir fait des personnages d'un club de sport pour avoir des personnages majeurs par exemple ou des romances d'employés de bureau ? Cela aurait évité de devoir draguer des gamine de 14 ans et beaucoup de moments dérangeants...",
+  "negative_list": [
+    "Je pense que le public cible est très oriental. Les européens n'ont pas dutout l'habitude des dating sim et sans connaître le concept du jeu, il est très peu probable que quelqu'un l'achete en tant quer dating sim.",
+    "Les poèmes ont une police type écriture manuscrite noire très fine sur fond blanc pur. Cela fait les yeux et surtout c'est illisible, sur console du moins.",
+    "La version console ne laisse pas le joueur expérimenter comme sur PC. Impossible de supprimer un personnage autre que Monika à un moment autre que celui donné par le jeu. Ce n'est juste plus dutout le même jeu. Cela remet en cause tout le portage."
+  ],
+  "notes": [
+    "J'ai joué à la version 'Plus' du jeu sur PS5.",
+    "Les plateformes listées sur cette page sont celles disposant de la version normale OU 'Plus' du jeu."
+  ],
+  "date_added": "14/08/2022",
+  "developers": "Team Salvato",
+  "platforms": [
+    "Linux",
+    "MacOs",
+    "Windows",
+    "Nintendo Switch",
+    "PS 4",
+    "PS 5",
+    "Xbox One",
+    "Xbox Series"
+  ]
+}

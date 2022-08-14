@@ -1,0 +1,38 @@
+{
+  "id": "hades",
+  "img_path": "hades.jpg",
+  "title": "Hades",
+  "subtitle": "L'art de réussir un jeu sans gameplay innovant",
+  "rating": 89,
+  "hltb_main": "22",
+  "hltb_extra": "47",
+  "synopsis": "Hades est un rogue-like et dungeon crawler. Dans la peau du prince des Enfers, vous manierez les pouvoirs et les armes mythiques de l'Olympe pour vous libérer des griffes du dieu des morts en personne, développant vos forces et dévoilant de nouveaux secrets à chaque nouvelle tentative d'évasion.",
+  "summary": "Amateurs de mythologie grecque, amateurs de beaux graphismes, vous voici au bon endroit. Ce jeu est un pur chef d'oeuvre de character design saupoudré d'une magnifique DA et d'un gameplay nerveux. Un rogue-like récompensé maintes fois et incontournable désormais. A essayer d'urgence, même pour les non-amateurs du genre.",
+  "positive_main": "Comme mentionné plus haut, c'est le character design qui forge la plus grosse partie du eju qui vous permet l'immersion. Les personnages sont tous différents, ils ont chacun leurs traits de caractère, ne s'en éloignent jamais. Aucun d'eux ne semblent superficiel. En somme tout les dialogues sont une bénédiction.",
+  "positive_list": [
+    "J'aurais pu le mettre en point positif principal, mais la gentillesse et la bienveillance qui découlent de tous les dialogues sont sincèrement profondes.",
+    "La DA n'a rien à envier aux grosses productions. L'unité visuelle est impressionnante.",
+    "Le feeling manette en main en combat est bon.",
+    "Le jeu est vraiment fait pour que le joueur progresse et le sentiment de progression justement est super bien géré.",
+    "La durée de vie est idéale. Pas trop, pas trop peu, juste ce qu'il faut pour battre le boss de fin.",
+    "Les musiques sont elles aussi plutôt bonnes"
+  ],
+  "negative_main": "Lorsque vous atteignez enfin le fin du jeu, le scénario n'est pas fini. Et après avoir accompli tout ça, rien ne vous donne envie de poursuivre encore et encore.",
+  "negative_list": [
+    "Les combats en fin de jeu sont assez brouillons."
+  ],
+  "notes": [
+    "J'ai joué au jeu sur PS5."
+  ],
+  "date_added": "14/08/2022",
+  "developers": "Supergiant Games",
+  "platforms": [
+    "MacOs",
+    "Nintendo Switch",
+    "Windows",
+    "PS4",
+    "PS5",
+    "Xbox One",
+    "Xbox Series"
+  ]
+}

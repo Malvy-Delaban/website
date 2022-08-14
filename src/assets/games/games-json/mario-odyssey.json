@@ -1,0 +1,30 @@
+{
+  "id": "mario-odyssey",
+  "img_path": "mario-odyssey.jpg",
+  "title": "Super Mario Odyssey",
+  "subtitle": "Un mario 3D dans la lignée de ses prédécesseurs",
+  "rating": 54,
+  "hltb_main": "12½",
+  "hltb_extra": "27",
+  "synopsis": "Rejoignez Mario dans une vaste aventure en 3D à travers le globe et servez-vous de ses incroyables nouvelles capacités pour récolter des lunes afin d'alimenter votre vaisseau, l'Odyssée, et de venir à la rescousse de la Princesse Peach qui a une nouvelle fois été kidnappée par Bowser!",
+  "summary": "Si cela fait plaisir de retrouver Mario dans un nouvel univers 3D (puisque tous les précédents étaient très bons), il reste cependant cette amertume de ne trouver aucune surprise. Les seules petites nouveautés ont été vu dans les trailers et ne sont clairement pas révolutionnaires pour le genre et pour la franchises. C'est un jeu peu original dans un enrobage de Direction Artistique maîtrisée avec des mécaniques réchauffées et une durée de vie artificielle. Le fun s'estompe au bout de 2 à 3 heures de jeu. Si vous avez fait les précédants (64, Sunshine, Galaxy 1 & 2, 3D World), vous allez sourire de nostalgie au mieux ou vous ambiancer sur ses musiques sympathatiques mais cela n'ira pas plus loin.",
+  "positive_main": "L'Original Sound Track est une super surprise. On se surprend des fois à s'arreter, poser la manette et apprécier.",
+  "positive_list": [
+    "Les graphismes sont à la hauteur de ce que propose la Switch (en retard mais pas à vomir), la DA aide beaucoup.",
+    "Le pltaeforming reste agréable bien que classique",
+    "L'ambiance générale / le thême des lieux sont dans l'ensemble réussis",
+    "Le jeu n'exige jamais une connaissance poussée de ses combos les plus complexes"
+  ],
+  "negative_main": "Les combos justement sont poussés et cela pourrait être un gros + mais la maniabilité aux joycons est une horreur et il vous arrivera toutes les 2 minutes de faire le mauvais mouvement en plus des mouvements non souhaités quand vous ne voulez pas en faire..",
+  "negative_list": [
+    "Beaucoup trop de lunes optionnelles pour une durée de vie artificielle et assez ennuyeuse.",
+    "Toujours aucun doublage des personnages. Je commence à désespérer de les voir un jour chez Nintendo.",
+    "Aucune réelle nouveauté dans les mécaniques. Du classique recyclé."
+  ],
+  "notes": [],
+  "date_added": "14/08/2022",
+  "developers": "Nintendo Entertainment Planning & Development",
+  "platforms": [
+    "Nintendo Switch"
+  ]
+}
