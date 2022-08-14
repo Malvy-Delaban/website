@@ -1,6 +1,24 @@
 {
     "games": [
         {
+            "id": "hades",
+            "img_path": "hades.jpg",
+            "title": "Hades",
+            "subtitle": "Comment réussir un jeu sans gameplay innovant"
+        },
+        {
+            "id": "doki-doki-litterature-club",
+            "img_path": "doki-doki-litterature-club.jpg",
+            "title": "",
+            "subtitle": "L'exploration d'une mécanique rare"
+        },
+        {
+            "id": "mario-odyssey",
+            "img_path": "mario-odyssey.jpg",
+            "title": "Super Mario Odyssey",
+            "subtitle": "Un mario 3D dans la lignée de ses prédécesseurs"
+        },
+        {
             "id": "call-of-the-sea",
             "img_path": "call-of-the-sea.jpg",
             "title": "Call of the Sea",
