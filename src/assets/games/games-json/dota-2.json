@@ -1,0 +1,37 @@
+{
+  "id": "dota-2",
+  "img_path": "dota-2.jpg",
+  "title": "Dota 2",
+  "subtitle": "Un jeu qui a fait son temps",
+  "rating": 27,
+  "hltb_main": "-",
+  "hltb_extra": "-",
+  "synopsis": "Dota 2 (pour Defense of the Ancients 2) est un jeu d'arène de bataille en ligne multijoueurs ou MOBA. Gratuit, il est édité sur Steam par Valve.",
+  "summary": "Je serai biasée dans ce test car j'ai d'abord joué à son successeur spirituel LoL prennant les mécanique de Dota en les améliorants. Ceci dit, le jeu dans son ensemble a des mécaniques habituelles d'un MOBA mais avec des subtilités le rendant indigeste et très peu appréciable.",
+  "positive_main": "Puisqu'il est le premier MOBA de l'histoire (il était à la base un mode de Warcraft 3), il a bien sûr posé beaucoup de bases qui sont aujourd'hui incontournables dans les nouveaux MOBA et a innover en inventant un sytème de jeu.",
+  "positive_list": [
+    "Le système de hauteur de la map semble intéréssant même si souvent frustrant.",
+    "Dans la préparation d'une game, on peut facilement voir les récentes modifications et correctifs apportées à un personnage sélectionné."
+  ],
+  "negative_main": "Les mécaniques des tours sont très floues. Les conditions qui font qu'une tour aggro ou non un joueur semblent vraiment très aléatoires et même les informations en ligne trouvables sur des forums / videos youtube se contredisent ou ne donnent pas de solution. C'est à se demander si même les joueurs expérimentés comprennent le jeu.",
+  "negative_list": [
+    "Plusieurs bug, par exemple, ce tp à la base coince le personnage dans un arbre pendant 1 minute (jusqu'à la fin du cooldown de TP), une autre fois le jeu a reset mes golds à 0 toutes les 3 secondes pendant quelques minutes sans explications.",
+    "L'interface de shop est catastrophique et ne correspond pas aux standards, certains objets semblent nécessiter un second shop par exemple mais aucune explication à ce propos, de plus, le système de craft n'est pas évident et la réserve et le sac à dos rajoutent une nouvelle couche de complexité à gérer.",
+    "Les personnages sont très lents et devoir traverser la map est une horreur.",
+    "Les contrôles sont semblables à un RTS ce qui est très peu pratique pour un moba.",
+    "Les tutoriels pour débutant changent les controles configurés dans les options, ainsi on ne peut pas utiliser ses propres controles mais en plus les controles indiqués par les tutoriels ne fonctionnent pas non plus, je n'ai donc pu faire aucun tutoriel in game et me suis contentée d'explications de vidéos Youtube.",
+    "Les auto attacks ne se déclenchent pas quand on clique sur l'enemi mais après le début de l'animation donc impossible de chase efficacement.",
+    "Le sort de TP qui cible un batiment semble bugué, cibler une ward à la place va fonctionner mais appliquera l'effet à un autre batiment aléatoire comme une tour.",
+    "Le système de sélection des unités est une catastrophe, il est très complexe à prendre en main et est la cause de beaucoup d'erreurs, cela rejoint les contrôles style RTS."
+  ],
+  "notes": [
+    "J'ai voulu joué un douzaine d'heures afin de faire un test pertinent, cependant, 3 heures ont suffit à me faire porter le jeu en horreur et après ces 6 games, mon dégout fut assez grand pour me faire perdre toute motivation."
+  ],
+  "date_added": "19/09/2022",
+  "developers": "Valve",
+  "platforms": [
+    "PC",
+    "Linux",
+    "Mac OS"
+  ]
+}

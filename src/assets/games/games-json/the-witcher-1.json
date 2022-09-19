@@ -1,0 +1,32 @@
+{
+  "id": "the-witcher-1",
+  "img_path": "the-witcher-1.jpg",
+  "title": "The Witcher",
+  "subtitle": "Un RPG à l'ancienne dans un monde passionnant",
+  "rating": 96,
+  "hltb_main": "35½",
+  "hltb_extra": "46",
+  "synopsis": "Incarnez Geralt de Rivia dans sa quête à travers Temeria, un monde où la frontière entre le bien et le mal n'existe pas.",
+  "summary": "Si vous avez adoré découvrir l'univers d'Andrzej Sapkowski dans la série TV ou dans le troisième jeu, vous adorerez le retrouver dans sa touche rétro du premier opus de la licence de jeu.",
+  "positive_main": "L'univers à n'en pas douter est son atout principal. Il mets en scène une géoplitique complexe et une société médievale d'héroic fantasy très sombre. Le redécouvrir dans ce jeu au gameplay daté est un pur bonheur.",
+  "positive_list": [
+    "Tous les personnages principaux et secondaires sont intéréssants, ayant  leurs motivations propres et leurs habitudes respectives.",
+    "Le cyce jour/nuit va impacter réellement le monde du jeu. La nuit des enemis aparaissent dans les lieux malfammés / dangeureux et les honnêtes gens sont dans leurs lits.",
+    "Le jeu est doublé en français !",
+    "Les cinématiques sont longues et travaillées.",
+    "Le système de craft alchimique et d'arbre de compétence est agréable et complet."
+  ],
+  "negative_main": "Le gameplay à l'épée est viellot et répétitif. C'est étrangement le seul qui découlant de son vieil âge qui m'a dérangé au moins un peu. Cependant cela reste parfaitement jouable.",
+  "negative_list": [
+    "Les déplacements dans l'arc 1 sont lourds et long car on y fait beaucoup d'aller-retours et nous n'avons aucun moyen de locomotion efficace (pas de chevaux)."
+  ],
+  "notes": [
+    "Je n'ai pas tout à fait fini l'histoire principale à l'heure ou j'écrit ces lignes, ce test peut être voué à changer quand cela sera fait."
+  ],
+  "date_added": "19/09/2022",
+  "developers": "CD Projekt Red",
+  "platforms": [
+    "PC",
+    "Mac Os"
+  ]
+}

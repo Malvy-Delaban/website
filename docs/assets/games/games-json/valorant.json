@@ -1,0 +1,31 @@
+{
+  "id": "valorant",
+  "img_path": "valorant.png",
+  "title": "Valorant",
+  "subtitle": "Des mécaniques qui datent et qui frustrent",
+  "rating": 41,
+  "hltb_main": "-",
+  "hltb_extra": "-",
+  "synopsis": "FPS tactique opposant deux équipes de 5 agents qui viennent des quatre coins du monde. Chaque agent possède un ensemble de compétences tactiques uniques qui vous permettront de tirer le meilleur parti de la situation.",
+  "summary": "Le jeu essaye de reprendre le flambeau de la série Counter Strike n'ayant pas sorti de jeu depuis des années. Pour se faire, Valorant vient récupérer toutes les mécaniques de Counter Strike: Global Offensive sorti en 2012. Le problème c'est que ces mécaniques sont aussi datés que le jeu et le rendent très frustrant. Pour ajouter une profondeur de gamplay, le jeu a également pris le système de mécanique de OverWatch. Le résultat est fade et pas agréable à jouer.",
+  "positive_main": "Le système pour débloquer un personnage est plutôt bien pensé selon moi, dans d'autres jeu quand on hésite entre acheter un personnage plutot qu'un autre, il arrive que l'on soit frustré de faire retomber la monnaie à 0 et de devoir recommencer à farm. Le système de Valorant permet d'avoir un sentiment de progression qui ne revient jamais à 0 puisque décider subitement de changer de personnage actif ne fait pas perdre la progression sur le précédant, il passe juste en stand by.",
+  "positive_list": [
+    "Plusieurs map sont assez agréables à parcourir depart leur estétiques ou leurs dispositions"
+  ],
+  "negative_main": " Le gameplay est extrêmement frustrant : pas de course, pas de viser pour les armes de poing, pas de déplacement possible en tirant, cela rent le jeu très lent et très désagréable.",
+  "negative_list": [
+    "Le matchmaking est raté, ma première partie fut contre des joueurs entre le niveau 15 et 200",
+    "La communauté semble toxique (du moins dans l'échantillon de joueurs bas niveau sur lesquels je suis tombée)",
+    "Les murs même en bétons / pierre sont traversables par des balles mais pas tous, aucune indication visuelle ne permet de savoir lesquels le sont et cela résulte en une situation ou le joueur doit apprendre la physique de chaque mur de chaque map s'il ne veut pas mourrir sans raison.",
+    "Le jeu depart ses mécaniques pousse les joueurs à prendre des lignes sans jamais en bouger, au final cela décourage simplement la progression sur la map vers l'objectif."
+  ],
+  "notes": [
+    "Afin de réaliser un test un minimum représentatif, j'ai joué une douzaine d'heures sur le jeu",
+    "J'ai principalement testé le mode de jeu non classé mais j'ai pu essayé à deux reprises d'autres modes de jeu annexes."
+  ],
+  "date_added": "19/09/2022",
+  "developers": "Riot Games",
+  "platforms": [
+    "PC"
+  ]
+}

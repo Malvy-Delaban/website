@@ -1,0 +1,39 @@
+{
+  "id": "nier-automata",
+  "img_path": "nier-automata.jpg",
+  "title": "Nier: Automata",
+  "subtitle": "Un jeu battit autour de son thème",
+  "rating": 74,
+  "hltb_main": "21",
+  "hltb_extra": "37",
+  "synopsis": "Prenez le contrôle de YoRHa 2B, l'androïde de combat le plus sophistiqué jamais conçu, et explorez des terres désertées tout en élucidant les mystérieux événements à l'origine des malheurs de l'humanité.",
+  "summary": "Si le jeu n'innove pas en gameplay, il est cependant très fidèle à son thème en adaptant beaucoup de ses mécaniques autour de lui. Il prend également un parti rare dans sa narration en point de vues / routes ce qui est apprécié.",
+  "positive_main": "Le système de gestion des puces qui permet d'enlever des bouts d'interface pour gagner des places de compétences s'intègre incroyablement bien au thème. De plus, le mode facile donnant des puces par défaut activable et désactivable à volonté et permettant d'automatiser ses mécaniques de combats est une excellente idée et devrait inspirer beaucoup de studio qui se contente de baisser / augmenter la vie d'un enemi en fonction de la difficulté.",
+  "positive_list": [
+    "Lors des piratage pour les roite B/C, les musiques sont remplacées dynamiquement par leur équivalentes arcade / 8bit",
+    "Les musiques sont géniales et rendent les combats notamment de boss assez épiques",
+    "Le coup du double point de vue pour les routes A et B est une bonne idée même si mal exploitée",
+    ""
+  ],
+  "negative_main": "La difficulté est mal gérée. On passe beaucoup trop de temps à tuer le moindre petit ennemi ce qui nous donne envie d'éviter tout les combats possible. C'est dommage pour un hack'n'slash. Une fois les combats esquivés on se retrouve avec encore moins d'xp / de niveaux et cela rend le jeu encore plus indigeste.",
+  "negative_list": [
+    "Je trouve l'histoire très peu engageante et ne donnant pas envie de creuser plus dans l'univers.",
+    "Le fan service est omniprésent et très intrusif",
+    "Manque de doublages dans une grande partie des dialogues et ceux présents ne sont pas d'une grande qualité.",
+    "Le jeu est radin en informations intéréssantes.",
+    "L'UX des interfaces n'est pas facile à appréhender au premier abord et rebute beaucoup (mini map très peu compréhensible, objectif à court termes très peu clair, pas d'explication sur les puces, sets d'armes et autres).",
+    "Le système d'upgrade des armes est très anecdotique puisque durant tout le jeu il n'est possible d'améliorer facilement qu'une fois une arme"
+  ],
+  "notes": [
+    "J'ai joué à la version PS4 sur PS5.",
+    "La difficulté étant trop horrible en début de route C, j'ai dû arreté mon test là et regarder le reste de l'histoire sur internet."
+  ],
+  "date_added": "19/09/2022",
+  "developers": "PlatinumGames",
+  "platforms": [
+    "PlayStation 4",
+    "Xbox One",
+    "PC",
+    "Nintendo Switch"
+  ]
+}

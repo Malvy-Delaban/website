@@ -1,0 +1,36 @@
+{
+  "id": "league-of-legends",
+  "img_path": "league-of-legends.jpg",
+  "title": "League of Legends",
+  "subtitle": "Le jeu anti nouveaux joueurs",
+  "rating": 68,
+  "hltb_main": "-",
+  "hltb_extra": "-",
+  "synopsis": "LOL est un MOBA en 5v5 ou le but est de remporter un maximum d'objectif jusqu'à détruire le batiment principal adverse. Gameplay repris et amélioré de Dota 2, le jeu est devenu la référence du genre et mobilise une quantité colossale de joueur à chaque évenement esport.",
+  "summary": "Si League of Legends est le jeu qui semble le plus tenir la route parmis les Moba actuellement, il semble enclin à garder ses joueurs et est très peu engageant pour les nouveaux joueurs. Sa date de création commencant réélement à dater, le rooster de personnages est devneu énorme au cours des années résultant en une variété de gameplay tout aussi titanesque.",
+  "positive_main": "Même si cela ne concerne pas le jeu directement, l'univers devient expensif avec la sortie d'une série Netflix, le développement d'un MMORPG et les droits de l'univers accordés à des développeurs indépendant pour créér des petits jeux poussés par Riot Games. L'avenir de ce studio et de cet univers promets de belles surprises que l'on espère voir fleurir.",
+  "positive_list": [
+    "Le jeu est gratuit et même si cela demande beaucoup plus d'effort pour quelqu'un ne mettant pas d'argent dans le jeu, il pourra commencer une partie sur un pied d'égalité face aux autres joueurs",
+    "Le jeu propose différents modes de jeu dont plusieurs en rotation régulières permettant une petite touche de fraîcheur ponctuelle.",
+    "Il y a beaucoup de récompenses extrinsèque dans LoL pour donner un sentiment de progression. C'est le cas des masteries de personnages, de défis (journaliers, hebdomadaire, temporaires), des défis pour les token, des défis pour les titres et de toute la section butin de manière générale. On a rarement l'impression d'avoir fait une game dans le vide.",
+    "Le lore est intéréssant à explorer même si cela ne se découvre pas en jouant mais uniquement en se renseignant dans les menus / sur internet."
+  ],
+  "negative_main": "Commencer le jeu en 2022 est quasiment impossible. Les nouveaux joueurs se retrouvent confronter à 160 personnages qu'ils ne connaissent pas dont certains avec des mécaniques très frustrante pour les novices comme les assassins et champions pouvant se rendre invisibles. De plus, il n'est pas possible de se faire épauler par un joueur expérimenté puisque le matchmaking va mettre en face des personnes dont le niveau est plus haut que le débutant et trop bas pour le joueur expérimenté résultant en une game frustrante pour tout le monde.",
+  "negative_list": [
+    "Acquérir les personnages du jeux est bien trop long. En l'équivalent de 5 ans de jeux régulier, je n'ai personnellement pas même atteint les 2 tiers du rooster de champion",
+    "Pour un joueur ne dépensant pas d'argent dans le jeu, les cosmétiques sont distribués aléatoirement donc impossible de farm pour débloquer un skin pour un personnage souhaité",
+    "La communauté est toxique bien qu'elle semble avoir gagné un peu en maturité ces dernières années",
+    "Les cosmétiques sont beaucoup trop chers, comptez entre 10 et 15 euros pour un skin de personnage en moyenne",
+    "En fonction de la META actuelle, certains personnages ne pourront tout simplement pas être jouer pendant plusieurs mois (on peut penser aux mages statiques lors de la META assassin par exemple)",
+    "Le PVE ne permet pas aux joueurs amateurs ou expérimentés d'avoir un vrai challenge et ils gagneront 100% des games"
+  ],
+  "notes": [
+    "J'ai commencé à jouer en 2013 et j'ai arreté de jouer régulièrement il y a 5 ans."
+  ],
+  "date_added": "19/09/2022",
+  "developers": "Riot Games",
+  "platforms": [
+    "PC",
+    "Mac Os"
+  ]
+}

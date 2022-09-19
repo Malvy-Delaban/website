@@ -1,6 +1,42 @@
 {
     "games": [
         {
+            "id": "the-witcher-1",
+            "img_path": "the-witcher-1.jpg",
+            "title": "The Witcher",
+            "subtitle": "Un RPG à l'ancienne dans un monde passionnant"
+        },
+        {
+            "id": "valorant",
+            "img_path": "valorant.png",
+            "title": "Valorant",
+            "subtitle": "Des mécaniques qui datent et qui frustrent"
+        },
+        {
+            "id": "undertale",
+            "img_path": "undertale.png",
+            "title": "Undertale",
+            "subtitle": "Un univers cohérent et interconnecté"
+        },
+        {
+            "id": "league-of-legends",
+            "img_path": "league-of-legends.jpg",
+            "title": "League of Legends",
+            "subtitle": "Le jeu anti nouveaux joueurs"
+        },
+        {
+            "id": "nier-automata",
+            "img_path": "nier-automata.jpg",
+            "title": "Nier: Automata",
+            "subtitle": "Un jeu battit autour de son thème"
+        },
+        {
+            "id": "dota-2",
+            "img_path": "dota-2.jpg",
+            "title": "Dota 2",
+            "subtitle": "Un jeu qui a fait son temps"
+        },
+        {
             "id": "hades",
             "img_path": "hades.jpg",
             "title": "Hades",
